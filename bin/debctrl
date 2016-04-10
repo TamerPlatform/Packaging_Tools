@@ -1,0 +1,18 @@
+#!/bin/bash
+export DEBFULLNAME="Anant Shrivastava"
+export DEBEMAIL="anant@anantshri.info"
+if [ $# -gt 2 ]
+then
+mkdir -p debian
+	if [ $# -eq 4 ]
+	then
+		echo -e "Package: $1\nVersion: $2\nArchitecture: all\nMaintainer: $DEBFULLNAME <$DEBEMAIL>\nSection: AndroidTamer\nPriority: extra\nHomepage: $4\nDescription: $3" | tee debian/control
+	elif [ $# -eq 5 ]
+	then
+		echo -e "Package: $1\nVersion: $2\nArchitecture: $5\nMaintainer: $DEBFULLNAME <$DEBEMAIL>\nSection: AndroidTamer\nPriority: extra\nHomepage: $4\nDescription: $3" | tee debian/control
+	else
+		echo -e "Package: $1\nVersion: $2\nArchitecture: $5\nMaintainer: $DEBFULLNAME <$DEBEMAIL>\nSection: AndroidTamer\nDepends: $6\nPriority: extra\nHomepage: $4\nDescription: $3" | tee debian/control
+	fi
+else
+	echo $0 "Name Version Description URL ARCH Dependencies"
+fi
