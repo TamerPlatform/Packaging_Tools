@@ -4,3 +4,4 @@ export DEBEMAIL="anant@anantshri.info"
 NAME=`grep "Package:" debian/control | cut -f2 -d":" | tr -d ' '`
 VERSION=`grep "Version:" debian/control | cut -f2 -d":" | tr -d ' '`
 dch --package $NAME -v $VERSION "$@"
+dch --distribution stable -r ""
