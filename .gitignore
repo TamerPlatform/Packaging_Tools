@@ -1,6 +1,8 @@
 .DS_Store
 Tamer
 source/
+etc/
+usr/
 .vagrant
 signing
 s3cfg
