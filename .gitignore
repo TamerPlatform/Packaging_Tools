@@ -3,7 +3,6 @@ Tamer
 source/
 etc/
 usr/
-debian/
 .vagrant
 signing
 s3cfg
