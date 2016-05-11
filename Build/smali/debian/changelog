@@ -1,0 +1,6 @@
+dex2jar (2.1.2-SNAPSHOT-d6383b7) stable; urgency=medium
+
+  * Initial release. 
+  * upgrade to 2.1.2
+
+ -- Anant Shrivastava <anant@anantshri.info>  Wed, 11 May 2016 03:51:29 +0000

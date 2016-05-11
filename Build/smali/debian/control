@@ -1,0 +1,9 @@
+Package: smali
+Version: 2.1.2-SNAPSHOT-93100e5
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Depends: default-jre
+Priority: extra
+Homepage: https://github.com/AndroidTamer/smali
+Description: assembler/disassembler for the dex format
