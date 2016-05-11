@@ -1,0 +1,9 @@
+Package: sslscan
+Version: 1.11.6-SNAPSHOT-6891c0d-1
+Architecture: amd64
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Priority: extra
+Homepage: https://github.com/AndroidTamer/sslscan
+Description: Fast SSL Scanner
+ SSL scanning software
