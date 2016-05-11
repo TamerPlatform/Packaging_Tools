@@ -6,3 +6,4 @@ usr/
 .vagrant
 signing
 s3cfg
+*.deb
