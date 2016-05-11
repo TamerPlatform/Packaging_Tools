@@ -1,0 +1,6 @@
+test (123-1) unstable; urgency=low
+
+  [ unknown ]
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Anant Shrivastava <anant@anantshri.info>  Wed, 11 May 2016 03:01:24 +0000
