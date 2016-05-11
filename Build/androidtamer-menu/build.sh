@@ -17,7 +17,7 @@ mkdir -p usr/share/desktop-directories etc/xdg/menus/applications-merged usr/sha
 cp source/mate-applications.menu etc/xdg/menus/applications-merged/mate-applications.menu
 cp source/directories/* usr/share/desktop-directories/
 cp source/icons/* usr/share/icons/androidtamer/
-chmod -R 644 usr etc
+chmod -R 644 usr/share/icons/androidtamer/* etc/xdg/menus/applications-merged/mate-applications.menu usr/share/desktop-directories/*
 echo $VERSION
 debctrl "androidtamer-menu" "$VERSION" "AndroidTamer Menu" "https://github.com/AndroidTamer/androidtamer-menu" "all"
 changelog
