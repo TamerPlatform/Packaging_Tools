@@ -13,10 +13,10 @@ cd source
 SVER=`git log --pretty=format:'%h' -n 1`
 cd ..
 VERSION=$MAINVER"-SNAPSHOT-"$SVER$Extra
-mkdir -p usr/bin usr/share/MobSF
+mkdir -p usr/bin usr/share/MobSF usr/share/applications
 cp -r source/* usr/share/MobSF/
 rm -rf usr/share/MobSF/.git
-cat  << EOF > usr/bin/mobsf 
+cat  <<EOF > usr/bin/mobsf 
 #!/bin/bash
 IP=0.0.0.0
 PORT=3000
@@ -25,6 +25,41 @@ echo "Starting MobSF"
 python manage.py runserver \$IP:\$PORT
 EOF
 chmod 755 usr/bin/mobsf
+cat <<EOF > usr/share/applications/mobsf-server.desktop
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=x-terminal-emulator --command "/usr/bin/mobsf"
+Name=MobSF Start Server
+Icon=terminator
+Categories=X-tamer-dynamic
+EOF
+cat <<EOF > usr/share/applications/mobsf-ui.desktop
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=x-www-browser http://127.0.0.1:3000/
+Name=MobSF Start Server
+Icon=terminator
+Categories=X-tamer-dynamic
+EOF
+cat <<EOF > usr/share/applications/mobsf-setup.desktop
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=x-terminal-emulator --command "python /usr/share/mobsf/mobsfy.py"
+Name=MobSF Start Server
+Icon=terminator
+Categories=X-tamer-dynamic
+EOF
+
+
 # Enable USE_HOME by default
 sed -i "s/USE_HOME = False/USE_HOME = True/" usr/share/MobSF/MobSF/settings.py
 # Set realdevice to true
