@@ -27,7 +27,7 @@ cp usr/share/dex2jar/*.sh usr/bin/
 sed -i "s/PRGDIR=.*/PRGDIR='\/usr\/share\/dex2jar\/'/g" usr/bin/*.sh
 #### Patch end
 chmod 755 usr/bin/*.sh
-cat << EOF > usr/share/applications/dex2jar.desktop
+cat <<EOF > usr/share/applications/dex2jar.desktop
 #!/usr/bin/env xdg-open
 [Desktop Entry]
 Version=1.0
