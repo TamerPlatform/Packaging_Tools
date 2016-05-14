@@ -1,0 +1,8 @@
+Package: androidtamer-menuitems
+Version: 0.1-SNAPSHOT-f08a62c
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Priority: extra
+Homepage: https://github.com/AndroidTamer/androidtamer-menuitems
+Description: AndroidTamer MenuItems
