@@ -77,7 +77,22 @@ Vagrant.configure(2) do |config|
      sudo gem install /vagrant/xpm-1.3.3.6.gem
      sudo pip install s3cmd
      cp /vagrant/s3cfg ~/.s3cfg
+     cat<<EOF >> ~/.profile
+gpg-agent --daemon --enable-ssh-support \
+--write-env-file "${HOME}/.gpg-agent-info"
+if [ -f "${HOME}/.gpg-agent-info" ]; then
+. "${HOME}/.gpg-agent-info"
+export GPG_AGENT_INFO
+export SSH_AUTH_SOCK
+export SSH_AGENT_PID
+fi
+
+GPG_TTY=$(tty)
+export GPG_TTY
+EOF
+echo "enable-ssh-support" >> ~/.gnupg/gpg-agent.conf  
   SHELL
+
   if Vagrant.has_plugin?("vagrant-cachier")
       # Configure cached packages to be shared between instances of the same base box.
       # More info on http://fgrehm.viewdocs.io/vagrant-cachier/usage
