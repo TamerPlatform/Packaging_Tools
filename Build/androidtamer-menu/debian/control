@@ -1,0 +1,8 @@
+Package: androidtamer-menu
+Version: 0.5-SNAPSHOT-127a1f9
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Priority: extra
+Homepage: https://github.com/AndroidTamer/androidtamer-menu
+Description: AndroidTamer Menu
