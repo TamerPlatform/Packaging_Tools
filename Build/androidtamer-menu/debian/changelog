@@ -1,3 +1,9 @@
+androidtamer-menu (0.6-SNAPSHOT-127a1f9) stable; urgency=medium
+
+  * Added Section for Fuzzing Applications in preparation for future
+
+ -- Anant Shrivastava <anant@anantshri.info>  Fri, 20 May 2016 22:03:47 +0000
+
 androidtamer-menu (0.5-SNAPSHOT-127a1f9) stable; urgency=medium
 
   * Added Reporting section

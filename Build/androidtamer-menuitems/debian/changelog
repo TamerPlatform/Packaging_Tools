@@ -1,3 +1,21 @@
+androidtamer-menuitems (0.4-SNAPSHOT-dda6e88) stable; urgency=medium
+
+  * removed apktool icon from here 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Fri, 20 May 2016 23:34:36 +0000
+
+androidtamer-menuitems (0.3-SNAPSHOT-4fa5312) stable; urgency=medium
+
+  * Added more system icons and detailed out correct path
+
+ -- Anant Shrivastava <anant@anantshri.info>  Fri, 20 May 2016 22:10:08 +0000
+
+androidtamer-menuitems (0.2-SNAPSHOT-06afc40) stable; urgency=medium
+
+  * Adding more icons in system
+
+ -- Anant Shrivastava <anant@anantshri.info>  Fri, 20 May 2016 22:05:41 +0000
+
 androidtamer-menuitems (0.1-SNAPSHOT-f08a62c) stable; urgency=medium
 
   * First set of direcotries.
