@@ -1,0 +1,16 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+# Source: <source package name; defaults to package name>
+Section: misc
+Priority: optional
+# Homepage: <enter URL here; no default>
+Standards-Version: 3.9.2
+Package: androidtamer-optional
+Version: 0.1
+Changelog: androidtamer-optional.changelog
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+# Pre-Depends: <comma-separated list of packages>
+Depends: mate-gnome-main-menu-applet,fonts-roboto,htop,screen,tmux,fizsh,powerline,geoip-bin,geoip-database-extra,bpython,qemu,qemu-system,qemu-system-arm,qemu-user,qemu-utils,jasmin-sable,meld,python-meld3,jmtpfs
+Architecture: all
+# Copyright: <copyright file; defaults to GPL2>
+Description: Meta Pacakage to track all Optional Package

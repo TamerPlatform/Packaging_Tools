@@ -1,0 +1,16 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+# Source: <source package name; defaults to package name>
+Section: misc
+Priority: optional
+# Homepage: <enter URL here; no default>
+Standards-Version: 3.9.2
+Package: androidtamer-romdev
+Version: 0.1
+Changelog: androidtamer-romdev.changelog
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+# Pre-Depends: <comma-separated list of packages>
+Depends: heimdall-flash ,heimdall-flash-frontend ,abootimg ,flashrom ,openocd ,usbprog ,usbprog-gui ,j0din3 ,spflashtool
+Architecture: all
+# Copyright: <copyright file; defaults to GPL2>
+Description: Meta Pacakage to track all ROM Development Package

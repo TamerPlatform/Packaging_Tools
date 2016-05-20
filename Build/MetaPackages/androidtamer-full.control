@@ -1,0 +1,16 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+# Source: <source package name; defaults to package name>
+Section: misc
+Priority: optional
+# Homepage: <enter URL here; no default>
+Standards-Version: 3.9.2
+Package: androidtamer-full
+Version: 0.1
+Changelog: androidtamer-full.changelog
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+# Pre-Depends: <comma-separated list of packages>
+Depends: androidtamer-dev, androidtamer-dynamicanalysis, androidtamer-forensics, androidtamer-manualanalysis, androidtamer-re, androidtamer-reporting, androidtamer-romdev, androidtamer-essential
+Architecture: all
+# Copyright: <copyright file; defaults to GPL2>
+Description: Meta Pacakage to track all AndroidTamer Package

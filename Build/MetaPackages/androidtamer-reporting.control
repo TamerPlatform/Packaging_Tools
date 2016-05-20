@@ -1,0 +1,16 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+# Source: <source package name; defaults to package name>
+Section: misc
+Priority: optional
+# Homepage: <enter URL here; no default>
+Standards-Version: 3.9.2
+Package: androidtamer-reporting
+Version: 0.1
+Changelog: androidtamer-reporting.changelog
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+# Pre-Depends: <comma-separated list of packages>
+Depends: cherrytree, keepnote
+Architecture: all
+# Copyright: <copyright file; defaults to GPL2>
+Description: Meta Pacakage to track all Reporting Tools
