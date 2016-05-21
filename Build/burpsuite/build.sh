@@ -1,5 +1,5 @@
 #!/bin/bash
-MAINVER="1.7.01beta"
+MAINVER="1.7.03"
 Extra=""
 VERSION=$MAINVER$Extra
 #mkdir source
@@ -7,7 +7,7 @@ wget "https://portswigger.net/DownloadUpdate.ashx?Product=Free" -O source/burpsu
 wget "https://portswigger.net/burp/eula-free.html" -O source/license.html
 html2text "https://portswigger.net/burp/eula-free.html" | tee source/license.txt
 rm -rf usr opt
-mkdir -p usr/bin opt/burpsuite/
+mkdir -p usr/bin opt/burpsuite/ usr/share/applications usr/share/icons/androidtamer
 cp source/burpsuite-free.jar opt/burpsuite/
 cp source/license.txt opt/burpsuite/license.txt
 cp burpsuite.png usr/share/icons/androidtamer/burpsuite-free.png 
@@ -21,11 +21,9 @@ cat <<EOF > usr/share/applications/burpsuite-free.desktop
 Version=1.0
 Type=Application
 Terminal=false
-Icon[en_US]=/usr/share/icons/androidtamer/burpsuite-free.png
-Name[en_US]=BurpSuite-Free
-Exec=/usr/bin/x-terminal-emulator --command "/usr/bin/jd-gui; \$SHELL"
+Exec=/usr/bin/burpsuite-free
 Name=BurpSuite-Free
-Icon=/usr/share/icons/androidtamer/jd-gui.png
+Icon=/usr/share/icons/androidtamer/burpsuite-free.png
 Categories=X-tamer-pentest
 EOF
 chmod 755 usr/bin/burpsuite-free
