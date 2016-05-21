@@ -66,16 +66,17 @@ Vagrant.configure(2) do |config|
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
-     sudo echo "deb http://apt.include-once.org/ ./ #include-once.org" > /etc/apt/sources.list.d/xpm.list
-     wget -q http://apt.include-once.org/public.gpg -O- | sudo apt-key add -
+     #sudo echo "deb http://apt.include-once.org/ ./ #include-once.org" > /etc/apt/sources.list.d/xpm.list
+     #wget -q http://apt.include-once.org/public.gpg -O- | sudo apt-key add -
      sudo apt-get update
      sudo apt-get install -y ruby vim ruby-dev vim build-essential reprepro debian-builder dpkg-sig git
      sudo apt-get install -y python-pip python-dev libssl-dev qttools5-dev-tools openjdk-7-jdk qt5-default zlib1g-dev
      sudo gem install fpm
      gpg --allow-secret-key-import --import /vagrant/signing/7EE83BCF.asc
-     wget http://apt.include-once.org/xpm-1.3.3.6.gem -O /vagrant/xpm-1.3.3.6.gem
-     sudo gem install /vagrant/xpm-1.3.3.6.gem
+     #wget http://apt.include-once.org/xpm-1.3.3.6.gem -O /vagrant/xpm-1.3.3.6.gem
+     #sudo gem install /vagrant/xpm-1.3.3.6.gem
      sudo pip install s3cmd
+     sudo pip install html2text
      cp /vagrant/s3cfg ~/.s3cfg
      cat<<EOF >> ~/.profile
 gpg-agent --daemon --enable-ssh-support \
