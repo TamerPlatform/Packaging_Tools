@@ -1,8 +1,14 @@
+androidtamer-menuitems (0.5-SNAPSHOT-37986b8) stable; urgency=medium
+
+  * added heimdall package 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sat, 21 May 2016 03:14:16 +0000
+
 androidtamer-menuitems (0.4-SNAPSHOT-dda6e88) stable; urgency=medium
 
   * removed apktool icon from here 
 
- -- Anant Shrivastava <anant@anantshri.info>  Fri, 20 May 2016 23:34:36 +0000
+ -- Anant Shrivastava <anant@anantshri.info>  Sat, 21 May 2016 03:07:16 +0000
 
 androidtamer-menuitems (0.3-SNAPSHOT-4fa5312) stable; urgency=medium
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-MAINVER="0.4"
+MAINVER="0.6"
 Extra=""
 if [ -d "source" ]
 	then
@@ -16,6 +16,7 @@ VERSION=$MAINVER"-SNAPSHOT-"$SVER$Extra
 rm -rf usr
 mkdir -p usr/share/applications usr/share/icons/androidtamer
 cp source/*.desktop usr/share/applications/
+cp -r source/icons/* usr/share/icons/androidtamer/
 chmod 644 usr/share/applications/*.desktop
 echo $VERSION
 debctrl "androidtamer-menuitems" "$VERSION" "AndroidTamer MenuItems" "https://github.com/AndroidTamer/androidtamer-menuitems" "all"

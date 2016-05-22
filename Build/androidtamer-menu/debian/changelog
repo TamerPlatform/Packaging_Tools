@@ -1,3 +1,16 @@
+androidtamer-menu (0.8-SNAPSHOT-d8b6747) stable; urgency=medium
+
+  * Dynamic section corrected 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sat, 21 May 2016 03:32:09 +0000
+
+androidtamer-menu (0.7-SNAPSHOT-799a950) stable; urgency=medium
+
+  * Correcting menu layout
+ 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sat, 21 May 2016 01:10:30 +0000
+
 androidtamer-menu (0.6-SNAPSHOT-127a1f9) stable; urgency=medium
 
   * Added Section for Fuzzing Applications in preparation for future
