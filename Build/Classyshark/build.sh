@@ -1,6 +1,6 @@
 #!/bin/bash
 MAINVER="6.4"
-Extra=""
+Extra="-1"
 if [ ! -d "source" ]
 then
 	mkdir source
@@ -26,7 +26,7 @@ Terminal=false
 TryExec=/usr/bin/classyshark
 Exec=/usr/bin/classyshark
 Name=ClassyShark
-Icon=usr/share/icons/androidtamer/classyshark.png
+Icon=/usr/share/icons/androidtamer/classyshark.png
 Categories=X-tamer-manualanalysis
 EOF
 debctrl "classyshark" "$VERSION" "Android executables browser\n ClassyShark is a standalone tool for Android developers.\n It can reliably browse any Android executable\n and show important info such as\n class interfaces and members, dex counts and dependencies" "https://github.com/AndroidTamer/android-classyshark" "all" "default-jre"

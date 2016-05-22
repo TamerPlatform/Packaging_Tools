@@ -1,3 +1,9 @@
+classyshark (6.4-1) stable; urgency=medium
+
+  * correct icon path 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Mon, 23 May 2016 23:15:24 +0000
+
 classyshark (6.4) stable; urgency=medium
 
   * Upgrade to 6.4 Version direct download from upstream 
