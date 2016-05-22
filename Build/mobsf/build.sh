@@ -43,7 +43,7 @@ Version=1.0
 Type=Application
 Terminal=false
 Exec=x-www-browser http://127.0.0.1:3000/
-Name=MobSF Start Server
+Name=MobSF Start UI
 Icon=terminator
 Categories=X-tamer-dynamic
 EOF
@@ -54,7 +54,7 @@ Version=1.0
 Type=Application
 Terminal=false
 Exec=x-terminal-emulator --command "python /usr/share/mobsf/mobsfy.py"
-Name=MobSF Start Server
+Name=MobSF Setup Device
 Icon=terminator
 Categories=X-tamer-dynamic
 EOF
