@@ -1,0 +1,11 @@
+classyshark (6.4) stable; urgency=medium
+
+  * Upgrade to 6.4 Version direct download from upstream 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 22 May 2016 08:01:53 +0000
+
+classyshark (6.0-3ce4de5) RELEASED; urgency=medium
+
+  * Initial release
+
+ -- Anant Shrivastava <anant@anantshri.info>  Thu, 07 Apr 2016 10:40:28 +0000

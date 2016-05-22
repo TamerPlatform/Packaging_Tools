@@ -1,0 +1,13 @@
+Package: classyshark
+Version: 6.4
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Depends: default-jre
+Priority: extra
+Homepage: https://github.com/AndroidTamer/android-classyshark
+Description: Android executables browser
+ ClassyShark is a standalone tool for Android developers.
+ It can reliably browse any Android executable
+ and show important info such as
+ class interfaces and members, dex counts and dependencies
