@@ -1,6 +1,6 @@
 #!/bin/bash
 MAINVER="1.7.03"
-Extra=""
+Extra=".1"
 VERSION=$MAINVER$Extra
 #mkdir source
 wget "https://portswigger.net/DownloadUpdate.ashx?Product=Free" -O source/burpsuite-free.jar
@@ -10,7 +10,7 @@ rm -rf usr opt
 mkdir -p usr/bin opt/burpsuite/ usr/share/applications usr/share/icons/androidtamer
 cp source/burpsuite-free.jar opt/burpsuite/
 cp source/license.txt opt/burpsuite/license.txt
-cp burpsuite.png usr/share/icons/androidtamer/burpsuite-free.png 
+cp burpsuite-free.png usr/share/icons/androidtamer/burpsuite-free.png 
 cat <<EOF > usr/bin/burpsuite-free
 #!/bin/bash
 java -jar /opt/burpsuite/burpsuite-free.jar "\$@"

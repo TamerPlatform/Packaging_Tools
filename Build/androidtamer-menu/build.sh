@@ -1,6 +1,6 @@
 #!/bin/bash
-MAINVER="0.8"
-Extra=""
+MAINVER="0.9"
+Extra=".1"
 if [ -d "source" ]
 	then
 	cd source 
@@ -12,7 +12,7 @@ fi
 cd source
 SVER=`git log --pretty=format:'%h' -n 1`
 cd ..
-VERSION=$MAINVER"-SNAPSHOT-"$SVER$Extra
+VERSION=$MAINVER$Extra"-SNAPSHOT-"$SVER
 mkdir -p usr/share/desktop-directories etc/xdg/menus/applications-merged usr/share/icons/androidtamer
 cp source/mate-applications.menu etc/xdg/menus/applications-merged/mate-applications.menu
 cp source/directories/* usr/share/desktop-directories/

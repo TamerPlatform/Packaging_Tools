@@ -1,6 +1,7 @@
 #!/bin/bash
-MAINVER="0.4"
-Extra=""
+#!/bin/bash
+MAINVER="0.5"
+Extra=".2"
 if [ -d "source" ]
 	then
 	cd source 
@@ -9,15 +10,45 @@ if [ -d "source" ]
 else
 	git clone https://github.com/AndroidTamer/adb_wrapper ./source
 fi
+rm -rf usr
+#Get commit hash
 cd source
 SVER=`git log --pretty=format:'%h' -n 1`
 cd ..
-VERSION=$MAINVER"-SNAPSHOT-"$SVER$Extra
-mkdir -p usr/local/bin etc/udev/rules.d
-cp source/adb usr/local/bin/adb
+VERSION=$MAINVER$Extra"-SNAPSHOT-"$SVER
+rm -rf usr etc
+mkdir -p usr/bin usr/local/bin usr/share/applications etc/udev/rules.d
+cp source/adb usr/bin/adb
+cp source/fastboot usr/bin/fastboot
+cp source/adb_wrapper usr/local/bin/adb
 chmod 755 usr/local/bin/adb
+chmod 755 usr/bin/fastboot
+chmod 755 usr/bin/adb
 cp source/99-android.rules etc/udev/rules.d/99-android.rules
-echo $VERSION
-debctrl "androidtamer-adb" "$VERSION" "AndroidTamer Customized ADB\n Adds features like adb list\n and device naming" "https://github.com/AndroidTamer/adb_wrapper" "all"
+cat <<EOF > usr/share/applications/androidtamer-adb.desktop
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+TryExec=/usr/local/bin/adb
+Exec=x-terminal-emulator --command "adb --help; $SHELL"
+Name=Android Debug Bridge
+Icon=terminator
+Categories=X-tamer
+EOF
+cat <<EOF > usr/share/applications/androidtamer-fastboot.desktop
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+TryExec=fastboot
+Exec=x-terminal-emulator --command "fastboot --help; fastboot devices; $SHELL"
+Name=Fastboot
+Icon=terminator
+Categories=X-tamer-romdev
+EOF
+debctrl "androidtamer-adb" "$VERSION" "AndroidTamer Customized ADB\n Source compiled ADB and fastboot\n additional wrapper added with features like adb list\n and device naming" "https://github.com/AndroidTamer/adb_wrapper" "all" "libc6, libssl1.0.0, zlib1g" "android-tools-adb, android-tools-fastboot"
 changelog
 build_package etc usr

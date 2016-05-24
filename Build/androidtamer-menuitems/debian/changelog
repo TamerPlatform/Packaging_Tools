@@ -1,3 +1,40 @@
+androidtamer-menuitems (0.9.1-SNAPSHOT-4d1074d) stable; urgency=medium
+
+  * added correct synaptic icon and fixed studio not appearing 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Tue, 24 May 2016 21:23:22 +0000
+
+androidtamer-menuitems (0.9-SNAPSHOT-f7dc406) stable; urgency=medium
+
+  * fixed ddms icon 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Tue, 24 May 2016 21:22:14 +0000
+
+androidtamer-menuitems (0.8-SNAPSHOT-2bd2361) stable; urgency=medium
+
+  * added shutdown and logg off 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Mon, 23 May 2016 22:52:19 +0000
+
+androidtamer-menuitems (0.7-SNAPSHOT-9a1b36f) stable; urgency=medium
+
+  * removed adb and fastboot icons from here, handled by self made packages 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Mon, 23 May 2016 22:04:24 +0000
+
+androidtamer-menuitems (0.7-SNAPSHOT-9a1b36f) stable; urgency=medium
+
+  * additional icons added and one more desktop file added for radare2 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Mon, 23 May 2016 22:02:33 +0000
+
+androidtamer-menuitems (0.6-SNAPSHOT-cfd30af) stable; urgency=medium
+
+  * icons updated
+  * wapiti file corrected  
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 22 May 2016 11:42:15 +0000
+
 androidtamer-menuitems (0.5-SNAPSHOT-37986b8) stable; urgency=medium
 
   * added heimdall package 

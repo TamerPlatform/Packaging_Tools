@@ -1,3 +1,15 @@
+androidtamer-menu (0.9.1-SNAPSHOT-1e79836) stable; urgency=medium
+
+  * intermediate fix only reverting an error to restore the AT icon
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 22 May 2016 11:49:49 +0000
+
+androidtamer-menu (0.9-SNAPSHOT-61960bc) stable; urgency=medium
+
+  * folder icons reset to theme default folder 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 22 May 2016 11:48:28 +0000
+
 androidtamer-menu (0.8-SNAPSHOT-d8b6747) stable; urgency=medium
 
   * Dynamic section corrected 

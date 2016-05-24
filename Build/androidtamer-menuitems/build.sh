@@ -1,6 +1,6 @@
 #!/bin/bash
-MAINVER="0.6"
-Extra=""
+MAINVER="0.9"
+Extra=".1"
 if [ -d "source" ]
 	then
 	cd source 
@@ -12,7 +12,7 @@ fi
 cd source
 SVER=`git log --pretty=format:'%h' -n 1`
 cd ..
-VERSION=$MAINVER"-SNAPSHOT-"$SVER$Extra
+VERSION=$MAINVER$Extra"-SNAPSHOT-"$SVER
 rm -rf usr
 mkdir -p usr/share/applications usr/share/icons/androidtamer
 cp source/*.desktop usr/share/applications/
