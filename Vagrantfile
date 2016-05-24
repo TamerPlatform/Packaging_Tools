@@ -77,6 +77,8 @@ Vagrant.configure(2) do |config|
      #sudo gem install /vagrant/xpm-1.3.3.6.gem
      sudo pip install s3cmd
      sudo pip install html2text
+     sudo apt-get install python-virtualenv
+     sudo pip install virtualenv-tools
      cp /vagrant/s3cfg ~/.s3cfg
      cat<<EOF >> ~/.profile
 gpg-agent --daemon --enable-ssh-support \
