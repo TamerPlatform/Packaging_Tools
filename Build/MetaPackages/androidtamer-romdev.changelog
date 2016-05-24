@@ -1,3 +1,9 @@
+androidtamer-romdev (0.2) stable; urgency=medium
+
+  * correct section 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Mon, 23 May 2016 22:56:03 +0000
+
 androidtamer-romdev (0.1) stable; urgency=medium
 
   * Initial release. (Closes: #XXXXXX)

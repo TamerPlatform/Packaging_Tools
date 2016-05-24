@@ -1,12 +1,12 @@
 ### Commented entries have reasonable defaults.
 ### Uncomment to edit them.
 # Source: <source package name; defaults to package name>
-Section: misc
+Section: AndroidTamer
 Priority: optional
 # Homepage: <enter URL here; no default>
 Standards-Version: 3.9.2
 Package: androidtamer-dev
-Version: 0.1
+Version: 0.2
 Changelog: androidtamer-dev.changelog
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 # Pre-Depends: <comma-separated list of packages>
