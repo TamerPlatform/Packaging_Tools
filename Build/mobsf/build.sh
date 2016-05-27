@@ -1,6 +1,6 @@
 #!/bin/bash
 MAINVER="0.9.2"
-Extra="-2"
+Extra="-4"
 if [ -d "source" ]
 	then
 	cd source 
@@ -53,7 +53,7 @@ cat <<EOF > usr/share/applications/mobsf-setup.desktop
 Version=1.0
 Type=Application
 Terminal=false
-Exec=x-terminal-emulator --command "python /usr/share/mobsf/mobsfy.py"
+Exec=x-terminal-emulator --command "python /usr/share/MobSF/mobsfy.py"
 Name=MobSF Setup Device
 Icon=terminator
 Categories=X-tamer-dynamic
