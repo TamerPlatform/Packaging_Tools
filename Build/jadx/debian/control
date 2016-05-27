@@ -1,0 +1,11 @@
+Package: jadx
+Version: 0.6.1.1-SNAPSHOT-b2f41e9
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Depends: default-jre
+Priority: extra
+Homepage: https://github.com/AndroidTamer/jadx
+Description: Dex to Java decompiler
+ Command line and GUI tools for produce Java source code
+ from Android Dex and Apk files

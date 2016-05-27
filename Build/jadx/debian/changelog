@@ -1,0 +1,12 @@
+jadx (0.6.1.1-SNAPSHOT-b2f41e9) stable; urgency=medium
+
+  * fixed jadx-gui to run GUI mode by default 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Wed, 25 May 2016 22:07:56 +0000
+
+jadx (0.6.1-SNAPSHOT-b2f41e9) stable; urgency=medium
+
+  * Binaries in usr/bin
+  * updated build upto 12 may 2016
+
+ -- Anant Shrivastava <anant@anantshri.info>  Wed, 11 May 2016 22:27:58 +0000
