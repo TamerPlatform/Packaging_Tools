@@ -1,7 +1,7 @@
 #!/bin/bash
 #!/bin/bash
-MAINVER="0.5"
-Extra=".2"
+MAINVER="0.6"
+Extra=""
 if [ -d "source" ]
 	then
 	cd source 

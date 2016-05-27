@@ -6,11 +6,11 @@ Priority: optional
 # Homepage: <enter URL here; no default>
 Standards-Version: 3.9.2
 Package: androidtamer-dynamicanalysis
-Version: 0.2
+Version: 0.3
 Changelog: androidtamer-dynamicanalysis.changelog
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 # Pre-Depends: <comma-separated list of packages>
-Depends: mobsf,drozer,python-flask,python-django,ipython,python-dev,libbz2-dev,libmuparser-dev,libsparsehash-dev,python-ptrace,python-pygments,python-pydot,graphviz,liblzma-dev,libsnappy-dev,python-magic, findbug, flawfinder
+Depends: mobsf,drozer,python-flask,python-django,ipython,python-dev,libbz2-dev,libmuparser-dev,libsparsehash-dev,python-ptrace,python-pygments,python-pydot,graphviz,liblzma-dev,libsnappy-dev,python-magic, findbugs, flawfinder
 Architecture: all
 # Copyright: <copyright file; defaults to GPL2>
 Description: Meta Pacakage to track all Dynamic analysis pacakages Package
