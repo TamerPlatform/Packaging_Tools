@@ -3,6 +3,7 @@ Tamer
 source/
 etc/
 usr/
+opt/
 .vagrant
 signing
 s3cfg
