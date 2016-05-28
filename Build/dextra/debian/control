@@ -1,0 +1,22 @@
+Package: dextra
+Version: 1.29.79
+Architecture: amd64
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Priority: extra
+Homepage: http://newandroidbook.com/tools/dextra.html
+Description: A tool for DEX and OAT dumping, decompilation, and fuzzing
+ The dextra utility began its life as an alternative to the AOSP's dexdump 
+ and dx --dump, both of which are rather basic, and produce copious, but 
+ unstructured output. In addition to supporting all their features, it also 
+ supports various output modes, specific class, method and field lookup, as 
+ well as determining static field values. I later updated it to support ART 
+ (which is also one of the reasons why the tool was renamed).
+ .
+ The dextra tool is provided as one of the free downloads provided for the 
+ "Android Internals" book (http://NewAndroidBook.com/). You are welcome to 
+ use it even if you don't buy the book (though naturally you're even more 
+ welcome to buy the book :-). Its method of operation and a lot more about 
+ Dalvik internals is covered in detail, in Chapters 10 and 11. Its latest 
+ version, as a tar file with binaries for OS X, Linux/Android x86_64 or
+ ARMv7, can always be obtained http://newandroidbook.com/tools/dextra.html
