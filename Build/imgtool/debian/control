@@ -1,0 +1,18 @@
+Package: imgtool
+Version: 0.3
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Priority: extra
+Homepage: http://newandroidbook.com/tools/imgtool.html
+Description: A tool for unpacking/creating Android boot partition images
+ The imgtool utility is another one of the tools included in 
+ http://newandroidbook.com book related to Boot process. This tool 
+ acts like a quick extractor for variosu images and internal formats 
+ used by difference boot images. This became more important with the 
+ L preview, and Google Glass system images.
+ .
+ If you need a quick tool to unpack Android images, this is useful. 
+ Think of it as the inverse of mkbootimg (from the AOSP), coupled 
+ with simg2img (the sparse image extractor). Another bonus feature 
+ it provides is unpacking the Linux bzimage kernels.
