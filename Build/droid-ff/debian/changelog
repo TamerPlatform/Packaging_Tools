@@ -1,0 +1,41 @@
+droid-ff (0.0.9-SNAPSHOT-295b0fc) stable; urgency=medium
+
+  * gdb added 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Mon, 30 May 2016 05:27:52 +0000
+
+droid-ff (0.0.5-SNAPSHOT-29cdf80) stable; urgency=medium
+
+  * fix for startup script 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 22 May 2016 17:32:43 +0000
+
+droid-ff (0.0.4-SNAPSHOT-29cdf80) stable; urgency=medium
+
+  * fix radamsa path and misc errors 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 22 May 2016 16:55:47 +0000
+
+droid-ff (0.0.3-SNAPSHOT-0b07880) stable; urgency=medium
+
+  * fix for path 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 22 May 2016 15:42:00 +0000
+
+droid-ff (0.0.2-SNAPSHOT-e9c4c2e) stable; urgency=medium
+
+  *  update 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 22 May 2016 15:39:53 +0000
+
+droid-ff (0.0.1-SNAPSHOT-1954312) stable; urgency=medium
+
+  * fix for script run 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 22 May 2016 13:26:46 +0000
+
+droid-ff (0.0.1-SNAPSHOT-011743d) stable; urgency=medium
+
+  * Initial test release. 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 22 May 2016 12:34:21 +0000

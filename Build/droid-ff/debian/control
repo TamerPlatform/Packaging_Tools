@@ -1,0 +1,9 @@
+Package: droid-ff
+Version: 0.0.9-SNAPSHOT-295b0fc
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Depends: 
+Priority: extra
+Homepage: https://github.com/AndroidTamer/droid-ff
+Description: A tool for automating Android Fuzzing
