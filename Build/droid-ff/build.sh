@@ -1,5 +1,5 @@
 #!/bin/bash
-MAINVER="0.0.9"
+MAINVER="0.1.0"
 Extra=""
 if [ -d "source" ]
 	then
@@ -66,7 +66,7 @@ Name=Droid-ff
 Icon=terminator
 Categories=X-tamer-fuzz
 EOF
-debctrl "droid-ff" "$VERSION" "A tool for automating Android Fuzzing" "https://github.com/AndroidTamer/droid-ff" "all" ""
+debctrl "droid-ff" "$VERSION" "A tool for automating Android Fuzzing" "https://github.com/AndroidTamer/droid-ff" "all" 
 changelog
 build_package usr
 

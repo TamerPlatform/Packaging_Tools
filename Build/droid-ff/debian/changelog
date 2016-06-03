@@ -1,3 +1,9 @@
+droid-ff (0.1.0-SNAPSHOT-295b0fc) stable; urgency=medium
+
+  * black dependency list removed 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Fri, 03 Jun 2016 21:28:57 +0000
+
 droid-ff (0.0.9-SNAPSHOT-295b0fc) stable; urgency=medium
 
   * gdb added 
