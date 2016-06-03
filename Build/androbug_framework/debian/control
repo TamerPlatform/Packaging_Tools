@@ -1,0 +1,13 @@
+Package: androbugs-framework
+Version: 1.0.0-SNAPSHOT-7fd3a2c
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Depends: python
+Priority: extra
+Homepage: https://github.com/AndroidTamer/AndroBugs_Framework
+Description: Android Vulnerability scanner
+ AndroBugs Framework is an Android vulnerability analysis system that 
+ helps developers or hackers find potential security vulnerabilities 
+ in Android applications. No splendid GUI interface, but the most 
+ efficient (less than 2 minutes per scan in average) and more accurate.
