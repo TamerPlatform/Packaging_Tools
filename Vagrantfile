@@ -67,6 +67,7 @@ Vagrant.configure(2) do |config|
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
      #sudo echo "deb http://apt.include-once.org/ ./ #include-once.org" > /etc/apt/sources.list.d/xpm.list
+     echo "deb http://http.debian.net/debian jessie-backports main contrib non-free" | sudo tee /etc/apt/sources.list.d/jessie_backports.list
      #wget -q http://apt.include-once.org/public.gpg -O- | sudo apt-key add -
      sudo apt-get update
      sudo apt-get install -y ruby vim ruby-dev vim build-essential reprepro debian-builder dpkg-sig git
@@ -79,6 +80,7 @@ Vagrant.configure(2) do |config|
      sudo pip install html2text
      sudo apt-get install python-virtualenv
      sudo pip install virtualenv-tools
+     sudo apt-get install openjdk-8-jdk
      cp /vagrant/s3cfg ~/.s3cfg
      cat<<EOF >> ~/.profile
 gpg-agent --daemon --enable-ssh-support \
