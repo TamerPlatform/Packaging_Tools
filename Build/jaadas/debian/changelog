@@ -1,0 +1,12 @@
+jaadas (0.1.1-SNAPSHOT-8de73b9) stable; urgency=medium
+
+  * output directory can me customized 
+  * this build is self-compiled using openjdk-8 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sat, 04 Jun 2016 06:36:31 +0000
+
+jaadas (0.1-SNAPSHOT-a641527) stable; urgency=medium
+
+  * Initial release for Android Tamer
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sat, 04 Jun 2016 04:10:03 +0000

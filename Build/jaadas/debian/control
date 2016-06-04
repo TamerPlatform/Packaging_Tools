@@ -1,0 +1,15 @@
+Package: jaadas
+Version: 0.1.1-SNAPSHOT-8de73b9
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Depends: default-jre
+Priority: extra
+Homepage: https://github.com/Androidtamer/JAADAS
+Description: Joint Advanced Defect assEsment for android applications
+ JAADAS is a tool written in Java and Scala with the power of Soot 
+ to provide both interprocedure and intraprocedure static analysis 
+ for android applications. Its features include API misuse analysis, 
+ local-denial-of-service (intent crash) analysis, inter-procedure style
+ taint flow analysis (from intent to sensitive API, i.e. getting a 
+ parcelable from intent, and use it to start activity).
