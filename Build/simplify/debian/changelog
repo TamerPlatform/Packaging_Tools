@@ -1,0 +1,5 @@
+simplify (1.0.0-SNAPSHOT-ec9b44d) stable; urgency=medium
+
+  * Initial release for Android Tamer
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sat, 04 Jun 2016 23:53:44 +0000
