@@ -1,6 +1,6 @@
 #!/bin/bash
-MAINVER="6.4"
-Extra="-1"
+MAINVER="6.5"
+Extra=""
 if [ ! -d "source" ]
 then
 	mkdir source
