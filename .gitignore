@@ -8,3 +8,5 @@ opt/
 signing
 s3cfg
 *.deb
+*.pyc
+*.jar
