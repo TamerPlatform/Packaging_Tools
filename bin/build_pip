@@ -1,3 +1,4 @@
 #!/bin/bash
+sudo pip install "$1"
 fpm -s python -t deb --category AndroidTamer -m "Anant Shrivastava <anant@anantshri.info>" --vendor AndroidTamer "$@"
 echo "Please sign using dpkg-sig --sign builder -k 7EE83BCF name.deb"
