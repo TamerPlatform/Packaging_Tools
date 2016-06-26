@@ -1,3 +1,9 @@
+classyshark (6.6) stable; urgency=medium
+
+  * version bump to 6.6 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 26 Jun 2016 06:50:42 +0000
+
 classyshark (6.5) stable; urgency=medium
 
   * version bump to 6.5 
