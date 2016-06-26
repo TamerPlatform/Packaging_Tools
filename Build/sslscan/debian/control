@@ -1,5 +1,5 @@
 Package: sslscan
-Version: 1.11.6-SNAPSHOT-6891c0d-1
+Version: 1.11.7-SNAPSHOT-c6442ee
 Architecture: amd64
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Section: AndroidTamer

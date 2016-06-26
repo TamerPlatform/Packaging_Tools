@@ -1,3 +1,9 @@
+sslscan (1.11.7-SNAPSHOT-c6442ee) stable; urgency=medium
+
+  * version bump to 1.11.7 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 26 Jun 2016 07:08:05 +0000
+
 sslscan (1.11.6-SNAPSHOT-6891c0d-1) stable; urgency=medium
 
   * Proper desktop entry file 
