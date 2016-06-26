@@ -1,3 +1,9 @@
+androidtamer-menuitems (0.9.5-SNAPSHOT-b46b53e) stable; urgency=medium
+
+  * More fixes and menu entries 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 05 Jun 2016 19:07:45 +0000
+
 androidtamer-menuitems (0.9.4-SNAPSHOT-03bcd2a) stable; urgency=medium
 
   * avd icon fixed 
