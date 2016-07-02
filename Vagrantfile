@@ -81,6 +81,7 @@ Vagrant.configure(2) do |config|
      sudo apt-get install python-virtualenv
      sudo pip install virtualenv-tools
      sudo apt-get install openjdk-8-jdk
+     sudo apt-get install cmake
      cp /vagrant/s3cfg ~/.s3cfg
      cat<<EOF >> ~/.profile
 gpg-agent --daemon --enable-ssh-support \
