@@ -1,6 +1,12 @@
+smali (2.1.3-SNAPSHOT-a5d8281) stable; urgency=medium
+
+  * upgrade to 2.1.3 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Wed, 03 Aug 2016 16:05:52 +0000
+
 dex2jar (2.1.2-SNAPSHOT-d6383b7) stable; urgency=medium
 
   * Initial release. 
   * upgrade to 2.1.2
 
- -- Anant Shrivastava <anant@anantshri.info>  Wed, 11 May 2016 03:51:29 +0000
+ -- Anant Shrivastava <anant@anantshri.info>  Wed, 03 Aug 2016 15:02:05 +0000

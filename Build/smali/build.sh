@@ -1,5 +1,5 @@
 #!/bin/bash
-MAINVER="2.1.2"
+MAINVER="2.1.3"
 Extra=""
 if [ -d "source" ]
 	then
@@ -14,22 +14,72 @@ SVER=`git log --pretty=format:'%h' -n 1`
 cd ..
 VERSION=$MAINVER"-SNAPSHOT-"$SVER$Extra
 ## Build
+# Setting java 8
+echo "Java going to 8 for some time"
+sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# Build
 cd source
+./gradlew clean
 ./gradlew fatjar
 cd ..
+echo "Reverting back to 7"
+sudo update-alternatives --set java /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java
 ## END BUILD
 rm -rf usr etc
 mkdir -p usr/bin usr/share/smali usr/share/applications
 cp source/smali/build/libs/smali-*-fat.jar usr/share/smali/smali-fat.jar
 cp source/baksmali/build/libs/baksmali-*-fat.jar usr/share/smali/baksmali-fat.jar
+if [ ! -f usr/share/smali/smali-fat.jar ]
+then
+	echo "looks like build failed"
+	exit
+fi
 cat <<EOF > usr/bin/smali
 #!/bin/bash
-java -jar /usr/share/smali/smali-fat.jar "\$@"
+JAR_BIN=/usr/share/smali/smali-fat.jar
+JVER=\`java -version 2>&1 | awk '/version/ {print \$3}' | egrep -o '[^\"]*' | cut -f1,2 -d"."\`
+if [ "\$JVER" = "1.8" ]
+then
+        JAVAPRG=/usr/bin/java
+else
+        echo "Need java 1.8, checking if jdk 8 installed"
+        if [ ! -f /usr/lib/jvm/java-8-openjdk-amd64/bin/java ]
+        then
+                echo "Java 1.8 openjdk not found"
+                echo "please install openjdk-8 from jessie backports or simmilar"
+                exit
+        else
+                echo "Java Found starting"
+                export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+                JAVAPRG="/usr/lib/jvm/java-8-openjdk-amd64/bin/java"
+        fi
+fi
+
+\$JAVAPRG -jar \$MEM \$JAR_BIN "\$@"
 EOF
 chmod 755 usr/bin/smali
 cat <<EOF > usr/bin/baksmali
 #!/bin/bash
-java -jar /usr/share/smali/baksmali-fat.jar "\$@"
+JAR_BIN=/usr/share/smali/baksmali-fat.jar
+JVER=\`java -version 2>&1 | awk '/version/ {print \$3}' | egrep -o '[^\"]*' | cut -f1,2 -d"."\`
+if [ "\$JVER" = "1.8" ]
+then
+        JAVAPRG=/usr/bin/java
+else
+        echo "Need java 1.8, checking if jdk 8 installed"
+        if [ ! -f /usr/lib/jvm/java-8-openjdk-amd64/bin/java ]
+        then
+                echo "Java 1.8 openjdk not found"
+                echo "please install openjdk-8 from jessie backports or simmilar"
+                exit
+        else
+                echo "Java Found starting"
+                export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+                JAVAPRG="/usr/lib/jvm/java-8-openjdk-amd64/bin/java"
+        fi
+fi
+
+\$JAVAPRG -jar \$MEM \$JAR_BIN "\$@"
 EOF
 chmod 755 usr/bin/baksmali
 cat <<EOF > usr/share/applications/smali.desktop

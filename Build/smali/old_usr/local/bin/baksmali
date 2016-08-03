@@ -1,0 +1,2 @@
+#!/bin/bash
+java -jar /usr/share/smali/baksmali-fat.jar "$@"

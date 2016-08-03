@@ -1,5 +1,5 @@
 Package: smali
-Version: 2.1.2-SNAPSHOT-93100e5
+Version: 2.1.3-SNAPSHOT-a5d8281
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Section: AndroidTamer
