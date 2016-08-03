@@ -1,11 +1,12 @@
 Package: yadd-dumper
-Version: 0.0.1-SNAPSHOT-b1a8f79
-Architecture: all
+Version: 0.0.1-SNAPSHOT-b1a8f79-1
+Architecture: amd64
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Section: AndroidTamer
-Depends: python
+Depends: python, libc6
 Priority: extra
 Homepage: https://github.com/AndroidTamer/YADD
 Description: Yet another Android Dex bytecode Disassembler
  YADD is planed to be a complex disassembler for the Android Dex bytecode
- hat is, a hybrid tool to support pure binary/signature dumping and to provide an interface for reversing analysis
+ That is, a hybrid tool to support pure binary/signature dumping and to 
+ provide an interface for reversing analysis

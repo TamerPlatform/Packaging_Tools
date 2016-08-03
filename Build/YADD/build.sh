@@ -1,6 +1,6 @@
 #!/bin/bash
 MAINVER="0.0.1"
-Extra=""
+Extra="-1"
 if [ -d "source" ]
 	then
 	cd source 
@@ -44,6 +44,6 @@ Description: Yet another Android Dex bytecode Disassembler
 Icon=terminator
 Categories=X-tamer-manualanalysis
 EOF
-debctrl "yadd-dumper" "$VERSION" "Yet another Android Dex bytecode Disassembler\n YADD is planed to be a complex disassembler for the Android Dex bytecode\n hat is, a hybrid tool to support pure binary/signature dumping and to provide an interface for reversing analysis" "https://github.com/AndroidTamer/YADD" "all" "python"
-changelog
+debctrl "yadd-dumper" "$VERSION" "Yet another Android Dex bytecode Disassembler\n YADD is planed to be a complex disassembler for the Android Dex bytecode\n That is, a hybrid tool to support pure binary/signature dumping and to \n provide an interface for reversing analysis" "https://github.com/AndroidTamer/YADD" "amd64" "python, libc6"
+changelog "Initial release for Android Tamer"
 build_package usr
