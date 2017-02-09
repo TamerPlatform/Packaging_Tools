@@ -1,3 +1,9 @@
+enjarify (1.0.3-SNAPSHOT-f2db056) stable; urgency=medium
+
+  * upgraded to 1.0.3 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Thu, 09 Feb 2017 18:03:24 +0000
+
 enjarify (1.0.2-SNAPSHOT-3e6406f-1) stable; urgency=medium
 
   * corrections on file permissions and naming 
