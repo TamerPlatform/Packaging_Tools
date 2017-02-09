@@ -1,6 +1,6 @@
 #!/bin/bash
 MAINVER="1.11.8"
-Extra=""
+Extra="-1"
 if [ -d "source" ]
 	then
 	cd source 

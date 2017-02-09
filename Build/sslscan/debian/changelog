@@ -1,3 +1,9 @@
+sslscan (1.11.8-SNAPSHOT-66deddb-1) stable; urgency=medium
+
+  * correct source based version bump now to 1.11.8 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Thu, 09 Feb 2017 16:05:12 +0000
+
 sslscan (1.11.8-SNAPSHOT-c6442ee) stable; urgency=medium
 
   * version bump to 1.11.8 
