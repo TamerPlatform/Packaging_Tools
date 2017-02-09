@@ -1,7 +1,7 @@
 #!/bin/bash
 SOURCE_URL="https://github.com/AndroidTamer/jadx"
 MAINVER="0.6.1"
-Extra=".1"
+Extra=".2"
 if [ -d "source" ]
 	then
 	cd source 

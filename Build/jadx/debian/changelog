@@ -1,3 +1,9 @@
+jadx (0.6.1.2-SNAPSHOT-a9ae971) stable; urgency=medium
+
+  * upgraded to 0.6.1 official release 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Thu, 09 Feb 2017 19:01:02 +0000
+
 jadx (0.6.1.1-SNAPSHOT-b2f41e9) stable; urgency=medium
 
   * fixed jadx-gui to run GUI mode by default 
