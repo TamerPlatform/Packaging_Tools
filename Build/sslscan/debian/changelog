@@ -1,3 +1,9 @@
+sslscan (1.11.8-SNAPSHOT-c6442ee) stable; urgency=medium
+
+  * version bump to 1.11.8 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Wed, 08 Feb 2017 15:46:57 +0000
+
 sslscan (1.11.7-SNAPSHOT-c6442ee) stable; urgency=medium
 
   * version bump to 1.11.7 

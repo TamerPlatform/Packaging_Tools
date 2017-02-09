@@ -1,5 +1,5 @@
 #!/bin/bash
-MAINVER="1.11.7"
+MAINVER="1.11.8"
 Extra=""
 if [ -d "source" ]
 	then
