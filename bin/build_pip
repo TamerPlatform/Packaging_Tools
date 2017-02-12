@@ -1,4 +1,14 @@
 #!/bin/bash
-sudo pip install "$1"
+if [ $# -eq 0 ]
+then
+	echo "need atleast one argument [local] <pip_package_name>"
+	exit
+fi
+if [ $1 == "local" ]
+then
+	shift
+else
+	sudo pip install "$1" --upgrade
+fi
 fpm -s python -t deb --category AndroidTamer -m "Anant Shrivastava <anant@anantshri.info>" --vendor AndroidTamer "$@"
-echo "Please sign using dpkg-sig --sign builder -k 7EE83BCF name.deb"
+echo "Please sign using dpkg-sig --sign builder -k 7EE83BCF <name>.deb"
