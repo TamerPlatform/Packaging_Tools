@@ -1,9 +1,9 @@
 #!/bin/bash
-MAINVER="1.7.03"
-Extra=".1"
+MAINVER="1.7.17"
+Extra=""
 VERSION=$MAINVER$Extra
 #mkdir source
-wget "https://portswigger.net/DownloadUpdate.ashx?Product=Free" -O source/burpsuite-free.jar
+wget "https://portswigger.net/Burp/Releases/Download?productId=100&version="$MAINVER"&type=Jar" -O source/burpsuite-free.jar
 wget "https://portswigger.net/burp/eula-free.html" -O source/license.html
 html2text "https://portswigger.net/burp/eula-free.html" | tee source/license.txt
 rm -rf usr opt

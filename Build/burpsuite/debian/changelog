@@ -1,3 +1,9 @@
+burpsuite-free (1.7.17) stable; urgency=medium
+
+  * updated to 1.7.17 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sat, 18 Feb 2017 14:38:35 +0000
+
 burpsuite-free (1.7.03.1) stable; urgency=medium
 
   * corrected the burp logo issue 
