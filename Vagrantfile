@@ -97,6 +97,12 @@ GPG_TTY=$(tty)
 export GPG_TTY
 EOF
 echo "enable-ssh-support" >> ~/.gnupg/gpg-agent.conf  
+# adding F-droidserver
+sudo apt-get update
+sudo apt-get install fdroidserver
+sudo apt-get install openjdk-8-jdk lib32stdc++6 lib32gcc1 lib32z1 lib32ncurses5
+sudo apt-get install gradle maven 
+# android ndk and android sdk setup
   SHELL
 
   if Vagrant.has_plugin?("vagrant-cachier")
