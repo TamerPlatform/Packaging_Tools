@@ -1,0 +1,10 @@
+Package: procyon
+Version: 0.5.30
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Depends: default-jre
+Priority: extra
+Homepage: https://bitbucket.org/mstrobel/procyon
+Description: Procyon Decompiler
+ Procyon Java Decompiler
