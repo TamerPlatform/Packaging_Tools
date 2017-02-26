@@ -1,0 +1,12 @@
+Package: drozer-checks
+Version: 0.3.2-SNAPSHOT-04a1e5f
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Depends: drozer
+Priority: extra
+Homepage: https://github.com/AndroidTamer/drozer_checks
+Description: Automated Drozer Assessment
+ A Shell script wrapper to ease out the process
+ of running drozer and help in quick analysis.
+ Depends on drozer
