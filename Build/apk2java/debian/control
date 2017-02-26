@@ -1,0 +1,12 @@
+Package: apk2java
+Version: 0.1-SNAPSHOT-c821afe
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Depends: apktool, enjarify, jadx, jad
+Priority: extra
+Homepage: https://github.com/AndroidTamer/apk2java
+Description: Get JAVA Source from APK
+ A Shell script wrapper to ease out the process
+ of decompiling an android application and help in analysis.
+ Depends on apktool, enjarify, jad, jadx
