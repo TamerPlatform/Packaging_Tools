@@ -1,0 +1,5 @@
+ jd-gui (1.4.0) unstable; urgency=low
+
+  * Bug fix to remove hard Dependency on Openjdk
+
+ -- Anant <Anant@anantshri.info>  Mon, 29 Feb 2016 06:52:51 +0000
