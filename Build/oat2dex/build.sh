@@ -1,6 +1,6 @@
 #!/bin/bash
 MAINVER="0.0.1"
-Extra=""
+Extra="0.1"
 if [ -d "source" ]
 	then
 	cd source 
@@ -26,7 +26,7 @@ Type=Application
 Terminal=false
 Icon[en_US]=terminator
 Name[en_US]=OAT2DEX.py
-Exec=/usr/bin/oat2dex.py
+Exec=/usr/bin/x-terminal-emulator --command "oat2dex.py; \$SHELL"
 Name=oat2dex
 Icon=terminator
 Categories=X-tamer-re
