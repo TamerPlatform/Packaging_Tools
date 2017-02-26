@@ -1,0 +1,11 @@
+Package: bytecode-viewer
+Version: 2.9.8
+Architecture: amd64
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Depends: default-jre
+Section: AndroidTamer
+Priority: extra
+Homepage: https://github.com/AndroidTamer/bytecode-viewer/
+Description: Lightweight Java Bytecode Viewer
+ A Java 8 Jar & Android APK Reverse Engineering Suite
+ (Decompiler, Editor, Debugger & More)
