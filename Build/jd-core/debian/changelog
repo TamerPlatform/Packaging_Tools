@@ -1,0 +1,11 @@
+jd-core (1.2-SNAPSHOT-91f7a2e-1) stable; urgency=medium
+
+  * fixing desktop application icon 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 26 Feb 2017 18:39:03 +0000
+
+jd-core (1.2-SNAPSHOT-91f7a2e) stable; urgency=medium
+
+  * Initial release.
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sat, 25 Feb 2017 18:11:33 +0000

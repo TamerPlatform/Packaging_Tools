@@ -1,0 +1,10 @@
+Package: jd-core
+Version: 1.2-SNAPSHOT-91f7a2e-1
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Depends: default-jre
+Priority: extra
+Homepage: https://github.com/AndroidTamer/jd-core-java
+Description: JD-Core 
+ jd-core java decompiler commandline
