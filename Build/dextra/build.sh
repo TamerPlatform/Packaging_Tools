@@ -1,6 +1,6 @@
 #!/bin/bash
 #http://newandroidbook.com/tools/dextra.tar
-MAINVER="1.29.79"
+MAINVER="1.30.88"
 Extra=""
 VERSION=$MAINVER$Extra
 if [ -d source ]

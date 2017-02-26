@@ -1,3 +1,9 @@
+dextra (1.30.88) stable; urgency=medium
+
+  * upgraded to 1.30.88 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 26 Feb 2017 20:46:52 +0000
+
 dextra (1.29.79) stable; urgency=medium
 
   * Initial release.
