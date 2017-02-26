@@ -1,6 +1,6 @@
 #!/bin/bash
-MAINVER="0.9.4"
-Extra=""
+MAINVER="0.9.4.1"
+Extra="-3"
 if [ -d "source" ]
 	then
 	cd source 
@@ -62,6 +62,15 @@ EOF
 
 # Enable USE_HOME by default
 sed -i "s/USE_HOME = False/USE_HOME = True/" usr/share/MobSF/MobSF/settings.py
+# Set local parameters
+sed -i 's/DEX2JAR_BINARY = ""/DEX2JAR_BINARY = "\/usr\/local\/share\/dex2jar\/d2j-dex2jar.sh"/' usr/share/MobSF/MobSF/settings.py
+sed -i 's/BACKSMALI_BINARY = ""/BACKSMALI_BINARY = "\/usr\/local\/smali\/baksmali-fat.jar"/' usr/share/MobSF/MobSF/settings.py
+#sed -i 's/AXMLPRINTER_BINARY = ""/AXMLPRINTER_BINARY = "\/usr\/share\/axmlprinter\/axmlprinter.jar"/' usr/share/MobSF/MobSF/settings.py
+sed -i 's/CFR_DECOMPILER_BINARY = ""/CFR_DECOMPILER_BINARY = "\/usr\/share\/cfr\/cfr.jar"/' usr/share/MobSF/MobSF/settings.py
+sed -i 's/PROCYON_DECOMPILER_BINARY = ""/PROCYON_DECOMPILER_BINARY = "\/usr\/share\/procyon\/procyon-decompiler.jar"/' usr/share/MobSF/MobSF/settings.py
+sed -i 's/ADB_BINARY = ""/ADB_BINARY = "\/usr\/local\/bin\/adb"/' usr/share/MobSF/MobSF/settings.py
+sed -i 's/ENJARIFY_DIRECTORY = ""/ENJARIFY_DIRECTORY = "\/usr\/share\/enjarify\/"/' usr/share/MobSF/MobSF/settings.py
+sed -i 's/JD_CORE_DECOMPILER_BINARY = ""/JD_CORE_DECOMPILER_BINARY = "\/usr\/share\/jd-core\/jd-core.jar"/' usr/share/MobSF/MobSF/settings.py
 # Set realdevice to true
 #sed -i "s/REAL_DEVICE = False/REAL_DEVICE = True/" usr/share/MobSF/MobSF/settings.py
 echo "Building dependencies"
@@ -69,6 +78,6 @@ while read p;
 do 
 	build_pip $p;
 done<source/requirements.txt
-debctrl "mobsf" "$VERSION" "Mobile Security Framework (MobSF)\n MobSF is an intelligent, all-in-one open source mobile application \n (Android/iOS) automated pen-testing framework capable of performing static\n and dynamic analysis. We've been depending on multiple tools to carry out \n reversing, decoding, debugging, code review, and pen-test and this process\n requires a lot of effort and time. Mobile Security Framework can be used for\n effective and fast security analysis of Android and iOS Applications. It \n supports binaries (APK & IPA) and zipped source code." "https://github.com/AndroidTamer/Mobile-Security-Framework-MobSF" "all" "python-django, python-openssl, python-tornado,  python-configparser, python-rsa, python-pdfkit, python-lxml"
+debctrl "mobsf" "$VERSION" "Mobile Security Framework (MobSF)\n MobSF is an intelligent, all-in-one open source mobile application \n (Android/iOS) automated pen-testing framework capable of performing static\n and dynamic analysis. We've been depending on multiple tools to carry out \n reversing, decoding, debugging, code review, and pen-test and this process\n requires a lot of effort and time. Mobile Security Framework can be used for\n effective and fast security analysis of Android and iOS Applications. It \n supports binaries (APK & IPA) and zipped source code." "https://github.com/AndroidTamer/Mobile-Security-Framework-MobSF" "all" "python-django, python-openssl, python-tornado,  python-configparser, python-rsa, python-pdfkit, python-lxml, dex2jar, enjarify, jd-core, cfr"
 changelog
 build_package usr
