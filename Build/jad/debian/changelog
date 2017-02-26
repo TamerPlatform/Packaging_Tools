@@ -1,0 +1,12 @@
+jad (1.5.8e-2) stable; urgency=medium
+
+  * correcting default location of binary from usr/local/bin to usr/bin
+
+ -- Anant Shrivastava <anant@anantshri.info>  Wed, 11 May 2016 21:58:45 +0000
+
+jad (1.5.8e-1) stable; urgency=medium
+
+  * Fix for execution
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Anant Shrivastava <anant@anantshri.info>  Wed, 11 May 2016 20:23:53 +0000

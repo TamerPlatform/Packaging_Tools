@@ -1,0 +1,12 @@
+Package: jad
+Version: 1.5.8e-SNAPSHOT-2
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Depends: default-jre
+Priority: extra
+Homepage: http://varaneckas.com/jad/
+Description: Java Decompiler
+ One of the oldest Java Decompiler.
+ Original Distribution place is long gone from web.
+ Homepage is a mirror hosting last versions of decompiler.
