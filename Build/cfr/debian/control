@@ -1,0 +1,13 @@
+Package: cfr
+Version: 0-119-nov-2016
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Depends: default-jre
+Priority: extra
+Homepage: http://www.benf.org/other/cfr/
+Description: CFR  another java decompiler
+ CFR will decompile modern Java feature like  
+ Java 8 lambdas 
+ Java 7 String switches 
+ But written in Java 6
