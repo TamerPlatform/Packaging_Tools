@@ -71,7 +71,7 @@ Vagrant.configure(2) do |config|
      #wget -q http://apt.include-once.org/public.gpg -O- | sudo apt-key add -
      sudo apt-get update
      sudo apt-get install -y ruby vim ruby-dev vim build-essential reprepro debian-builder dpkg-sig git
-     sudo apt-get install -y python-pip python-dev libssl-dev qttools5-dev-tools openjdk-7-jdk qt5-default zlib1g-dev mercurial
+     sudo apt-get install -y python-pip python-dev libssl-dev qttools5-dev-tools openjdk-7-jdk qt5-default zlib1g-dev mercurial maven
      sudo gem install fpm
      gpg --allow-secret-key-import --import /vagrant/signing/7EE83BCF.asc
      #wget http://apt.include-once.org/xpm-1.3.3.6.gem -O /vagrant/xpm-1.3.3.6.gem
