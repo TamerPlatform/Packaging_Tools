@@ -4,6 +4,7 @@ source/
 etc/
 usr/
 opt/
+ignore/
 .vagrant
 signing
 s3cfg
