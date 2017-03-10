@@ -103,7 +103,9 @@ sudo apt-get install fdroidserver
 sudo apt-get install openjdk-8-jdk lib32stdc++6 lib32gcc1 lib32z1 lib32ncurses5
 sudo apt-get install gradle maven 
 # android ndk and android sdk setup
-  SHELL
+echo "PATH=\$PATH:/vagrant/google_tools/build-tools/25.0.2:/vagrant/google_tools/tools/bin/:/vagrant/google_tools/pla
+tform-tools/" >> ~/.bashrc
+SHELL
 
   if Vagrant.has_plugin?("vagrant-cachier")
       # Configure cached packages to be shared between instances of the same base box.
