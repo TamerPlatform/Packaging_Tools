@@ -17,6 +17,7 @@ VERSION=$MAINVER"-SNAPSHOT-"$SVER$Extra
 # Setting java 8
 echo "Java going to 8 for some time"
 sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+sudo update-alternatives --set javac /usr/lib/jvm/java-8-openjdk-amd64/bin/javac
 # Build
 cd source
 ./gradlew clean
@@ -24,6 +25,8 @@ cd source
 cd ..
 echo "Reverting back to 7"
 sudo update-alternatives --set java /usr/lib/jvm/java-7-openjdk-amd64/jre/bin/java
+sudo update-alternatives --set javac /usr/lib/jvm/java-7-openjdk-amd64/bin/javac
+
 ## END BUILD
 rm -rf usr etc
 mkdir -p usr/bin usr/share/smali usr/share/applications
