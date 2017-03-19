@@ -20,7 +20,8 @@ sudo update-java-alternatives -s java-1.7.0-openjdk-amd64
 debctrl "python-drozer" "$VERSION" "The Leading Android Security Testing Framework" "http://mwr.to/drozer" "all" "python-protobuf (>= 2.6.1), python-pyopenssl (>= 16.2.0), python-pyyaml (>= 3.12)" 
 build_pip local  --replaces drozer --verbose --deb-custom-control debian/control source/setup.py
 echo "Building dependencies"
-build_pip protobuf
+# not building newer version are more error prone
+#build_pip protobuf
 build_pip pyopenssl
 build_pip pyyaml
 build_pip cryptography
