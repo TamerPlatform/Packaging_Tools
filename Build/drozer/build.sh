@@ -1,6 +1,6 @@
 #!/bin/bash
-MAINVER="2.4.3"
-Extra=""
+MAINVER="2.4.2"
+Extra="-1"
 if [ -d "source" ]
 	then
 	cd source 
@@ -9,13 +9,29 @@ if [ -d "source" ]
 else
 	git clone https://github.com/AndroidTamer/drozer ./source
 fi
-echo "source as of now needs to be manually edited"
-echo 'install_requires = ["protobuf>=2.6.1","pyopenssl>=16.2.0", "pyyaml>=3.12"],'
-read -p "Please edit sources and once done press enter" test
+VERSION=$MAINVER$Extra
+# Temp fix for issue https://github.com/mwrlabs/drozer/issues/253
+sed -i 's/install_requires = ["protobuf==2.6.1","pyopenssl==16.2", "pyyaml==3.11"],/install_requires = ["protobuf>=2.6.1","pyopenssl>=16.2.0", "pyyaml>=3.12"],/g' source/setup.py
 cd source
 sudo update-java-alternatives -s java-1.8.0-openjdk-amd64
 make apks
 cd ..
 sudo update-java-alternatives -s java-1.7.0-openjdk-amd64
-#wget "https://github.com/mwrlabs/drozer/releases/download/$MAINVER/drozer-$MAINVER-py2.7.egg" -O "drozer-$MAINVER-py2.7.egg"
-build_pip local source/setup.py
+debctrl "python-drozer" "$VERSION" "The Leading Android Security Testing Framework" "http://mwr.to/drozer" "all" "python-protobuf (>= 2.6.1), python-pyopenssl (>= 16.2.0), python-pyyaml (>= 3.12)" 
+build_pip local  --replaces drozer --verbose --deb-custom-control debian/control source/setup.py
+echo "Building dependencies"
+build_pip protobuf
+build_pip pyopenssl
+build_pip pyyaml
+build_pip cryptography
+build_pip appdirs
+build_pip asn1crypto
+# need libffi-dev to be installed
+build_pip cffi
+build_pip idna
+build_pip ipaddress
+build_pip packaging
+build_pip pycparser
+build_pip pyparsing
+build_pip setuptools
+build_pip six
