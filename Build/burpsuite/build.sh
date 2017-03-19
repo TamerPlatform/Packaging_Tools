@@ -1,5 +1,5 @@
 #!/bin/bash
-MAINVER="1.7.17"
+MAINVER="1.7.19"
 Extra=""
 VERSION=$MAINVER$Extra
 #mkdir source
@@ -13,7 +13,19 @@ cp source/license.txt opt/burpsuite/license.txt
 cp burpsuite-free.png usr/share/icons/androidtamer/burpsuite-free.png 
 cat <<EOF > usr/bin/burpsuite-free
 #!/bin/bash
-java -jar /opt/burpsuite/burpsuite-free.jar "\$@"
+JAR_BIN=/opt/burpsuite/burpsuite-free.jar
+JAVAPRG=/usr/bin/java
+echo "Need java 1.8, checking if jdk 8 installed"
+if [ ! -f /usr/lib/jvm/java-8-openjdk-amd64/bin/java ]
+then
+        echo "Java 1.8 openjdk not found"
+		echo "Burp suite works best with java8"
+else
+        echo "Java Found starting"
+        export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+        JAVAPRG="/usr/lib/jvm/java-8-openjdk-amd64/bin/java"
+fi
+\$JAVAPRG -jar \$JAR_BIN "\$@"
 EOF
 cat <<EOF > usr/share/applications/burpsuite-free.desktop
 #!/usr/bin/env xdg-open
