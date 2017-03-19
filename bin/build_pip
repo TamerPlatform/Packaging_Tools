@@ -4,15 +4,14 @@ then
 	echo "need atleast one argument [local] <pip_package_name>"
 	exit
 fi
-echo "Checking if package is already available via apt-cache"
-apt-cache search --names-only "^python-$1"
-read -p "If you see the package above that means its in deb package repo don't compile"
 if [ $1 == "local" ]
 then
 	shift
 else
+	echo "Checking if package is already available via apt-cache"
+	apt-cache search --names-only "^python-$1"
+	read -p "If you see the package above that means its in deb package repo don't compile"
 	sudo pip install "$1" --upgrade
 fi
-
 fpm -s python -t deb --category AndroidTamer -m "Anant Shrivastava <anant@anantshri.info>" --vendor AndroidTamer "$@"
 echo "Please sign using dpkg-sig --sign builder -k 7EE83BCF <name>.deb"
