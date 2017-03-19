@@ -1,3 +1,15 @@
+apktool (2.2.2-SNAPSHOT-6cc2512-2) stable; urgency=medium
+
+  * build continues to fail moving to official source now  
+
+ -- Anant Shrivastava <anant@anantshri.info>  Thu, 16 Mar 2017 17:28:00 +0000
+
+apktool (2.2.2-SNAPSHOT-6cc2512-1) stable; urgency=medium
+
+  * fixing a compile time goofup 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Thu, 16 Mar 2017 17:18:40 +0000
+
 apktool (2.2.2-SNAPSHOT-6cc2512) stable; urgency=medium
 
   * upgrade to 2.2.2 

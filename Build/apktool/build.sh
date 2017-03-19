@@ -1,6 +1,6 @@
 #!/bin/bash
 MAINVER="2.2.2"
-Extra=""
+Extra="-2"
 if [ -d "source" ]
 	then
 	cd source 
@@ -28,9 +28,9 @@ then
 	echo "Build Failed Aborting"
 	echo "Using fallback"
 	echo "Downloading precompiled binary from Official page"
-	wget https://github.com/iBotPeaches/Apktool/releases/download/$MAINVER/apktool_$MAINVER.jar -O usr/share/apktool/apktool-cli.jar
+	wget https://github.com/iBotPeaches/Apktool/releases/download/v$MAINVER/apktool_$MAINVER.jar -O usr/share/apktool/apktool-cli.jar
 else
-	echo "Build sucessful"
+	echo "Build sucessfull"
 	cp ./source/brut.apktool/apktool-cli/build/libs/apktool-$MAINVER.jar usr/share/apktool/apktool-cli.jar
 fi
 cat  <<EOF > usr/bin/apktool
