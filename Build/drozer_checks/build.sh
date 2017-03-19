@@ -1,6 +1,6 @@
 #!/bin/bash
-MAINVER="0.3"
-Extra=".2"
+MAINVER="0.4"
+Extra=""
 if [ -d "source" ]
 	then
 	cd source 
@@ -42,6 +42,6 @@ Name=Drozer Start
 Icon=terminator
 Categories=X-tamer-re
 EOF
-debctrl "drozer-checks" "$VERSION" "Automated Drozer Assessment\n A Shell script wrapper to ease out the process\n of running drozer and help in quick analysis.\n Depends on drozer" "https://github.com/AndroidTamer/drozer_checks" "all" "drozer"
+debctrl "drozer-checks" "$VERSION" "Automated Drozer Assessment\n A Shell script wrapper to ease out the process\n of running drozer and help in quick analysis.\n Depends on drozer" "https://github.com/AndroidTamer/drozer_checks" "all" "python-drozer"
 changelog
 build_package usr
