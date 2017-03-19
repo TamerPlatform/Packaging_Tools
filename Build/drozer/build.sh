@@ -35,3 +35,6 @@ build_pip pycparser
 build_pip pyparsing
 build_pip setuptools
 build_pip six
+# Autosign all binary created today
+echo "Autosigning all binaries done today"
+find ./ -name '*.deb' -maxdepth 1 -mtime -1 -exec dpkg-sig --sign builder -k 7EE83BCF "{}" \;
