@@ -4,7 +4,7 @@ then
 	dpkg-sig -c $1 | grep GOODSIG
 	if [ $? -eq 0 ]
 	then
-		reprepro -Vb . includedeb Tamer4 $1
+		reprepro --keepunreferencedfiles -Vb . includedeb Tamer4 $1
 	else
 		echo "No signature on file: not including in repository"
 	fi
