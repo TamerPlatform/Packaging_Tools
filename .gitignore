@@ -8,6 +8,7 @@ ignore/
 .vagrant
 signing
 s3cfg
+*.egg
 *.deb
 *.pyc
 *.jar
