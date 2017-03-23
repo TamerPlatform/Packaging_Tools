@@ -81,3 +81,4 @@ done<source/requirements.txt
 debctrl "mobsf" "$VERSION" "Mobile Security Framework (MobSF)\n MobSF is an intelligent, all-in-one open source mobile application \n (Android/iOS) automated pen-testing framework capable of performing static\n and dynamic analysis. We've been depending on multiple tools to carry out \n reversing, decoding, debugging, code review, and pen-test and this process\n requires a lot of effort and time. Mobile Security Framework can be used for\n effective and fast security analysis of Android and iOS Applications. It \n supports binaries (APK & IPA) and zipped source code." "https://github.com/AndroidTamer/Mobile-Security-Framework-MobSF" "all" "python-django, python-openssl, python-tornado,  python-configparser, python-rsa, python-pdfkit, python-lxml, dex2jar, enjarify, jd-core, cfr"
 changelog
 build_package usr
+build_pip django
