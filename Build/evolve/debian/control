@@ -1,0 +1,9 @@
+Package: evolve
+Version: 1.5
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Section: AndroidTamer
+Depends: python-bottle, python-yara, python-distorm3, python-maxminddb
+Priority: extra
+Homepage: https://github.com/dpnishant/appmon
+Description: Web interface for the Volatility Memory Forensics Framework
