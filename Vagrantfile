@@ -104,8 +104,16 @@ sudo apt-get install fdroidserver
 sudo apt-get install openjdk-8-jdk lib32stdc++6 lib32gcc1 lib32z1 lib32ncurses5
 sudo apt-get install gradle maven 
 # android ndk and android sdk setup
-echo "PATH=\$PATH:/vagrant/google_tools/build-tools/25.0.2:/vagrant/google_tools/tools/bin/:/vagrant/google_tools/pla
-tform-tools/" >> ~/.bashrc
+# download sdk tools
+# download platform tools and build tools
+wget -q -O "/vagrant/google_tools/tools-linux.zip" https://dl.google.com/android/repository/tools_r25.2.3-linux.zip
+unzip /vagrant/google_tools/tools-linux.zip -d /vagrant/google_tools
+rm -rf /vagrant/google_tools/tools-linux.zip
+echo "PATH=\$PATH:/vagrant/google_tools/tools/:/vagrant/google_tools/tools/bin/
+echo y | android update sdk --filter tools --no-ui --force -a
+echo y | android update sdk --filter platform-tools --no-ui --force -a
+echo y | android update sdk --filter build-tools-25.0.2 --no-ui --force -a
+echo "PATH=\$PATH:/vagrant/google_tools/build-tools/25.0.2:/vagrant/google_tools/platform-tools/:/vagrant/google_tools/android-ndk/" >> ~/.bashrc
 SHELL
 
   if Vagrant.has_plugin?("vagrant-cachier")
