@@ -12,3 +12,4 @@ s3cfg
 *.deb
 *.pyc
 *.jar
+google_tools/
