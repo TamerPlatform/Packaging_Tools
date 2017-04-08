@@ -1,3 +1,9 @@
+burpsuite-free (1.7.20) stable; urgency=medium
+
+  * upgrade to 1.7.20 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Thu, 06 Apr 2017 13:56:29 +0000
+
 burpsuite-free (1.7.19) stable; urgency=medium
 
   * upgrade to 1.7.19 

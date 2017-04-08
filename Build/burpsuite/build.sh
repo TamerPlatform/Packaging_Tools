@@ -1,5 +1,5 @@
 #!/bin/bash
-MAINVER="1.7.19"
+MAINVER="1.7.20"
 Extra=""
 VERSION=$MAINVER$Extra
 #mkdir source
