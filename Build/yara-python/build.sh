@@ -14,5 +14,8 @@ SVER=`git log --pretty=format:'%h' -n 1`
 cd ..
 VERSION=$MAINVER$Extra"-SNAPSHOT-"$SVER
 echo "Version: " $VERSION
-build_pip local --version $VERSION source/setup.py
+cd source
+python setup.py build
+cd ..
+build_pip local source/setup.py
 
