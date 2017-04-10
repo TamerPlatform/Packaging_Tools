@@ -1,5 +1,5 @@
 #!/bin/bash
-VER="0.3.1"
+VER="0.4.0"
 wget "https://github.com/SUPERAndroidAnalyzer/super/releases/download/"$VER"/super-analyzer_"$VER"_debian_amd64.deb"
-dpkg-sig --sign tamer -k 7EE83BCF "super-analyzer_"$VER"_debian_amd64.deb"
+sign_only "super-analyzer_"$VER"_debian_amd64.deb"
 echo "DEB Signed and ready for usage"
