@@ -1,3 +1,9 @@
+classyshark (8.0) stable; urgency=medium
+
+  * version bump to 8.0 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sat, 22 Apr 2017 21:55:14 +0000
+
 classyshark (7.2) stable; urgency=medium
 
   *  version bump to 7.2
