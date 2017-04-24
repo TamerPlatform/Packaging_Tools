@@ -1,0 +1,2 @@
+#!/bin/bash
+dpkg-sig --sign tamer -k 7EE83BCF "$@"
