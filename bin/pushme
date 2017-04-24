@@ -14,7 +14,7 @@ cat packagelist.temp >> packagelist.html
 echo "</table>" >> packagelist.html
 rm -rf packagelist.temp	
 echo "</body></html>" >> packagelist.html
-s3cmd --exclude="pu*me.sh" sync ./ s3://repo.androidtamer.com
+s3cmd --exclude-from=/vagrant/bin/s3ignorelist sync ./ s3://repo.androidtamer.com
 else
 	echo "run this from a Debain apt-get repository and this will push that too s3 bucket"
 fi
