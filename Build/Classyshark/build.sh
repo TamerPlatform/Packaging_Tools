@@ -1,6 +1,6 @@
 #!/bin/bash
-MAINVER="8.0"
-Extra=""
+MAINVER="8.1"
+Extra="-1"
 if [ ! -d "source" ]
 then
 	mkdir source
@@ -14,7 +14,20 @@ cp classyshark.png usr/share/icons/androidtamer/
 cp source/classyshark-$MAINVER.jar usr/share/classyshark/classyshark.jar
 cat <<EOF > usr/bin/classyshark
 #!/bin/bash
-java -jar /usr/share/classyshark/classyshark.jar "\$@"
+JAR_BIN=/usr/share/classyshark/classyshark.jar
+JAVAPRG=/usr/bin/java
+echo "Need java 1.8, checking if jdk 8 installed"
+if [ ! -f /usr/lib/jvm/java-8-openjdk-amd64/bin/java ]
+then
+        echo "Java 1.8 openjdk not found"
+		echo "Classyshark needs java 8 to work"
+else
+        echo "Java Found starting"
+        export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+        JAVAPRG="/usr/lib/jvm/java-8-openjdk-amd64/bin/java"
+fi
+\$JAVAPRG -jar \$JAR_BIN "\$@"
+
 EOF
 chmod 755 usr/bin/classyshark
 cat <<EOF > usr/share/applications/classyshark.desktop

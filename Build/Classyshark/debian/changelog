@@ -1,3 +1,15 @@
+classyshark (8.1-1) stable; urgency=medium
+
+  * updated launcher to require java8 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Wed, 18 Oct 2017 14:56:34 +0000
+
+classyshark (8.1) stable; urgency=medium
+
+  * version bump to 8.1
+
+ -- Anant Shrivastava <anant@anantshri.info>  Wed, 18 Oct 2017 14:38:37 +0000
+
 classyshark (8.0) stable; urgency=medium
 
   * version bump to 8.0 
