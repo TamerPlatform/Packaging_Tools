@@ -1,0 +1,6 @@
+Origin: AndroidTamer
+Label: AndroidTamer
+Codename: Tamer4
+Components: main
+Architectures: i386 amd64
+SignWith: 7EE83BCF

@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: AndroidTamer
+Label: AndroidTamer
+Codename: Tamer4
+Date: Mon, 27 Nov 2017 21:23:32 UTC
+Architectures: i386 amd64
+Components: main
+MD5Sum:
+ 8fc03ecfb471fe35ca48d784ed12cf25 28920 main/binary-i386/Packages
+ 875781fdef0d8a48923ebe2944d60f65 10060 main/binary-i386/Packages.gz
+ 2fe417d52a2697f3404ac98a36d7e69f 76 main/binary-i386/Release
+ 26f8dded8ce992e8e508b75ad510e8ca 35363 main/binary-amd64/Packages
+ 5d6f02bc71b704da131085764de0d813 12358 main/binary-amd64/Packages.gz
+ 626f8d820c49a6956a1e75bb36951538 77 main/binary-amd64/Release
+SHA1:
+ 2ccaa9c10c03bc6d4364fd1ec3064c2ccde14371 28920 main/binary-i386/Packages
+ 97f2437290632c0e627f6132c214feb218cf6f6b 10060 main/binary-i386/Packages.gz
+ 0df1e7c17e360114ccb14c9bff5e2df504bcca4a 76 main/binary-i386/Release
+ e15bce267be0fb8149d5008bea1c3edd1d0ca0ac 35363 main/binary-amd64/Packages
+ 5409586ee410bc9b5d79155a9d89e49b0b11c606 12358 main/binary-amd64/Packages.gz
+ 14da626f81717d9cd83ab6bd1a04fafdf42a6c93 77 main/binary-amd64/Release
+SHA256:
+ 704bcd47073174489b3f249fa64b48f25302615e84bbedce30791fae72733ec0 28920 main/binary-i386/Packages
+ be581b58a341494f209841178e8be899127904584ce19c963aee836dd408390a 10060 main/binary-i386/Packages.gz
+ 060c6812324932f9e83c867576e9da8c9b4c4658344795cc2ab7f6075d3ce449 76 main/binary-i386/Release
+ 23df50a2e3b7c597ed51265c1ab671ea80fc26d5fc3f78c184afa7ee3f164ea8 35363 main/binary-amd64/Packages
+ 4201c702f77fb5bbddfb019299812999200abc6021c12a58fe42a145959df7c9 12358 main/binary-amd64/Packages.gz
+ 02d8b3a4609d425d648a811e269b169249461d35f752ebb3fb6f0eadb72b9b61 77 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQEcBAEBCAAGBQJaHIJVAAoJEHdP/F9+6DvPbEAH/isV2Wal5ST0JrikhD5lgypq
+vhHoTlFED6ktaetn1qAOm/wy3o1PA4DrBCUf8r1fnrdOXYRQiXUlXBZZ3t09BN9M
+5LsLafm1GsWSwmRlZ7exlfmm1yAXjaC7bqOxEIxxhK6F1gf57Q8eNun2AoU0P0dz
+13mEvVrv+qufhLTlz0zoth1wgzy/RmTq+A8qbRo+p1oK3A0yYS0C3mgXi0hYatDt
+1tPTL6P3ryHCU2ygJEAAWXsC5gdfdMK11qmHQQ24IUwGv5FcNK69bXTmH7wVbNCL
+iN/XXSF/zHzyEgRW9JV+U0laa1rEXddKWibdr7qN8sjVOZCA0Jm8BddvuOkKmTg=
+=Rr6T
+-----END PGP SIGNATURE-----
