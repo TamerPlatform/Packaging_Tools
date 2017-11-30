@@ -633,6 +633,23 @@ SHA1: 27429b5a268f824ef789abdb91b897d473a00dd0
 MD5sum: 582f66821980943dd3947a0e7a3b36f4
 Description: Micro-library to normalize text strings
 
+Package: python-pdfkit
+Version: 0.6.1
+License: MIT
+Vendor: AndroidTamer
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Installed-Size: 40
+Homepage: UNKNOWN
+Priority: extra
+Section: AndroidTamer
+Filename: pool/main/p/python-pdfkit/python-pdfkit_0.6.1_all.deb
+Size: 13550
+SHA256: d4ff9ee1daf1ccd7be88193f2734dd5ce3ef31559bcec84696c3fda8e902a3bb
+SHA1: bfd00b7472f96257da7b105c7b3f943bc1835ef3
+MD5sum: 0a3c7bce5293854e33b2bbaa7bf4d219
+Description: Wkhtmltopdf python wrapper to convert html to pdf using the webkit rendering engine and qt
+
 Package: python-psutil
 Source: python-psutil
 Version: 4.0.0
