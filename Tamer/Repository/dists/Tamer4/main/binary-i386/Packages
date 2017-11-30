@@ -724,18 +724,18 @@ Description: assembler/disassembler for the dex format
 
 Package: zaproxy
 Source: zaproxy
-Version: 2.6.0
+Version: 2.7.0
 Architecture: all
-Depends: openjdk-7-jre
-Installed-Size: 205206
+Depends: java8-runtime
+Installed-Size: 163803
 Maintainer: Simon Bennetts <psiinon@gmail.com>
 Priority: extra
 Section: net
-Filename: pool/main/z/zaproxy/zaproxy_2.6.0_all.deb
-Size: 174358548
-SHA256: 9478c722b3791ed98d6c367b4a7a53e91c99bb367fbca295893d05449e5dfdff
-SHA1: 6e575239137f392dce3ea83cbe5adc04d62a5540
-MD5sum: b55bbd936582ef2ddee251b8f6877a3e
+Filename: pool/main/z/zaproxy/zaproxy_2.7.0_all.deb
+Size: 130916920
+SHA256: b0cf483d38476e7fb319230f5a8d630c2b87f56c3a9499a8c81a69c3a86b2d3d
+SHA1: 60bc14a5055a2d624085d93eb3881de5cdf617ae
+MD5sum: 0c316d7d1aa08d6c4490b526a2045ef8
 Description: OWASP Zed Attack Proxy -an easy to use tool for finding vulnerabilities in web applications.
 Homepage: https://github.com/zaproxy/zaproxy
 

@@ -120,7 +120,7 @@
  deobfuscator because it doesn't need any special configuration or code 
  for different types of obfuscation.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/simplify"}],
 [{"Name":"smali","Version":"2.2.1-SNAPSHOT-bda4477","Description":"assembler/disassembler for the dex format","Architecture":"all","HomePage":"https://github.com/AndroidTamer/smali"}],
-[{"Name":"zaproxy","Version":"2.6.0","Description":"OWASP Zed Attack Proxy -an easy to use tool for finding vulnerabilities in web applications.","Architecture":"all","HomePage":"https://github.com/zaproxy/zaproxy"}],
+[{"Name":"zaproxy","Version":"2.7.0","Description":"OWASP Zed Attack Proxy -an easy to use tool for finding vulnerabilities in web applications.","Architecture":"all","HomePage":"https://github.com/zaproxy/zaproxy"}],
 [{"Name":"andbug","Version":"0.1-SNAPSHOT-de41b96","Description":"Scriptable Android Debugger
  AndBug is a debugger targeting the Android platform's
  Dalvik virtual machine intended for reverse engineers and developers.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/AndBug"}],
@@ -269,5 +269,5 @@
  YADD is planed to be a complex disassembler for the Android Dex bytecode
  That is, a hybrid tool to support pure binary/signature dumping and to 
  provide an interface for reversing analysis","Architecture":"all","HomePage":"https://github.com/AndroidTamer/YADD"}],
-[{"Name":"zaproxy","Version":"2.6.0","Description":"OWASP Zed Attack Proxy -an easy to use tool for finding vulnerabilities in web applications.","Architecture":"all","HomePage":"https://github.com/zaproxy/zaproxy"}]
+[{"Name":"zaproxy","Version":"2.7.0","Description":"OWASP Zed Attack Proxy -an easy to use tool for finding vulnerabilities in web applications.","Architecture":"all","HomePage":"https://github.com/zaproxy/zaproxy"}]
 ]}

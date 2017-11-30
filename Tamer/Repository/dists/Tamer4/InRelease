@@ -4,38 +4,38 @@ Hash: SHA256
 Origin: AndroidTamer
 Label: AndroidTamer
 Codename: Tamer4
-Date: Thu, 30 Nov 2017 12:53:29 UTC
+Date: Thu, 30 Nov 2017 15:09:15 UTC
 Architectures: i386 amd64
 Components: main
 MD5Sum:
- ec4036cefa90aa1c484516c1e852a60f 28378 main/binary-i386/Packages
- 40d29dd8dbe725d56997b41dc9ed5f9e 9892 main/binary-i386/Packages.gz
+ 8b317d4c4510f1a95ddd209d83f2cac9 28378 main/binary-i386/Packages
+ 6dc0adce7f9aeb8c99c12477ab0053c2 9894 main/binary-i386/Packages.gz
  2fe417d52a2697f3404ac98a36d7e69f 76 main/binary-i386/Release
- ac1ba1cd0564c1ba926f101cb8f17cbb 34821 main/binary-amd64/Packages
- 77ed938d073d1631f4058e3272e312f9 12192 main/binary-amd64/Packages.gz
+ 48184a9166a0c1832cc7cf6caeebfdaa 34821 main/binary-amd64/Packages
+ 08c6354381b66e19a1bc5e11498cfae9 12197 main/binary-amd64/Packages.gz
  626f8d820c49a6956a1e75bb36951538 77 main/binary-amd64/Release
 SHA1:
- 8a6b7b74d6fb3a33b1a10cbd027f70e0df7f7b0f 28378 main/binary-i386/Packages
- 6a71d44021b8729eba38a1b57b188eb16b4bc42e 9892 main/binary-i386/Packages.gz
+ 62b6c8f75949344ac9ab8e397bb1fc29510e53d3 28378 main/binary-i386/Packages
+ 44f3670267256782c11df32e35677ff631674e0b 9894 main/binary-i386/Packages.gz
  0df1e7c17e360114ccb14c9bff5e2df504bcca4a 76 main/binary-i386/Release
- 969be598a280ee6c1f954c9909c0c1fce26a4de6 34821 main/binary-amd64/Packages
- fa350e4cdf8b50703101ea5ed0b8ab29f7cf6a0c 12192 main/binary-amd64/Packages.gz
+ e6c6a78072a6f6a76acd46c0fc41e3fa78628653 34821 main/binary-amd64/Packages
+ a86068178a904e3c0b803145c9a7c566cef7313b 12197 main/binary-amd64/Packages.gz
  14da626f81717d9cd83ab6bd1a04fafdf42a6c93 77 main/binary-amd64/Release
 SHA256:
- 70aaa842783119c308a818ccbbc69f99bc92dad049d142296ca9082319201efb 28378 main/binary-i386/Packages
- b9105f61786829ff137ef67e8b515df15a7f8b9c58bdaae370b343ac07d9676b 9892 main/binary-i386/Packages.gz
+ 54c54860382e3e7d8b4fd509b11e7a1e6680489dab4a0e55fac0bbda771fb5ac 28378 main/binary-i386/Packages
+ 54f1834ce1eff919385b78fd9f85fe9b13ad395a5fd258db60516c056283b649 9894 main/binary-i386/Packages.gz
  060c6812324932f9e83c867576e9da8c9b4c4658344795cc2ab7f6075d3ce449 76 main/binary-i386/Release
- c4e2bd14f9800543cfa0d92ba743445fb57213d87f6eaef617105e77781b841a 34821 main/binary-amd64/Packages
- 6d2df1d6a333c4a1780f5e462d50b08d32bebb951c4b03fb0769076b54fd235c 12192 main/binary-amd64/Packages.gz
+ c5035ea426ce6285bd74a190b8dcd7c4d14b450b840ed28103d1be0dfe91fae1 34821 main/binary-amd64/Packages
+ 6821a2c2d3a056c700abeb95275cf2c8727617fe19eff87373292e71461b88a2 12197 main/binary-amd64/Packages.gz
  02d8b3a4609d425d648a811e269b169249461d35f752ebb3fb6f0eadb72b9b61 77 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQEcBAEBCAAGBQJaH/9NAAoJEHdP/F9+6DvPtG4H/RST6ZEYFzDs7FgIrywk1WXa
-4oe8H8zchBwzLqx0e6Hw5vc5H0fY4DlWM7IFIuIaq3L0cmD9MIyeTRBqsbE3Ghwg
-uB1P2yn62i8M3t2Esbn6so3QeBCvBir+nZmWhV59yhKvUakP1C5xyjZktNnDjsa+
-fyOgmLxnYcOZZ4QcrxyQ1TEvfn83CG9SMqzqmdlfv8mwWX4XXPfaqcYUSwskArAv
-vR4ZNOBOPWdM0WAJ9Br3dYP6BlD3uene8geedlFZihd1I1Gtv0gw6SrTMFh5ZQ64
-5cv5fF0lSfcyzF3HGxAGIiB1eD3t1S2R59kucwHMyBY6m05Da8O8AoySp+t+7sQ=
-=i5gu
+iQEcBAEBCAAGBQJaIB8cAAoJEHdP/F9+6DvPTuYH/A2+qFza6dcXqk8hUQOXEZNp
+bxpEvAWvUF5dpjQ102EpRYeeFd3HUe0IBAetLydj2MBHh1VSFIXuvSGylZSPbjm/
+4AKFZdr+msRynlTvxtsTemqJTxiTgGoh8MtU9KHrIjjZQJhXnJLpC59D0QgcEhG+
+bE/Zl2nN0h2Nta48I3E1/OrcsoZnTPEu3HsXisplzU2e4bV8xCbSixL7IXc8R/EE
+ySOTfW7GJ0xd3K8L5pW7psrjkY0WrBI6PXJ1HxOuIvpGP7i+z1X2haObRYBfoadQ
+/iAcFz1TnyWkvsZKBM8Jy5wkyVMdTzoScIKV/Y2x648TlfPJ5xjFp9aFNxVv8HM=
+=zjhf
 -----END PGP SIGNATURE-----
