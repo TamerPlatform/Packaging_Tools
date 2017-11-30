@@ -428,21 +428,6 @@ Description: Mobile Security Framework (MobSF)
  effective and fast security analysis of Android and iOS Applications. It 
  supports binaries (APK & IPA) and zipped source code.
 
-Package: oat2dex-python
-Version: 0.0.1-SNAPSHOT-912a9b1
-Architecture: all
-Maintainer: Anant Shrivastava <anant@anantshri.info>
-Depends: 
-Homepage: https://github.com/AndroidTamer/oat2dex-python
-Priority: extra
-Section: AndroidTamer
-Filename: pool/main/o/oat2dex-python/oat2dex-python_0.0.1-SNAPSHOT-912a9b1_all.deb
-Size: 3444
-SHA256: b02870929d99a18d30c1370d0ef65a347740953c2395b8bb0ecc379aff1d300d
-SHA1: 9a2f1bc7c8b374db4b54dd82ae9ca42b87b8ba9a
-MD5sum: c2e07ea5a5067942b6ec3d9461c86772
-Description: Extract DEX files from an ART ELF binary
-
 Package: procyon
 Version: 0.5.30
 Architecture: all

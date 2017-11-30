@@ -97,7 +97,6 @@
  requires a lot of effort and time. Mobile Security Framework can be used for
  effective and fast security analysis of Android and iOS Applications. It 
  supports binaries (APK & IPA) and zipped source code.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/Mobile-Security-Framework-MobSF"}],
-[{"Name":"oat2dex-python","Version":"0.0.1-SNAPSHOT-912a9b1","Description":"Extract DEX files from an ART ELF binary","Architecture":"all","HomePage":"https://github.com/AndroidTamer/oat2dex-python"}],
 [{"Name":"procyon","Version":"0.5.30","Description":"Procyon Decompiler
  Procyon Java Decompiler","Architecture":"all","HomePage":"https://bitbucket.org/mstrobel/procyon"}],
 [{"Name":"python-alembic","Version":"0.9.1","Description":"A database migration tool for SQLAlchemy.","Architecture":"all","HomePage":"http://bitbucket.org/zzzeek/alembic"}],
@@ -229,7 +228,6 @@
  requires a lot of effort and time. Mobile Security Framework can be used for
  effective and fast security analysis of Android and iOS Applications. It 
  supports binaries (APK & IPA) and zipped source code.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/Mobile-Security-Framework-MobSF"}],
-[{"Name":"oat2dex-python","Version":"0.0.1-SNAPSHOT-912a9b1","Description":"Extract DEX files from an ART ELF binary","Architecture":"all","HomePage":"https://github.com/AndroidTamer/oat2dex-python"}],
 [{"Name":"procyon","Version":"0.5.30","Description":"Procyon Decompiler
  Procyon Java Decompiler","Architecture":"all","HomePage":"https://bitbucket.org/mstrobel/procyon"}],
 [{"Name":"python-alembic","Version":"0.9.1","Description":"A database migration tool for SQLAlchemy.","Architecture":"all","HomePage":"http://bitbucket.org/zzzeek/alembic"}],
