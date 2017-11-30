@@ -702,6 +702,23 @@ SHA1: f04941b9c2fca153ca7fac70e70c9b770c7b035c
 MD5sum: b1b7dee576d256d94e67ffb7ac0afe58
 Description: A cross-platform clipboard module for Python. (only handles plain text for now)
 
+Package: python-pyyaml
+Version: 3.12
+License: MIT
+Vendor: AndroidTamer
+Architecture: amd64
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Installed-Size: 382
+Homepage: http://pyyaml.org/wiki/PyYAML
+Priority: extra
+Section: AndroidTamer
+Filename: pool/main/p/python-pyyaml/python-pyyaml_3.12_amd64.deb
+Size: 92460
+SHA256: 783ded3ddaa0a98086e21b8dc5b3a73769466ae9b82a9d09923a2ae0167bca28
+SHA1: e432f1b2ce2805d6b6a80380d18bbf2f4f5084e0
+MD5sum: 05350135753d6b1f856833b047d40d9f
+Description: YAML parser and emitter for Python
+
 Package: python-robogif
 Version: 1.3.0
 License: Apache
@@ -769,6 +786,34 @@ MD5sum: ff7d683fc45367aa7b0db2e26a6867bb
 Description: unix like reverse engineering toolkit
  Opensource tools to disasm, debug, analyze, manipulate binary files and more...
 
+Package: rubygem-colored
+Version: 1.2.0
+License: no license listed in colored-1.2.gem
+Vendor: AndroidTamer
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Installed-Size: 11
+Provides: rubygem-colored
+Homepage: http://github.com/defunkt/colored
+Priority: extra
+Section: AndroidTamer
+Filename: pool/main/r/rubygem-colored/rubygem-colored_1.2.0_all.deb
+Size: 7764
+SHA256: 4e5a76d2bafe94847bf96a6dad7987ec27dc148e44cdfe54ef404e874ba15087
+SHA1: 20e8e14b96bf90c425140ad2a64c78689347f39a
+MD5sum: 518a254f3fa8915226a34138da84c613
+Description:   >> puts "this is red".red
+ .
+   >> puts "this is red with a blue background (read: ugly)".red_on_blue
+ .
+   >> puts "this is red with an underline".red.underline
+ .
+   >> puts "this is really bold and really blue".bold.blue
+ .
+   >> logger.debug "hey this is broken!".red_on_yellow     # in rails
+ .
+   >> puts Color.red "This is red" # but this part is mostly untested
+
 Package: rubygem-dex-oracle
 Version: 1.0.4
 License: MIT
@@ -805,6 +850,28 @@ SHA256: 8bf3bd0cf2ab02084a970dc71bf31be6ad1bc13ead0cab74e69e3aa4764b8dfb
 SHA1: 4afa02952ef62d7db82a4ba3f28ba17b2b16f675
 MD5sum: 1a86c44cb46f028cfa02c8ac6655d060
 Description: rubyzip is a ruby module for reading and writing zip files
+
+Package: rubygem-trollop
+Version: 2.1.2
+License: MIT
+Vendor: AndroidTamer
+Architecture: all
+Maintainer: Anant Shrivastava <anant@anantshri.info>
+Installed-Size: 109
+Provides: rubygem-trollop
+Homepage: http://manageiq.github.io/trollop/
+Priority: extra
+Section: AndroidTamer
+Filename: pool/main/r/rubygem-trollop/rubygem-trollop_2.1.2_all.deb
+Size: 48864
+SHA256: 2b16570a6d13cef0f0e1c1bec02bf263b81ef39b655c4621a1f63e9ff31dc937
+SHA1: 48e94ae86efb1ca5ab290abe895338b8a351a484
+MD5sum: b2c9d725ec4686319848f662a6d9dcc8
+Description: Trollop is a commandline option parser for Ruby that just
+ gets out of your way. One line of code per option is all you need to write.
+ For that, you get a nice automatically-generated help page, robust option
+ parsing, command subcompletion, and sensible defaults for everything you don't
+ specify.
 
 Package: simplify
 Version: 1.0.0-SNAPSHOT-ec9b44d

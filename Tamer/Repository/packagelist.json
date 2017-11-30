@@ -112,8 +112,24 @@
 [{"Name":"python-robogif","Version":"1.3.0","Description":"Simple Android screen recorder","Architecture":"all","HomePage":"https://github.com/izacus/RoboGif"}],
 [{"Name":"python-volatility","Version":"2.6-SNAPSHOT-d5ec837","Description":"Volatility -- Volatile memory framework","Architecture":"all","HomePage":"http://www.volatilityfoundation.org"}],
 [{"Name":"python-wcwidth","Version":"0.1.7","Description":"Measures number of Terminal column cells of wide-character codes","Architecture":"all","HomePage":"https://github.com/jquast/wcwidth"}],
+[{"Name":"rubygem-colored","Version":"1.2.0","Description":">> puts "this is red".red
+ .
+   >> puts "this is red with a blue background (read: ugly)".red_on_blue
+ .
+   >> puts "this is red with an underline".red.underline
+ .
+   >> puts "this is really bold and really blue".bold.blue
+ .
+   >> logger.debug "hey this is broken!".red_on_yellow     # in rails
+ .
+   >> puts Color.red "This is red" # but this part is mostly untested","Architecture":"all","HomePage":"http://github.com/defunkt/colored"}],
 [{"Name":"rubygem-dex-oracle","Version":"1.0.4","Description":"A pattern based Dalvik deobfuscator which uses limited execution to improve semantic analysis.","Architecture":"all","HomePage":"https://github.com/CalebFenton/dex-oracle"}],
 [{"Name":"rubygem-rubyzip","Version":"1.2.0","Description":"rubyzip is a ruby module for reading and writing zip files","Architecture":"all","HomePage":"http://github.com/rubyzip/rubyzip"}],
+[{"Name":"rubygem-trollop","Version":"2.1.2","Description":"Trollop is a commandline option parser for Ruby that just
+ gets out of your way. One line of code per option is all you need to write.
+ For that, you get a nice automatically-generated help page, robust option
+ parsing, command subcompletion, and sensible defaults for everything you don't
+ specify.","Architecture":"all","HomePage":"http://manageiq.github.io/trollop/"}],
 [{"Name":"simplify","Version":"1.0.0-SNAPSHOT-ec9b44d","Description":"Generic Android Deobfuscator
  Simplify uses a virtual machine to execute an app and understand what 
  it does. Then, it applies optimizations to create code that behaves 
@@ -243,13 +259,30 @@
 [{"Name":"python-psutil","Version":"4.0.0","Description":"psutil is a cross-platform library for retrieving information onrunning processes and system utilization (CPU, memory, disks, network)in Python.","Architecture":"all","HomePage":"https://github.com/giampaolo/psutil"}],
 [{"Name":"python-pygments","Version":"2.2.0","Description":"Pygments is a syntax highlighting package written in Python.","Architecture":"all","HomePage":"http://pygments.org/"}],
 [{"Name":"python-pyperclip","Version":"1.5.27","Description":"A cross-platform clipboard module for Python. (only handles plain text for now)","Architecture":"all","HomePage":"https://github.com/asweigart/pyperclip"}],
+[{"Name":"python-pyyaml","Version":"3.12","Description":"YAML parser and emitter for Python","Architecture":"all","HomePage":"http://pyyaml.org/wiki/PyYAML"}],
 [{"Name":"python-robogif","Version":"1.3.0","Description":"Simple Android screen recorder","Architecture":"all","HomePage":"https://github.com/izacus/RoboGif"}],
 [{"Name":"python-volatility","Version":"2.6-SNAPSHOT-d5ec837","Description":"Volatility -- Volatile memory framework","Architecture":"all","HomePage":"http://www.volatilityfoundation.org"}],
 [{"Name":"python-wcwidth","Version":"0.1.7","Description":"Measures number of Terminal column cells of wide-character codes","Architecture":"all","HomePage":"https://github.com/jquast/wcwidth"}],
 [{"Name":"radare2","Version":"1.3.0","Description":"unix like reverse engineering toolkit
  Opensource tools to disasm, debug, analyze, manipulate binary files and more...","Architecture":"all","HomePage":""}],
+[{"Name":"rubygem-colored","Version":"1.2.0","Description":">> puts "this is red".red
+ .
+   >> puts "this is red with a blue background (read: ugly)".red_on_blue
+ .
+   >> puts "this is red with an underline".red.underline
+ .
+   >> puts "this is really bold and really blue".bold.blue
+ .
+   >> logger.debug "hey this is broken!".red_on_yellow     # in rails
+ .
+   >> puts Color.red "This is red" # but this part is mostly untested","Architecture":"all","HomePage":"http://github.com/defunkt/colored"}],
 [{"Name":"rubygem-dex-oracle","Version":"1.0.4","Description":"A pattern based Dalvik deobfuscator which uses limited execution to improve semantic analysis.","Architecture":"all","HomePage":"https://github.com/CalebFenton/dex-oracle"}],
 [{"Name":"rubygem-rubyzip","Version":"1.2.0","Description":"rubyzip is a ruby module for reading and writing zip files","Architecture":"all","HomePage":"http://github.com/rubyzip/rubyzip"}],
+[{"Name":"rubygem-trollop","Version":"2.1.2","Description":"Trollop is a commandline option parser for Ruby that just
+ gets out of your way. One line of code per option is all you need to write.
+ For that, you get a nice automatically-generated help page, robust option
+ parsing, command subcompletion, and sensible defaults for everything you don't
+ specify.","Architecture":"all","HomePage":"http://manageiq.github.io/trollop/"}],
 [{"Name":"simplify","Version":"1.0.0-SNAPSHOT-ec9b44d","Description":"Generic Android Deobfuscator
  Simplify uses a virtual machine to execute an app and understand what 
  it does. Then, it applies optimizations to create code that behaves 

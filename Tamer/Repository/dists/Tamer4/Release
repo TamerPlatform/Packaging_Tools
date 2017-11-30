@@ -1,27 +1,27 @@
 Origin: AndroidTamer
 Label: AndroidTamer
 Codename: Tamer4
-Date: Thu, 30 Nov 2017 18:50:35 UTC
+Date: Thu, 30 Nov 2017 20:59:32 UTC
 Architectures: i386 amd64
 Components: main
 MD5Sum:
- d0c801233294e1f6ce223f1e861b45bf 28938 main/binary-i386/Packages
- aa5cc963ecec8e1994fa96513226b0be 10079 main/binary-i386/Packages.gz
+ b16e2074a150db258f6e9121a45c6829 30698 main/binary-i386/Packages
+ e416f8e93cf870b9d63efd630629a896 10710 main/binary-i386/Packages.gz
  2fe417d52a2697f3404ac98a36d7e69f 76 main/binary-i386/Release
- 49b48a87489d0a1d2e7c9835e3d99a08 35381 main/binary-amd64/Packages
- a39f6aa25e7ce730808857e544729d12 12376 main/binary-amd64/Packages.gz
+ a1e26489e354d0bc4883b7d2858e903f 37670 main/binary-amd64/Packages
+ 475f161db8462a6389371b5c83e3bf19 13188 main/binary-amd64/Packages.gz
  626f8d820c49a6956a1e75bb36951538 77 main/binary-amd64/Release
 SHA1:
- 15c61ef84f24a89f76470f2de42a91160e438329 28938 main/binary-i386/Packages
- 323818fb4c4b00676ab1f855c03110fdd581a847 10079 main/binary-i386/Packages.gz
+ 9f8693d6bfdde01b93afa90998a2c7ab236a7c1c 30698 main/binary-i386/Packages
+ cdf6659ab5302e00d7ccf79419150e0f0f52f60d 10710 main/binary-i386/Packages.gz
  0df1e7c17e360114ccb14c9bff5e2df504bcca4a 76 main/binary-i386/Release
- c9c5e600c116433e755b0666031a27a52b7d9654 35381 main/binary-amd64/Packages
- e9bf3cf41e2577569bb41d8359f1a0021739b90e 12376 main/binary-amd64/Packages.gz
+ 9bc3e9e3798106415a9d27e32300fdb9952fbf57 37670 main/binary-amd64/Packages
+ 7c9d1be008939cc64dbfdc9bfccf84fffe2d8ba9 13188 main/binary-amd64/Packages.gz
  14da626f81717d9cd83ab6bd1a04fafdf42a6c93 77 main/binary-amd64/Release
 SHA256:
- 72f8fc80aaee926b149c65587fd50f8aeee2603b744e9f8661008e4916f754d5 28938 main/binary-i386/Packages
- 88eee94377306e064e4486adf7ed1e77f52229113f3f434816da5426a24a566d 10079 main/binary-i386/Packages.gz
+ 31afa4933ec0f07670c42c70adb16c9bc8db68e0fcb47e27967f5876260af628 30698 main/binary-i386/Packages
+ 6437dde293f02386786b9cb72a888e2682cd004039701a4442cd21184dc637cb 10710 main/binary-i386/Packages.gz
  060c6812324932f9e83c867576e9da8c9b4c4658344795cc2ab7f6075d3ce449 76 main/binary-i386/Release
- e5910e385f9d9d1b2c6437d880015d196c9defbddd47423836188d44f1d3d3fa 35381 main/binary-amd64/Packages
- 6738dc889aeb5981a612026278babe4fb8745af3666e7f0bd692829ded89e53b 12376 main/binary-amd64/Packages.gz
+ 4188be738219b355da7a7b9a01f0ca028c2f17df0fb2a8f90168f1c08078979d 37670 main/binary-amd64/Packages
+ 1081f68967c820a31d9ee0f30e96a24290d83f8d8585672c2a4ef9bcdc2d5517 13188 main/binary-amd64/Packages.gz
  02d8b3a4609d425d648a811e269b169249461d35f752ebb3fb6f0eadb72b9b61 77 main/binary-amd64/Release
