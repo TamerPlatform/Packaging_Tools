@@ -2,7 +2,7 @@ Package: imgtool
 Version: 0.3
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Priority: extra
 Homepage: http://newandroidbook.com/tools/imgtool.html
 Description: A tool for unpacking/creating Android boot partition images

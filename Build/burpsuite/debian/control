@@ -2,7 +2,7 @@ Package: burpsuite-free
 Version: 1.7.21
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: default-jre
 Priority: extra
 Homepage: http://portswigger.net/index.html

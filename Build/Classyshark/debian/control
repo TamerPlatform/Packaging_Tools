@@ -2,10 +2,10 @@ Package: classyshark
 Version: 8.1-1
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: default-jre
 Priority: extra
-Homepage: https://github.com/AndroidTamer/android-classyshark
+Homepage: https://github.com/TamerPlatform/android-classyshark
 Description: Android executables browser
  ClassyShark is a standalone tool for Android developers.
  It can reliably browse any Android executable

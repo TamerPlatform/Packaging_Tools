@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/JamesHabben/evolve ./source
+	git clone --depth 1 https://github.com/JamesHabben/evolve ./source
 fi
 cd source
 SVER=`git log --pretty=format:'%h' -n 1`

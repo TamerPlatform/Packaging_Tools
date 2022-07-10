@@ -1,8 +1,8 @@
-Package: androidtamer-menuitems
+Package: tamerplatform-menuitems
 Version: 0.9.5-SNAPSHOT-b46b53e
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Priority: extra
-Homepage: https://github.com/AndroidTamer/androidtamer-menuitems
-Description: AndroidTamer MenuItems
+Homepage: https://github.com/TamerPlatform/tamerplatform-menuitems
+Description: TamerPlatform MenuItems

@@ -2,7 +2,7 @@ Package: jaadas
 Version: 0.1.1-SNAPSHOT-8de73b9
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: default-jre
 Priority: extra
 Homepage: https://github.com/Androidtamer/JAADAS

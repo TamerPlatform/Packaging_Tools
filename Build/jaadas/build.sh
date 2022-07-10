@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/JAADAS ./source
+	git clone --depth 1 https://github.com/TamerPlatform/JAADAS ./source
 fi
 rm -rf usr
 #Get commit hash

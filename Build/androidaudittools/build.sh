@@ -1,5 +1,5 @@
 #!/bin/bash
-SOURCE_URL="https://github.com/AndroidTamer/androidAuditTools"
+SOURCE_URL="https://github.com/TamerPlatform/androidAuditTools"
 MAINVER="2011"
 Extra=""
 if [ -d "source" ]

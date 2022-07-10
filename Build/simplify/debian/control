@@ -2,10 +2,10 @@ Package: simplify
 Version: 1.0.0-SNAPSHOT-ec9b44d
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: default-jre
 Priority: extra
-Homepage: https://github.com/AndroidTamer/simplify
+Homepage: https://github.com/TamerPlatform/simplify
 Description: Generic Android Deobfuscator
  Simplify uses a virtual machine to execute an app and understand what 
  it does. Then, it applies optimizations to create code that behaves 

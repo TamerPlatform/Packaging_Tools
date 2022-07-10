@@ -3,9 +3,9 @@ Version: 2.9.8
 Architecture: amd64
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: default-jre
-Section: AndroidTamer
+Section: TamerPlatform
 Priority: extra
-Homepage: https://github.com/AndroidTamer/bytecode-viewer/
+Homepage: https://github.com/TamerPlatform/bytecode-viewer/
 Description: Lightweight Java Bytecode Viewer
  A Java 8 Jar & Android APK Reverse Engineering Suite
  (Decompiler, Editor, Debugger & More)

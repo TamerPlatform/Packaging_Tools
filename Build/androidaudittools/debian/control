@@ -2,8 +2,8 @@ Package: androidaudittools
 Version: 2011-SNAPSHOT-699e98f
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: rubygem-trollop, rubygem-colored
 Priority: extra
-Homepage: https://github.com/AndroidTamer/androidAuditTools
+Homepage: https://github.com/TamerPlatform/androidAuditTools
 Description: androidaudittools are collection of foreensic evaluation scripts useful for android devices.

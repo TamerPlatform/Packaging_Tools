@@ -2,7 +2,7 @@ Package: droid-ff
 Version: 0.1.0-SNAPSHOT-295b0fc
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Priority: extra
-Homepage: https://github.com/AndroidTamer/droid-ff
+Homepage: https://github.com/TamerPlatform/droid-ff
 Description: A tool for automating Android Fuzzing

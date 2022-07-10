@@ -2,10 +2,10 @@ Package: drozer-checks
 Version: 0.4-SNAPSHOT-04a1e5f
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: python-drozer
 Priority: extra
-Homepage: https://github.com/AndroidTamer/drozer_checks
+Homepage: https://github.com/TamerPlatform/drozer_checks
 Description: Automated Drozer Assessment
  A Shell script wrapper to ease out the process
  of running drozer and help in quick analysis.

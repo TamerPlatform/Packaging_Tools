@@ -1,3 +1,15 @@
+jadx (1.4.2-SNAPSHOT-51555667) stable; urgency=medium
+
+  * test again
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 10 Jul 2022 21:27:18 +0000
+
+jadx (1.4.2-SNAPSHOT-51555667) stable; urgency=medium
+
+  * upgrade to 1.4.2 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 10 Jul 2022 20:41:29 +0000
+
 jadx (0.6.1.2-SNAPSHOT-a9ae971) stable; urgency=medium
 
   * upgraded to 0.6.1 official release 

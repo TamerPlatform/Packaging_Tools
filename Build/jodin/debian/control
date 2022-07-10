@@ -2,7 +2,7 @@ Package: j0din3
 Version: 20160521
 Architecture: amd64
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: heimdall-flash
 Priority: extra
 Homepage: http://Jodin3.casual-dev.com

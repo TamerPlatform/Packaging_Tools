@@ -1,16 +1,16 @@
 ### Commented entries have reasonable defaults.
 ### Uncomment to edit them.
 # Source: <source package name; defaults to package name>
-Section: AndroidTamer
+Section: TamerPlatform
 Priority: optional
 # Homepage: <enter URL here; no default>
 Standards-Version: 3.9.2
-Package: androidtamer-essential
+Package: tamerplatform-essential
 Version: 0.2
-Changelog: androidtamer-essential.changelog
+Changelog: tamerplatform-essential.changelog
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 # Pre-Depends: <comma-separated list of packages>
-Depends: mate-desktop-environment ,mate-system-tools ,mate-netspeed ,lightdm ,caja-gksu ,caja-extensions-common ,caja-sendto ,caja-open-terminal ,openjdk-7-jdk ,default-jdk ,openjdk-8-jdk ,libc6-i386  ,lib32stdc++6  ,lib32gcc1  ,lib32ncurses5  ,zlib1g  ,lib32z1 ,htop ,vim ,terminator ,synaptic ,git ,subversion ,screen ,fizsh ,powerline ,exfat-fuse ,exfat-utils ,geoip-bin ,geoip-database-extra ,mtp-tools ,curl ,androidtamer-menu ,androidtamer-menuitems ,androidtamer-wallpaper ,jasmin-sable ,meld ,python-meld3 ,jmtpfs ,sqlcipher ,sqlite ,sqlitebrowser ,python-frida ,geany ,geany-plugin-treebrowser ,apk2java ,drozer-checks ,androidtamer-adb ,ratproxy  ,proxychains ,tsocks ,redsocks ,websockify ,wifite ,chaosreader ,dsniff ,chromium ,openvpn
+Depends: mate-desktop-environment ,mate-system-tools ,mate-netspeed ,lightdm ,caja-gksu ,caja-extensions-common ,caja-sendto ,caja-open-terminal ,openjdk-7-jdk ,default-jdk ,openjdk-8-jdk ,libc6-i386  ,lib32stdc++6  ,lib32gcc1  ,lib32ncurses5  ,zlib1g  ,lib32z1 ,htop ,vim ,terminator ,synaptic ,git ,subversion ,screen ,fizsh ,powerline ,exfat-fuse ,exfat-utils ,geoip-bin ,geoip-database-extra ,mtp-tools ,curl ,tamerplatform-menu ,tamerplatform-menuitems ,tamerplatform-wallpaper ,jasmin-sable ,meld ,python-meld3 ,jmtpfs ,sqlcipher ,sqlite ,sqlitebrowser ,python-frida ,geany ,geany-plugin-treebrowser ,apk2java ,drozer-checks ,tamerplatform-adb ,ratproxy  ,proxychains ,tsocks ,redsocks ,websockify ,wifite ,chaosreader ,dsniff ,chromium ,openvpn
 Architecture: all
 # Copyright: <copyright file; defaults to GPL2>
 Description: Meta Pacakage to track all Essential Package

@@ -1,10 +1,10 @@
-androidtamer-forensics (0.2) stable; urgency=medium
+tamerplatform-forensics (0.2) stable; urgency=medium
 
   * correct section
 
  -- Anant Shrivastava <anant@anantshri.info>  Mon, 23 May 2016 22:55:30 +0000
 
-androidtamer-forensics (0.1) stable; urgency=medium
+tamerplatform-forensics (0.1) stable; urgency=medium
 
   * Initial release. (Closes: #XXXXXX)
 

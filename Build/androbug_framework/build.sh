@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/AndroBugs_Framework ./source
+	git clone --depth 1 https://github.com/TamerPlatform/AndroBugs_Framework ./source
 fi
 rm -rf usr
 #Get commit hash
@@ -35,6 +35,6 @@ Name=Androbugs Framework
 Icon=terminator
 Categories=X-tamer-dynamic
 EOF
-debctrl "androbugs-framework" "$VERSION" "Android Vulnerability scanner\n AndroBugs Framework is an Android vulnerability analysis system that \n helps developers or hackers find potential security vulnerabilities \n in Android applications. No splendid GUI interface, but the most \n efficient (less than 2 minutes per scan in average) and more accurate." "https://github.com/AndroidTamer/AndroBugs_Framework" "all" "python"
+debctrl "androbugs-framework" "$VERSION" "Android Vulnerability scanner\n AndroBugs Framework is an Android vulnerability analysis system that \n helps developers or hackers find potential security vulnerabilities \n in Android applications. No splendid GUI interface, but the most \n efficient (less than 2 minutes per scan in average) and more accurate." "https://github.com/TamerPlatform/AndroBugs_Framework" "all" "python"
 changelog
 build_package usr

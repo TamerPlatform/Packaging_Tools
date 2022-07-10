@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/appmon ./source
+	git clone --depth 1 https://github.com/TamerPlatform/appmon ./source
 fi
 cd source
 SVER=`git log --pretty=format:'%h' -n 1`
@@ -46,5 +46,5 @@ build_pip dataset
 build_pip normality
 build_pip alembic
 echo "building editor"
-git clone https://github.com/fmoo/python-editor
+git clone --depth 1 https://github.com/fmoo/python-editor
 build_pip local python-editor/setup.py

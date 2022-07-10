@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/drozer_checks ./source
+	git clone --depth 1 https://github.com/TamerPlatform/drozer_checks ./source
 fi
 cd source
 SVER=`git log --pretty=format:'%h' -n 1`
@@ -42,6 +42,6 @@ Name=Drozer Start
 Icon=terminator
 Categories=X-tamer-re
 EOF
-debctrl "drozer-checks" "$VERSION" "Automated Drozer Assessment\n A Shell script wrapper to ease out the process\n of running drozer and help in quick analysis.\n Depends on drozer" "https://github.com/AndroidTamer/drozer_checks" "all" "python-drozer"
+debctrl "drozer-checks" "$VERSION" "Automated Drozer Assessment\n A Shell script wrapper to ease out the process\n of running drozer and help in quick analysis.\n Depends on drozer" "https://github.com/TamerPlatform/drozer_checks" "all" "python-drozer"
 changelog
 build_package usr

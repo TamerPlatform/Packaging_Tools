@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/enjarify ./source
+	git clone --depth 1 https://github.com/TamerPlatform/enjarify ./source
 fi
 cd source
 SVER=`git log --pretty=format:'%h' -n 1`
@@ -35,6 +35,6 @@ Categories=X-tamer-re
 EOF
 chmod 644 usr/share/applications/enjarify.desktop
 echo $VERSION
-debctrl "enjarify" "$VERSION" "Java Decompiler\n Enjarify is a tool for translating Dalvik bytecode\n to equivalent Java bytecode. This allows Java analysis tools\n to analyze Android applications." "https://github.com/AndroidTamer/enjarify" "all" "python3"
+debctrl "enjarify" "$VERSION" "Java Decompiler\n Enjarify is a tool for translating Dalvik bytecode\n to equivalent Java bytecode. This allows Java analysis tools\n to analyze Android applications." "https://github.com/TamerPlatform/enjarify" "all" "python3"
 changelog
 build_package usr

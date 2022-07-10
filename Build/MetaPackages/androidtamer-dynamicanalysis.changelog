@@ -1,16 +1,16 @@
-androidtamer-dynamicanalysis (0.3) stable; urgency=medium
+tamerplatform-dynamicanalysis (0.3) stable; urgency=medium
 
   * fixed findbugs dependency 
 
  -- Anant Shrivastava <anant@anantshri.info>  Tue, 24 May 2016 22:50:19 +0000
 
-androidtamer-dynamicanalysis (0.2) stable; urgency=medium
+tamerplatform-dynamicanalysis (0.2) stable; urgency=medium
 
   * correct section 
 
  -- Anant Shrivastava <anant@anantshri.info>  Mon, 23 May 2016 22:55:21 +0000
 
-androidtamer-dynamicanalysis (0.1) stable; urgency=medium
+tamerplatform-dynamicanalysis (0.1) stable; urgency=medium
 
   * Initial release. (Closes: #XXXXXX)
 

@@ -1,89 +1,89 @@
-androidtamer-menuitems (0.9.5-SNAPSHOT-b46b53e) stable; urgency=medium
+tamerplatform-menuitems (0.9.5-SNAPSHOT-b46b53e) stable; urgency=medium
 
   * More fixes and menu entries 
 
  -- Anant Shrivastava <anant@anantshri.info>  Sun, 05 Jun 2016 19:07:45 +0000
 
-androidtamer-menuitems (0.9.4-SNAPSHOT-03bcd2a) stable; urgency=medium
+tamerplatform-menuitems (0.9.4-SNAPSHOT-03bcd2a) stable; urgency=medium
 
   * avd icon fixed 
 
  -- Anant Shrivastava <anant@anantshri.info>  Thu, 26 May 2016 03:38:18 +0000
 
-androidtamer-menuitems (0.9.3-SNAPSHOT-ad3c2f2) stable; urgency=medium
+tamerplatform-menuitems (0.9.3-SNAPSHOT-ad3c2f2) stable; urgency=medium
 
   * icon path more fixes 
 
  -- Anant Shrivastava <anant@anantshri.info>  Thu, 26 May 2016 00:54:40 +0000
 
-androidtamer-menuitems (0.9.2-SNAPSHOT-df240eb) stable; urgency=medium
+tamerplatform-menuitems (0.9.2-SNAPSHOT-df240eb) stable; urgency=medium
 
   * fix icon paths 
 
  -- Anant Shrivastava <anant@anantshri.info>  Thu, 26 May 2016 00:44:18 +0000
 
-androidtamer-menuitems (0.9.1-SNAPSHOT-4d1074d) stable; urgency=medium
+tamerplatform-menuitems (0.9.1-SNAPSHOT-4d1074d) stable; urgency=medium
 
   * added correct synaptic icon and fixed studio not appearing 
 
  -- Anant Shrivastava <anant@anantshri.info>  Tue, 24 May 2016 21:23:22 +0000
 
-androidtamer-menuitems (0.9-SNAPSHOT-f7dc406) stable; urgency=medium
+tamerplatform-menuitems (0.9-SNAPSHOT-f7dc406) stable; urgency=medium
 
   * fixed ddms icon 
 
  -- Anant Shrivastava <anant@anantshri.info>  Tue, 24 May 2016 21:22:14 +0000
 
-androidtamer-menuitems (0.8-SNAPSHOT-2bd2361) stable; urgency=medium
+tamerplatform-menuitems (0.8-SNAPSHOT-2bd2361) stable; urgency=medium
 
   * added shutdown and logg off 
 
  -- Anant Shrivastava <anant@anantshri.info>  Mon, 23 May 2016 22:52:19 +0000
 
-androidtamer-menuitems (0.7-SNAPSHOT-9a1b36f) stable; urgency=medium
+tamerplatform-menuitems (0.7-SNAPSHOT-9a1b36f) stable; urgency=medium
 
   * removed adb and fastboot icons from here, handled by self made packages 
 
  -- Anant Shrivastava <anant@anantshri.info>  Mon, 23 May 2016 22:04:24 +0000
 
-androidtamer-menuitems (0.7-SNAPSHOT-9a1b36f) stable; urgency=medium
+tamerplatform-menuitems (0.7-SNAPSHOT-9a1b36f) stable; urgency=medium
 
   * additional icons added and one more desktop file added for radare2 
 
  -- Anant Shrivastava <anant@anantshri.info>  Mon, 23 May 2016 22:02:33 +0000
 
-androidtamer-menuitems (0.6-SNAPSHOT-cfd30af) stable; urgency=medium
+tamerplatform-menuitems (0.6-SNAPSHOT-cfd30af) stable; urgency=medium
 
   * icons updated
   * wapiti file corrected  
 
  -- Anant Shrivastava <anant@anantshri.info>  Sun, 22 May 2016 11:42:15 +0000
 
-androidtamer-menuitems (0.5-SNAPSHOT-37986b8) stable; urgency=medium
+tamerplatform-menuitems (0.5-SNAPSHOT-37986b8) stable; urgency=medium
 
   * added heimdall package 
 
  -- Anant Shrivastava <anant@anantshri.info>  Sat, 21 May 2016 03:14:16 +0000
 
-androidtamer-menuitems (0.4-SNAPSHOT-dda6e88) stable; urgency=medium
+tamerplatform-menuitems (0.4-SNAPSHOT-dda6e88) stable; urgency=medium
 
   * removed apktool icon from here 
 
  -- Anant Shrivastava <anant@anantshri.info>  Sat, 21 May 2016 03:07:16 +0000
 
-androidtamer-menuitems (0.3-SNAPSHOT-4fa5312) stable; urgency=medium
+tamerplatform-menuitems (0.3-SNAPSHOT-4fa5312) stable; urgency=medium
 
   * Added more system icons and detailed out correct path
 
  -- Anant Shrivastava <anant@anantshri.info>  Fri, 20 May 2016 22:10:08 +0000
 
-androidtamer-menuitems (0.2-SNAPSHOT-06afc40) stable; urgency=medium
+tamerplatform-menuitems (0.2-SNAPSHOT-06afc40) stable; urgency=medium
 
   * Adding more icons in system
 
  -- Anant Shrivastava <anant@anantshri.info>  Fri, 20 May 2016 22:05:41 +0000
 
-androidtamer-menuitems (0.1-SNAPSHOT-f08a62c) stable; urgency=medium
+tamerplatform-menuitems (0.1-SNAPSHOT-f08a62c) stable; urgency=medium
 
   * First set of direcotries.
 

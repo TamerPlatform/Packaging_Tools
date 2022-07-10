@@ -2,7 +2,7 @@ Package: cfr
 Version: 0-119-nov-2016
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: default-jre
 Priority: extra
 Homepage: http://www.benf.org/other/cfr/

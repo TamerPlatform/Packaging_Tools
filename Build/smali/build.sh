@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/smali ./source
+	git clone --depth 1 https://github.com/TamerPlatform/smali ./source
 fi
 cd source
 SVER=`git log --pretty=format:'%h' -n 1`
@@ -114,6 +114,6 @@ EOF
 chmod 644 usr/share/applications/smali.desktop
 chmod 644 usr/share/applications/baksmali.desktop
 echo $VERSION
-debctrl "smali" "$VERSION" "assembler/disassembler for the dex format" "https://github.com/AndroidTamer/smali" "all" "default-jre"
+debctrl "smali" "$VERSION" "assembler/disassembler for the dex format" "https://github.com/TamerPlatform/smali" "all" "default-jre"
 changelog
 build_package usr

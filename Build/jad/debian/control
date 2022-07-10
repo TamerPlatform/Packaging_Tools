@@ -2,7 +2,7 @@ Package: jad
 Version: 1.5.8e-SNAPSHOT-2
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: default-jre
 Priority: extra
 Homepage: http://varaneckas.com/jad/

@@ -1,3 +1,9 @@
+apktool (2.6.1-SNAPSHOT-7a2c0c8b) stable; urgency=medium
+
+  * upgrade to 2.6.1
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 10 Jul 2022 20:31:26 +0000
+
 apktool (2.2.2-SNAPSHOT-6cc2512-2) stable; urgency=medium
 
   * build continues to fail moving to official source now  

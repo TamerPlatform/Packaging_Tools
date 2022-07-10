@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/ewmami ./source
+	git clone --depth 1 https://github.com/TamerPlatform/ewmami ./source
 fi
 VERSION=$MAINVER$Extra
 cd source

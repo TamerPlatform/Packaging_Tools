@@ -8,7 +8,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/adb_wrapper ./source
+	git clone --depth 1 https://github.com/TamerPlatform/adb_wrapper ./source
 fi
 rm -rf usr
 #Get commit hash
@@ -25,7 +25,7 @@ chmod 755 usr/local/bin/adb
 chmod 755 usr/bin/fastboot
 chmod 755 usr/bin/adb
 cp source/99-android.rules etc/udev/rules.d/99-android.rules
-cat <<EOF > usr/share/applications/androidtamer-adb.desktop
+cat <<EOF > usr/share/applications/tamerplatform-adb.desktop
 #!/usr/bin/env xdg-open
 [Desktop Entry]
 Version=1.0
@@ -37,7 +37,7 @@ Name=Android Debug Bridge
 Icon=terminator
 Categories=X-tamer
 EOF
-cat <<EOF > usr/share/applications/androidtamer-fastboot.desktop
+cat <<EOF > usr/share/applications/tamerplatform-fastboot.desktop
 #!/usr/bin/env xdg-open
 [Desktop Entry]
 Version=1.0
@@ -49,6 +49,6 @@ Name=Fastboot
 Icon=terminator
 Categories=X-tamer-romdev
 EOF
-debctrl "androidtamer-adb" "$VERSION" "AndroidTamer Customized ADB\n Source compiled ADB and fastboot\n additional wrapper added with features like adb list\n and device naming" "https://github.com/AndroidTamer/adb_wrapper" "all" "libc6, libssl1.0.0, zlib1g" "android-tools-adb, android-tools-fastboot"
+debctrl "tamerplatform-adb" "$VERSION" "TamerPlatform Customized ADB\n Source compiled ADB and fastboot\n additional wrapper added with features like adb list\n and device naming" "https://github.com/TamerPlatform/adb_wrapper" "all" "libc6, libssl1.0.0, zlib1g" "android-tools-adb, android-tools-fastboot"
 changelog
 build_package etc usr

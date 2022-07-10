@@ -1,6 +1,6 @@
 #!/bin/bash
-#https://github.com/AndroidTamer/source
-MAINVER="1.2"
+#https://github.com/TamerPlatform/source
+MAINVER="1.1.3"
 Extra="-1"
 if [ -d "source" ]
 	then
@@ -8,7 +8,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/jd-core-java ./source
+	git clone --depth 1 https://github.com/TamerPlatform/jd-core-java ./source
 fi
 rm -rf usr
 #Get commit hash
@@ -19,8 +19,9 @@ VERSION=$MAINVER"-SNAPSHOT-"$SVER$Extra
 # Build
 cd source
 git submodule update --init --recursive
+chmod 755 ./gradlew
 ./gradlew clean
-./gradlew assemble
+./gradlew build
 cd ..
 mkdir -p usr/bin usr/share/jd-core usr/share/applications
 ls -l ./source/build/libs/jd-core-java-$MAINVER.jar 
@@ -52,6 +53,6 @@ Name=JD-Core
 Icon=terminator
 Categories=X-tamer-manualanalysis
 EOF
-debctrl "jd-core" "$VERSION" "JD-Core \n jd-core java decompiler commandline" "https://github.com/AndroidTamer/jd-core-java" "all" "default-jre"
+debctrl "jd-core" "$VERSION" "JD-Core \n jd-core java decompiler commandline" "https://github.com/TamerPlatform/jd-core-java" "all" "default-jre"
 changelog
 build_package usr

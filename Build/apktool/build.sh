@@ -1,13 +1,13 @@
 #!/bin/bash
-MAINVER="2.2.2"
-Extra="-2"
+MAINVER="2.6.1"
+Extra=""
 if [ -d "source" ]
 	then
 	cd source 
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/Apktool ./source
+	git clone --depth 1 https://github.com/TamerPlatform/Apktool ./source
 fi
 rm -rf usr
 #Get commit hash
@@ -50,6 +50,6 @@ Name=APKTool
 Icon=terminator
 Categories=X-tamer-manualanalysis
 EOF
-debctrl "apktool" "$VERSION" "A tool for reverse engineering Android apk files\n It is a tool for reverse engineering 3rd party, closed, binary Android apps. \n It can decode resources to nearly original form and rebuild them after making\n some modifications; it makes possible to debug smali code step by step. \n Also it makes working with app easier because of project-like files structure\n and automation of some repetitive tasks like building apk, etc.\n It is NOT intended for piracy and other non-legal uses. \n It could be used for localizing, adding some features or support for custom \n platforms and other GOOD purposes. Just try to be fair with authors of an \n app, that you use and probably like." "https://github.com/AndroidTamer/Apktool" "all" "default-jre"
+debctrl "apktool" "$VERSION" "A tool for reverse engineering Android apk files\n It is a tool for reverse engineering 3rd party, closed, binary Android apps. \n It can decode resources to nearly original form and rebuild them after making\n some modifications; it makes possible to debug smali code step by step. \n Also it makes working with app easier because of project-like files structure\n and automation of some repetitive tasks like building apk, etc.\n It is NOT intended for piracy and other non-legal uses. \n It could be used for localizing, adding some features or support for custom \n platforms and other GOOD purposes. Just try to be fair with authors of an \n app, that you use and probably like." "https://github.com/TamerPlatform/Apktool" "all" "default-jre"
 changelog
 build_package usr

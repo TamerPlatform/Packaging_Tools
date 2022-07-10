@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/oat2dex-python ./source
+	git clone --depth 1 https://github.com/TamerPlatform/oat2dex-python ./source
 fi
 rm -rf usr 
 cd source
@@ -32,6 +32,6 @@ Icon=terminator
 Categories=X-tamer-re
 EOF
 echo $VERSION
-debctrl "oat2dex-python" "$VERSION" "Extract DEX files from an ART ELF binary" "https://github.com/AndroidTamer/oat2dex-python" "all" ""
+debctrl "oat2dex-python" "$VERSION" "Extract DEX files from an ART ELF binary" "https://github.com/TamerPlatform/oat2dex-python" "all" ""
 changelog
 build_package usr

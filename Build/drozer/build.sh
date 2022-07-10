@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/drozer ./source
+	git clone --depth 1 https://github.com/TamerPlatform/drozer ./source
 fi
 VERSION=$MAINVER$Extra
 # Temp fix for issue https://github.com/mwrlabs/drozer/issues/253

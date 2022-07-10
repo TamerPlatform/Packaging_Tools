@@ -1,11 +1,11 @@
 Package: apktool
-Version: 2.2.2-SNAPSHOT-6cc2512-2
+Version: 2.6.1-SNAPSHOT-7a2c0c8b
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: default-jre
 Priority: extra
-Homepage: https://github.com/AndroidTamer/Apktool
+Homepage: https://github.com/TamerPlatform/Apktool
 Description: A tool for reverse engineering Android apk files
  It is a tool for reverse engineering 3rd party, closed, binary Android apps. 
  It can decode resources to nearly original form and rebuild them after making

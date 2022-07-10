@@ -2,8 +2,8 @@ Package: oat2dex-python
 Version: 0.0.1-SNAPSHOT-912a9b1
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: 
 Priority: extra
-Homepage: https://github.com/AndroidTamer/oat2dex-python
+Homepage: https://github.com/TamerPlatform/oat2dex-python
 Description: Extract DEX files from an ART ELF binary

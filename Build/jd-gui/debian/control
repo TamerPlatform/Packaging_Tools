@@ -1,10 +1,10 @@
 Package: jd-gui
-Version: 1.4.0-SNAPSHOT-acd511f
+Version: 1.6.6-SNAPSHOT-b3c1ced
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: default-jre
 Priority: extra
-Homepage: https://github.com/AndroidTamer/jd-gui
+Homepage: https://github.com/TamerPlatform/jd-gui
 Description: A Java Decompiler
  JD-GUI, a standalone graphical utility that displays Java sources from CLASS files

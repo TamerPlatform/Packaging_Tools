@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/droid-ff ./source
+	git clone --depth 1 https://github.com/TamerPlatform/droid-ff ./source
 fi
 rm -rf usr
 #Get commit hash
@@ -66,7 +66,7 @@ Name=Droid-ff
 Icon=terminator
 Categories=X-tamer-fuzz
 EOF
-debctrl "droid-ff" "$VERSION" "A tool for automating Android Fuzzing" "https://github.com/AndroidTamer/droid-ff" "all" 
+debctrl "droid-ff" "$VERSION" "A tool for automating Android Fuzzing" "https://github.com/TamerPlatform/droid-ff" "all" 
 changelog
 build_package usr
 

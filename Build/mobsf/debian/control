@@ -2,10 +2,10 @@ Package: mobsf
 Version: 0.9.4.1-SNAPSHOT-eb099ff-3
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: python-django, python-openssl, python-tornado,  python-configparser, python-rsa, python-pdfkit, python-lxml, dex2jar, enjarify, jd-core, cfr
 Priority: extra
-Homepage: https://github.com/AndroidTamer/Mobile-Security-Framework-MobSF
+Homepage: https://github.com/TamerPlatform/Mobile-Security-Framework-MobSF
 Description: Mobile Security Framework (MobSF)
  MobSF is an intelligent, all-in-one open source mobile application 
  (Android/iOS) automated pen-testing framework capable of performing static

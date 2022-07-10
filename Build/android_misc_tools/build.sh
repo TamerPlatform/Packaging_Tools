@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/android_misc_tools ./source
+	git clone --depth 1 https://github.com/TamerPlatform/android_misc_tools ./source
 fi
 rm -rf usr 
 cd source
@@ -23,6 +23,6 @@ cp source/sendsecretcode usr/bin/sendsecretcode
 chmod 755 usr/bin/
 ## Build End
 echo $VERSION
-debctrl "android_misc_tools" "$VERSION" "miscellaneous tools for android device interaction" "https://github.com/AndroidTamer/android_misc_tools" "all" ""
+debctrl "android_misc_tools" "$VERSION" "miscellaneous tools for android device interaction" "https://github.com/TamerPlatform/android_misc_tools" "all" ""
 changelog
 build_package usr

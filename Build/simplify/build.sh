@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/simplify ./source
+	git clone --depth 1 https://github.com/TamerPlatform/simplify ./source
 fi
 rm -rf usr
 #Get commit hash
@@ -78,6 +78,6 @@ Name=Simplify
 Icon=terminator
 Categories=X-tamer-manualanalysis
 EOF
-debctrl "simplify" "$VERSION" "Generic Android Deobfuscator\n Simplify uses a virtual machine to execute an app and understand what \n it does. Then, it applies optimizations to create code that behaves \n identically but is easier for a human to understand. It is a generic \n deobfuscator because it doesn't need any special configuration or code \n for different types of obfuscation." "https://github.com/AndroidTamer/simplify" "all" "default-jre"
+debctrl "simplify" "$VERSION" "Generic Android Deobfuscator\n Simplify uses a virtual machine to execute an app and understand what \n it does. Then, it applies optimizations to create code that behaves \n identically but is easier for a human to understand. It is a generic \n deobfuscator because it doesn't need any special configuration or code \n for different types of obfuscation." "https://github.com/TamerPlatform/simplify" "all" "default-jre"
 changelog
 build_package usr

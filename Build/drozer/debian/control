@@ -2,7 +2,7 @@ Package: python-drozer
 Version: 2.4.2-1
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: python-protobuf (>= 2.6.1), python-pyopenssl (>= 16.2.0), python-pyyaml (>= 3.12)
 Priority: extra
 Homepage: http://mwr.to/drozer

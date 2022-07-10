@@ -3,9 +3,9 @@ Version: 0.1-SNAPSHOT-de41b96
 Architecture: amd64
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: python, libc6
-Section: AndroidTamer
+Section: TamerPlatform
 Priority: extra
-Homepage: https://github.com/AndroidTamer/AndBug
+Homepage: https://github.com/TamerPlatform/AndBug
 Description: Scriptable Android Debugger
  AndBug is a debugger targeting the Android platform's
  Dalvik virtual machine intended for reverse engineers and developers.

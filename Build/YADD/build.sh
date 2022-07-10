@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/YADD ./source
+	git clone --depth 1 https://github.com/TamerPlatform/YADD ./source
 fi
 rm -rf usr
 #Get commit hash
@@ -44,6 +44,6 @@ Description: Yet another Android Dex bytecode Disassembler
 Icon=terminator
 Categories=X-tamer-manualanalysis
 EOF
-debctrl "yadd-dumper" "$VERSION" "Yet another Android Dex bytecode Disassembler\n YADD is planed to be a complex disassembler for the Android Dex bytecode\n That is, a hybrid tool to support pure binary/signature dumping and to \n provide an interface for reversing analysis" "https://github.com/AndroidTamer/YADD" "amd64" "python, libc6"
-changelog "Initial release for Android Tamer"
+debctrl "yadd-dumper" "$VERSION" "Yet another Android Dex bytecode Disassembler\n YADD is planed to be a complex disassembler for the Android Dex bytecode\n That is, a hybrid tool to support pure binary/signature dumping and to \n provide an interface for reversing analysis" "https://github.com/TamerPlatform/YADD" "amd64" "python, libc6"
+changelog "Initial release for Tamer Platform"
 build_package usr

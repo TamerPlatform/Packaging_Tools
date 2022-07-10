@@ -7,10 +7,10 @@ wget "https://portswigger.net/Burp/Releases/Download?productId=100&version="$MAI
 wget "https://portswigger.net/burp/eula-free.html" -O source/license.html
 html2text "https://portswigger.net/burp/eula-free.html" | tee source/license.txt
 rm -rf usr opt
-mkdir -p usr/bin opt/burpsuite/ usr/share/applications usr/share/icons/androidtamer
+mkdir -p usr/bin opt/burpsuite/ usr/share/applications usr/share/icons/tamerplatform
 cp source/burpsuite-free.jar opt/burpsuite/
 cp source/license.txt opt/burpsuite/license.txt
-cp burpsuite-free.png usr/share/icons/androidtamer/burpsuite-free.png 
+cp burpsuite-free.png usr/share/icons/tamerplatform/burpsuite-free.png 
 cat <<EOF > usr/bin/burpsuite-free
 #!/bin/bash
 JAR_BIN=/opt/burpsuite/burpsuite-free.jar
@@ -35,7 +35,7 @@ Type=Application
 Terminal=false
 Exec=/usr/bin/burpsuite-free
 Name=BurpSuite-Free
-Icon=/usr/share/icons/androidtamer/burpsuite-free.png
+Icon=/usr/share/icons/tamerplatform/burpsuite-free.png
 Categories=X-tamer-pentest
 EOF
 chmod 755 usr/bin/burpsuite-free

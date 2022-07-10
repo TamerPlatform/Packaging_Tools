@@ -1,3 +1,9 @@
+sslscan (2.0.15-SNAPSHOT-649a9ca) stable; urgency=medium
+
+  * version bump to 2.0.15 
+
+ -- Anant Shrivastava <anant@anantshri.info>  Sun, 10 Jul 2022 18:45:12 +0000
+
 sslscan (1.11.8-SNAPSHOT-66deddb-1) stable; urgency=medium
 
   * correct source based version bump now to 1.11.8 

@@ -2,7 +2,7 @@ Package: appmon
 Version: 0.1-SNAPSHOT-37318a4
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: python-argparse, python-frida, python-flask, python-termcolor, python-dataset
 Priority: extra
 Homepage: https://github.com/dpnishant/appmon

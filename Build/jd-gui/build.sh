@@ -1,5 +1,5 @@
 #!/bin/bash
-MAINVER="1.4.0"
+MAINVER="1.6.6"
 Extra=""
 if [ -d "source" ]
 	then
@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/jd-gui ./source
+	git clone --depth 1 https://github.com/TamerPlatform/jd-gui ./source
 fi
 rm -rf usr opt
 cd source
@@ -19,12 +19,12 @@ cd source
 ./gradlew clean
 ./gradlew build
 cd ..
-mkdir -p usr/bin usr/share/jd-gui/ usr/share/applications usr/share/icons/androidtamer
-cp source/src/linux/resources/jd_icon_128.png usr/share/icons/androidtamer/jd-gui.png
+mkdir -p usr/bin usr/share/jd-gui/ usr/share/applications usr/share/icons/tamerplatform
+cp source/src/linux/resources/jd_icon_128.png usr/share/icons/tamerplatform/jd-gui.png
 cp source/build/libs/jd-gui-$MAINVER.jar usr/share/jd-gui/
 cat <<EOF > usr/bin/jd-gui
 #!/bin/bash
-java -jar /usr/share/jd-gui/jd-gui-1.4.0.jar "\$@"
+java -jar /usr/share/jd-gui/jd-gui-1.6.6.jar "\$@"
 EOF
 chmod 755 usr/bin/jd-gui
 cat <<EOF > usr/share/applications/jd-gui.desktop
@@ -33,16 +33,16 @@ cat <<EOF > usr/share/applications/jd-gui.desktop
 Version=1.0
 Type=Application
 Terminal=false
-Icon[en_US]=/usr/share/icons/androidtamer/jd-gui.png
+Icon[en_US]=/usr/share/icons/tamerplatform/jd-gui.png
 Name[en_US]=JD-Gui
 Exec=/usr/bin/jd-gui
 Name=jd-gui
-Icon=/usr/share/icons/androidtamer/jd-gui.png
+Icon=/usr/share/icons/tamerplatform/jd-gui.png
 Categories=X-tamer-re
 EOF
 #cp source/build/distributions/jd-gui_$MAINVER-0_all.deb ./
 #dpkg-sig --sign builder -k 7EE83BCF jd-gui_$MAINVER-0_all.deb
 echo $VERSION
-debctrl "jd-gui" "$VERSION" "A Java Decompiler\n JD-GUI, a standalone graphical utility that displays Java sources from CLASS files" "https://github.com/AndroidTamer/jd-gui" "all" "default-jre"
+debctrl "jd-gui" "$VERSION" "A Java Decompiler\n JD-GUI, a standalone graphical utility that displays Java sources from CLASS files" "https://github.com/TamerPlatform/jd-gui" "all" "default-jre"
 changelog
 build_package usr

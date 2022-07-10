@@ -2,10 +2,10 @@ Package: enjarify
 Version: 1.0.3-SNAPSHOT-f2db056
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: python3
 Priority: extra
-Homepage: https://github.com/AndroidTamer/enjarify
+Homepage: https://github.com/TamerPlatform/enjarify
 Description: Java Decompiler
  Enjarify is a tool for translating Dalvik bytecode
  to equivalent Java bytecode. This allows Java analysis tools

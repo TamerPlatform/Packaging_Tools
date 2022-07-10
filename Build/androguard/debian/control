@@ -2,8 +2,8 @@ Package: python-androguard
 Version: 2.0-SNAPSHOT-d720ebf
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Section: AndroidTamer
+Section: TamerPlatform
 Depends: python-pyasn1, python-cryptography (>= 1.0), python-future, python-ipython (>= 5.0.0), python-networkx, python-pygments, python-pyperclip, python-pyqt5
 Priority: extra
-Homepage: https://github.com/AndroidTamer/androguard
+Homepage: https://github.com/TamerPlatform/androguard
 Description: Androguard is a full python tool to play with Android files.

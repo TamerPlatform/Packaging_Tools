@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/yara-python ./source
+	git clone --depth 1 https://github.com/TamerPlatform/yara-python ./source
 fi
 cd source
 SVER=`git log --pretty=format:'%h' -n 1`

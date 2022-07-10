@@ -1,13 +1,13 @@
 ### Commented entries have reasonable defaults.
 ### Uncomment to edit them.
 # Source: <source package name; defaults to package name>
-Section: AndroidTamer
+Section: TamerPlatform
 Priority: optional
 # Homepage: <enter URL here; no default>
 Standards-Version: 3.9.2
-Package: androidtamer-forensics
+Package: tamerplatform-forensics
 Version: 0.2
-Changelog: androidtamer-forensics.changelog
+Changelog: tamerplatform-forensics.changelog
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 # Pre-Depends: <comma-separated list of packages>
 Depends: volatility,lime-forensics-dkms,autopsy,dc3dd,dcfldd,dff,ext4magic,scalpel,sleuthkit,vinetto,volatility-tools,exif,libimage-exif-perl,exiv2,python-exif,metacam,exiftags,jhead,exifprobe,testdisk,steghide,iwatch,forensics-all,guymager,rdd,xmount,fatcat,foremost

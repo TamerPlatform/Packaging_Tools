@@ -1,41 +1,41 @@
-androidtamer-menu (0.9.1-SNAPSHOT-1e79836) stable; urgency=medium
+tamerplatform-menu (0.9.1-SNAPSHOT-1e79836) stable; urgency=medium
 
   * intermediate fix only reverting an error to restore the AT icon
 
  -- Anant Shrivastava <anant@anantshri.info>  Sun, 22 May 2016 11:49:49 +0000
 
-androidtamer-menu (0.9-SNAPSHOT-61960bc) stable; urgency=medium
+tamerplatform-menu (0.9-SNAPSHOT-61960bc) stable; urgency=medium
 
   * folder icons reset to theme default folder 
 
  -- Anant Shrivastava <anant@anantshri.info>  Sun, 22 May 2016 11:48:28 +0000
 
-androidtamer-menu (0.8-SNAPSHOT-d8b6747) stable; urgency=medium
+tamerplatform-menu (0.8-SNAPSHOT-d8b6747) stable; urgency=medium
 
   * Dynamic section corrected 
 
  -- Anant Shrivastava <anant@anantshri.info>  Sat, 21 May 2016 03:32:09 +0000
 
-androidtamer-menu (0.7-SNAPSHOT-799a950) stable; urgency=medium
+tamerplatform-menu (0.7-SNAPSHOT-799a950) stable; urgency=medium
 
   * Correcting menu layout
  
 
  -- Anant Shrivastava <anant@anantshri.info>  Sat, 21 May 2016 01:10:30 +0000
 
-androidtamer-menu (0.6-SNAPSHOT-127a1f9) stable; urgency=medium
+tamerplatform-menu (0.6-SNAPSHOT-127a1f9) stable; urgency=medium
 
   * Added Section for Fuzzing Applications in preparation for future
 
  -- Anant Shrivastava <anant@anantshri.info>  Fri, 20 May 2016 22:03:47 +0000
 
-androidtamer-menu (0.5-SNAPSHOT-127a1f9) stable; urgency=medium
+tamerplatform-menu (0.5-SNAPSHOT-127a1f9) stable; urgency=medium
 
   * Added Reporting section
 
  -- Anant Shrivastava <anant@anantshri.info>  Sat, 14 May 2016 00:07:08 +0000
 
-androidtamer-menu (0.4-SNAPSHOT-69d5558) stable; urgency=medium
+tamerplatform-menu (0.4-SNAPSHOT-69d5558) stable; urgency=medium
 
   * First build
 

@@ -1,13 +1,13 @@
 #!/bin/bash
-MAINVER="1.11.8"
-Extra="-1"
+MAINVER="2.0.15"
+Extra=""
 if [ -d "source" ]
 	then
 	cd source 
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/sslscan ./source
+	git clone --depth 1 https://github.com/TamerPlatform/sslscan ./source
 fi
 cd source
 SVER=`git log --pretty=format:'%h' -n 1`
@@ -33,6 +33,6 @@ Categories=X-tamer-pentest
 EOF
 chmod 644 usr/share/applications/sslscan.desktop
 echo $VERSION
-debctrl "sslscan" "$VERSION" "Fast SSL Scanner\n SSL scanning software" "https://github.com/AndroidTamer/sslscan" "amd64"
+debctrl "sslscan" "$VERSION" "Fast SSL Scanner\n SSL scanning software" "https://github.com/TamerPlatform/sslscan" "amd64"
 changelog
 build_package usr

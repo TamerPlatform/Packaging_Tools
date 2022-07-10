@@ -1,16 +1,16 @@
 ### Commented entries have reasonable defaults.
 ### Uncomment to edit them.
 # Source: <source package name; defaults to package name>
-Section: AndroidTamer
+Section: TamerPlatform
 Priority: optional
 # Homepage: <enter URL here; no default>
 Standards-Version: 3.9.2
-Package: androidtamer-manualanalysis
+Package: tamerplatform-manualanalysis
 Version: 0.2
-Changelog: androidtamer-manualanalysis.changelog
+Changelog: tamerplatform-manualanalysis.changelog
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 # Pre-Depends: <comma-separated list of packages>
-Depends: aapt,pidcat,dex2jar,enjarify,apktool,jd-gui,jad,jadx,smali,ack-grep,sqlcipher,sqlite,sqlitebrowser,python-frida,apk2java,drozer-checks,androidtamer-adb
+Depends: aapt,pidcat,dex2jar,enjarify,apktool,jd-gui,jad,jadx,smali,ack-grep,sqlcipher,sqlite,sqlitebrowser,python-frida,apk2java,drozer-checks,tamerplatform-adb
 Architecture: all
 # Copyright: <copyright file; defaults to GPL2>
 Description: Meta Pacakage to track all Manual Analysis Package

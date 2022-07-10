@@ -1,10 +1,10 @@
-androidtamer-re (0.2) stable; urgency=medium
+tamerplatform-re (0.2) stable; urgency=medium
 
   * correct section 
 
  -- Anant Shrivastava <anant@anantshri.info>  Mon, 23 May 2016 22:55:55 +0000
 
-androidtamer-re (0.1) stable; urgency=medium
+tamerplatform-re (0.1) stable; urgency=medium
 
   * Initial release. (Closes: #XXXXXX)
 

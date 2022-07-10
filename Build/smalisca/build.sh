@@ -1,5 +1,5 @@
 #!/bin/bash
-SOURCE_URL="https://github.com/AndroidTamer/smalisca"
+SOURCE_URL="https://github.com/TamerPlatform/smalisca"
 MAINVER="0.2.1"
 Extra=""
 if [ -d "source" ]
@@ -10,7 +10,7 @@ if [ -d "source" ]
 else
 	git clone $SOURCE_URL ./source
 fi
-fpm -s python -t deb --category AndroidTamer -m "Anant Shrivastava <anant@anantshri.info>" --vendor AndroidTamer source/setup.py
+fpm -s python -t deb --category TamerPlatform -m "Anant Shrivastava <anant@anantshri.info>" --vendor TamerPlatform source/setup.py
 #cut -f1 -d"=" source/requirements.txt | xargs build_pip 
 build_pip configparser
 build_pip graphviz

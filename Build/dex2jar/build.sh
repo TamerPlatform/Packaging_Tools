@@ -7,7 +7,7 @@ if [ -d "source" ]
 	git pull
 	cd ..
 else
-	git clone https://github.com/AndroidTamer/dex2jar ./source
+	git clone --depth 1 https://github.com/TamerPlatform/dex2jar ./source
 fi
 cd source
 SVER=`git log --pretty=format:'%h' -n 1`
@@ -42,6 +42,6 @@ Categories=X-tamer-re
 EOF
 chmod 644 usr/share/applications/dex2jar.desktop
 echo $VERSION
-debctrl "dex2jar" "$VERSION" "Tools to work with android .dex and java .class files\n dex2jar is a suite consisting of commands\n dex-reader/writer: Read/write the Dalvik Executable (.dex) file. It has a light weight API similar with ASM.\n d2j-dex2jar: Convert .dex file to .class files (zipped as jar)\n smali/baksmali: disassemble dex to smali files and assemble dex from smali files. different implementation to smali/baksmali, same syntax, but we support escape in type desc Lcom/dex2jar\t\u1234;\n other tools: d2j-decrypt-string" "https://github.com/AndroidTamer/dex2jar" "all" "default-jre"
+debctrl "dex2jar" "$VERSION" "Tools to work with android .dex and java .class files\n dex2jar is a suite consisting of commands\n dex-reader/writer: Read/write the Dalvik Executable (.dex) file. It has a light weight API similar with ASM.\n d2j-dex2jar: Convert .dex file to .class files (zipped as jar)\n smali/baksmali: disassemble dex to smali files and assemble dex from smali files. different implementation to smali/baksmali, same syntax, but we support escape in type desc Lcom/dex2jar\t\u1234;\n other tools: d2j-decrypt-string" "https://github.com/TamerPlatform/dex2jar" "all" "default-jre"
 changelog
 build_package usr
