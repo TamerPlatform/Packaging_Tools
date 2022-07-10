@@ -12,13 +12,13 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  config.vm.box = "debian/jessie64"
+  config.vm.box = "debian/bullseye64"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
   config.vm.box_check_update = false
-  config.vbguest.auto_update = false
+  # config.vbguest.auto_update = false
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8080" will access port 80 on the guest machine.
@@ -26,7 +26,7 @@ Vagrant.configure(2) do |config|
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
-  config.vm.network "private_network", ip: "172.16.33.50"
+  config.vm.network "private_network", type: "dhcp"
 
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
@@ -38,19 +38,19 @@ Vagrant.configure(2) do |config|
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
-  config.vm.synced_folder ".", "/vagrant", type: "nfs"
+  #config.vm.synced_folder ".", "/vagrant", type: "nfs"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:
   #
-  # config.vm.provider "virtualbox" do |vb|
+   config.vm.provider "virtualbox" do |vb|
   #   # Display the VirtualBox GUI when booting the machine
   #   vb.gui = true
   #
   #   # Customize the amount of memory on the VM:
-  #   vb.memory = "1024"
-  # end
+     vb.memory = "2048"
+   end
   #
   # View the documentation for the provider you are using for more
   # information on available options.
@@ -66,54 +66,61 @@ Vagrant.configure(2) do |config|
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
+     export DEBIAN_FRONTEND=noninteractive
+     echo "deb https://deb.debian.org/debian bullseye-updates main contrib" | sudo tee /etc/apt/sources.list.d/bullseye-updates.list
+     echo "deb https://deb.debian.org/debian bullseye-backports main contrib non-free" | sudo tee /etc/apt/sources.list.d/bullseye-backports.list
+     echo "deb https://deb.debian.org/debian/ bullseye main contrib non-free" | sudo tee /etc/apt/sources.list.d/bullseye-nonfree.list
+     echo "deb https://security.debian.org/debian-security bullseye-security main contrib" | sudo tee /etc/apt/sources.list.d/bullseye-security.list
      #sudo echo "deb http://apt.include-once.org/ ./ #include-once.org" > /etc/apt/sources.list.d/xpm.list
-     echo "deb http://http.debian.net/debian jessie-backports main contrib non-free" | sudo tee /etc/apt/sources.list.d/jessie_backports.list
+     # echo "deb http://http.debian.net/debian bullseye-backports main contrib non-free" | sudo tee /etc/apt/sources.list.d/bullseye_backports.list
      #wget -q http://apt.include-once.org/public.gpg -O- | sudo apt-key add -
      sudo apt-get update
      sudo apt-get install -y ruby vim ruby-dev vim build-essential reprepro debian-builder dpkg-sig git
-     sudo apt-get install -y python-pip python-dev libssl-dev qttools5-dev-tools openjdk-7-jdk qt5-default zlib1g-dev mercurial maven
+     sudo apt-get install -y python3-pip python3-dev libssl-dev qttools5-dev-tools zlib1g-dev mercurial maven
+     sudo apt-get install python3-virtualenv
+     sudo apt-get install openjdk-17-jdk nvidia-openjdk-8-jre openjdk-11-jdk 
+     sudo apt-get install cmake
+     sudo apt-get install libffi-dev
      sudo gem install fpm
-     gpg --allow-secret-key-import --import /vagrant/signing/7EE83BCF.asc
+     #gpg --allow-secret-key-import --import /vagrant/signing/7EE83BCF.asc
      #wget http://apt.include-once.org/xpm-1.3.3.6.gem -O /vagrant/xpm-1.3.3.6.gem
      #sudo gem install /vagrant/xpm-1.3.3.6.gem
      sudo pip install s3cmd
      sudo pip install html2text
-     sudo apt-get install python-virtualenv
      sudo pip install virtualenv-tools
-     sudo apt-get install openjdk-8-jdk
-     sudo apt-get install cmake
-     sudo apt-get install libffi-dev
-     cp /vagrant/s3cfg ~/.s3cfg
-     cat<<EOF >> ~/.profile
-gpg-agent --daemon --enable-ssh-support \
---write-env-file "${HOME}/.gpg-agent-info"
-if [ -f "${HOME}/.gpg-agent-info" ]; then
-. "${HOME}/.gpg-agent-info"
-export GPG_AGENT_INFO
-export SSH_AUTH_SOCK
-export SSH_AGENT_PID
-fi
+     ln -s /vagrant/bin/ /home/vagrant/bin
+     git config pull.ff only
+     #cp /vagrant/s3cfg ~/.s3cfg
+#      cat<<EOF >> ~/.profile
+# gpg-agent --daemon --enable-ssh-support \
+# --write-env-file "${HOME}/.gpg-agent-info"
+# if [ -f "${HOME}/.gpg-agent-info" ]; then
+# . "${HOME}/.gpg-agent-info"
+# export GPG_AGENT_INFO
+# export SSH_AUTH_SOCK
+# export SSH_AGENT_PID
+# fi
 
-GPG_TTY=$(tty)
-export GPG_TTY
-EOF
-echo "enable-ssh-support" >> ~/.gnupg/gpg-agent.conf  
+# GPG_TTY=$(tty)
+# export GPG_TTY
+# EOF
+# echo "enable-ssh-support" >> ~/.gnupg/gpg-agent.conf  
 # adding F-droidserver
-sudo apt-get update
-sudo apt-get install fdroidserver
-sudo apt-get install openjdk-8-jdk lib32stdc++6 lib32gcc1 lib32z1 lib32ncurses5
-sudo apt-get install gradle maven 
+# sudo apt-get update
+# sudo apt-get install fdroidserver
+# sudo apt-get install openjdk-8-jdk lib32stdc++6 lib32gcc1 lib32z1 lib32ncurses5
+# sudo apt-get install gradle maven 
 # android ndk and android sdk setup
 # download sdk tools
 # download platform tools and build tools
-wget -q -O "/vagrant/google_tools/tools-linux.zip" https://dl.google.com/android/repository/tools_r25.2.3-linux.zip
-unzip /vagrant/google_tools/tools-linux.zip -d /vagrant/google_tools
-rm -rf /vagrant/google_tools/tools-linux.zip
-echo "PATH=\$PATH:/vagrant/google_tools/tools/:/vagrant/google_tools/tools/bin/
-echo y | android update sdk --filter tools --no-ui --force -a
-echo y | android update sdk --filter platform-tools --no-ui --force -a
-echo y | android update sdk --filter build-tools-25.0.2 --no-ui --force -a
-echo "PATH=\$PATH:/vagrant/google_tools/build-tools/25.0.2:/vagrant/google_tools/platform-tools/:/vagrant/google_tools/android-ndk/" >> ~/.bashrc
+# wget -q -O "/vagrant/google_tools/tools-linux.zip" https://dl.google.com/android/repository/tools_r25.2.3-linux.zip
+# unzip /vagrant/google_tools/tools-linux.zip -d /vagrant/google_tools
+# rm -rf /vagrant/google_tools/tools-linux.zip
+# echo "PATH=\$PATH:/vagrant/google_tools/tools/:/vagrant/google_tools/tools/bin/
+# echo y | android update sdk --filter tools --no-ui --force -a
+# echo y | android update sdk --filter platform-tools --no-ui --force -a
+# echo y | android update sdk --filter build-tools-25.0.2 --no-ui --force -a
+# echo "PATH=\$PATH:/vagrant/google_tools/build-tools/25.0.2:/vagrant/google_tools/platform-tools/:/vagrant/google_tools/android-ndk/" >> ~/.bashrc
 SHELL
 
   if Vagrant.has_plugin?("vagrant-cachier")
