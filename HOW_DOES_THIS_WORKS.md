@@ -1,4 +1,4 @@
-# Android Tamer build process
+# Tamer Platform build process
 
 ## Pre-Setup
 
