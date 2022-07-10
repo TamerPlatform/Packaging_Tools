@@ -3,9 +3,9 @@ Version: 0.1-SNAPSHOT-de41b96
 Architecture: amd64
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: python, libc6
-Homepage: https://github.com/AndroidTamer/AndBug
+Homepage: https://github.com/TamerPlatform/AndBug
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/a/andbug/andbug_0.1-SNAPSHOT-de41b96_amd64.deb
 Size: 147582
 SHA256: 12ea988a736be9b9ebdf4cdb174fdddb21d41739ba93a5de2bee61b05ff51735
@@ -20,9 +20,9 @@ Version: 1.0.0-SNAPSHOT-7fd3a2c
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: python
-Homepage: https://github.com/AndroidTamer/AndroBugs_Framework
+Homepage: https://github.com/TamerPlatform/AndroBugs_Framework
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/a/androbugs-framework/androbugs-framework_1.0.0-SNAPSHOT-7fd3a2c_all.deb
 Size: 3628522
 SHA256: d1c39b4a8332b3932c1ee477d04ac61fb6055093c082305cf14c1eaed5bfbc1f
@@ -39,9 +39,9 @@ Version: 2011-SNAPSHOT-699e98f
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: rubygem-trollop, rubygem-colored
-Homepage: https://github.com/AndroidTamer/androidAuditTools
+Homepage: https://github.com/TamerPlatform/androidAuditTools
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/a/androidaudittools/androidaudittools_2011-SNAPSHOT-699e98f_all.deb
 Size: 7052
 SHA256: 0b7110b35dd2b42f819e96bb27b8e71f10e4d5e1815da1c58336eca2c042b76a
@@ -49,82 +49,82 @@ SHA1: e0755b34d5683ec2944246e50d26492029b5c721
 MD5sum: 520422d2d34168b7fce9e1254ecedf10
 Description: androidaudittools are collection of foreensic evaluation scripts useful for android devices.
 
-Package: androidtamer-adb
+Package: tamerplatform-adb
 Version: 0.6-SNAPSHOT-a3f512f
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: libc6, libssl1.0.0, zlib1g
 Conflicts: android-tools-adb, android-tools-fastboot
-Homepage: https://github.com/AndroidTamer/adb_wrapper
+Homepage: https://github.com/TamerPlatform/adb_wrapper
 Priority: extra
-Section: AndroidTamer
-Filename: pool/main/a/androidtamer-adb/androidtamer-adb_0.6-SNAPSHOT-a3f512f_all.deb
+Section: TamerPlatform
+Filename: pool/main/a/tamerplatform-adb/tamerplatform-adb_0.6-SNAPSHOT-a3f512f_all.deb
 Size: 2836732
 SHA256: f05b0688dc22c0b0c8347478ee66287f3d8f232e0e7a729f2fdbc5269b025d04
 SHA1: 13eb68bb78e992b6bb0cc2bc715a9e081eaac8d0
 MD5sum: bd152069d00617eadf88f263ae9cec3e
-Description: AndroidTamer Customized ADB
+Description: TamerPlatform Customized ADB
  Source compiled ADB and fastboot
  additional wrapper added with features like adb list
  and device naming
 
-Package: androidtamer-dynamicanalysis
+Package: tamerplatform-dynamicanalysis
 Version: 0.3
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 3
 Depends: mobsf, drozer, python-flask, python-django, ipython, python-dev, libbz2-dev, libmuparser-dev, libsparsehash-dev, python-ptrace, python-pygments, python-pydot, graphviz, liblzma-dev, libsnappy-dev, python-magic, findbugs, flawfinder
 Priority: optional
-Section: AndroidTamer
-Filename: pool/main/a/androidtamer-dynamicanalysis/androidtamer-dynamicanalysis_0.3_all.deb
+Section: TamerPlatform
+Filename: pool/main/a/tamerplatform-dynamicanalysis/tamerplatform-dynamicanalysis_0.3_all.deb
 Size: 3394
 SHA256: ef91a0f331953d02c5b016e8f1cb168aabab6e1fa59ba5e4a2a203212f5cb4ff
 SHA1: b9a469c8eb9d4ff8006e93c28e39d4024cb9a4f6
 MD5sum: cf624263e4e034b2b4db7335b4a98c0e
 Description: Meta Pacakage to track all Dynamic analysis pacakages Package
 
-Package: androidtamer-menu
+Package: tamerplatform-menu
 Version: 0.9.1-SNAPSHOT-1e79836
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Homepage: https://github.com/AndroidTamer/androidtamer-menu
+Homepage: https://github.com/TamerPlatform/tamerplatform-menu
 Priority: extra
-Section: AndroidTamer
-Filename: pool/main/a/androidtamer-menu/androidtamer-menu_0.9.1-SNAPSHOT-1e79836_all.deb
+Section: TamerPlatform
+Filename: pool/main/a/tamerplatform-menu/tamerplatform-menu_0.9.1-SNAPSHOT-1e79836_all.deb
 Size: 90304
 SHA256: 9d8c715411b972901c65cbb3fb2374fa1defa60f6a51cbaf01cd79a6bc96e1c2
 SHA1: 378b08758bc5ec8e7eba0926fb8966b3f176a03f
 MD5sum: 9b3413e22da4cb34bdbe8463b8c99909
-Description: AndroidTamer Menu
+Description: TamerPlatform Menu
 
-Package: androidtamer-menuitems
+Package: tamerplatform-menuitems
 Version: 0.9.5-SNAPSHOT-b46b53e
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Homepage: https://github.com/AndroidTamer/androidtamer-menuitems
+Homepage: https://github.com/TamerPlatform/tamerplatform-menuitems
 Priority: extra
-Section: AndroidTamer
-Filename: pool/main/a/androidtamer-menuitems/androidtamer-menuitems_0.9.5-SNAPSHOT-b46b53e_all.deb
+Section: TamerPlatform
+Filename: pool/main/a/tamerplatform-menuitems/tamerplatform-menuitems_0.9.5-SNAPSHOT-b46b53e_all.deb
 Size: 263666
 SHA256: 3cd025ae357399e138fb8d4b86e603948ed018c3ae9d9efd9e263dc0666be851
 SHA1: f3a522309dd227cac6577121c55513f79d802739
 MD5sum: 268233de7707125d4069559591606897
-Description: AndroidTamer MenuItems
+Description: TamerPlatform MenuItems
 
-Package: androidtamer-wallpaper
+Package: tamerplatform-wallpaper
 Version: 4.0
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Homepage: http://www.androidtamer.com/
+Homepage: http://www.tamerplatform.com/
 Priority: extra
-Section: AndroidTamer
-Filename: pool/main/a/androidtamer-wallpaper/androidtamer-wallpaper_4.0_all.deb
+Section: TamerPlatform
+Filename: pool/main/a/tamerplatform-wallpaper/tamerplatform-wallpaper_4.0_all.deb
 Size: 4796838
 SHA256: cfe540e540b78fcccc795ddef651757bd964f59936fde42660a81e173c836b04
 SHA1: 191674e443d1fa092b094fa0df48fc4dfb85958e
 MD5sum: 27f41a6a5439fa4c6b1b84998e4d8b40
-Description: Collection of Wallpapers for Android Tamer
- set of dark and light wallpapers that you can use with your AndroidTamer
+Description: Collection of Wallpapers for Tamer Platform
+ set of dark and light wallpapers that you can use with your TamerPlatform
  
 
 Package: apk2java
@@ -132,9 +132,9 @@ Version: 0.1-SNAPSHOT-c821afe
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: apktool, enjarify, jadx, jad
-Homepage: https://github.com/AndroidTamer/apk2java
+Homepage: https://github.com/TamerPlatform/apk2java
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/a/apk2java/apk2java_0.1-SNAPSHOT-c821afe_all.deb
 Size: 3342
 SHA256: ff8f364f5e45f019b6fd91deee3fecd12271d59ac98cbd998572eded85d86be6
@@ -150,9 +150,9 @@ Version: 2.2.2-SNAPSHOT-6cc2512-2
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: default-jre
-Homepage: https://github.com/AndroidTamer/Apktool
+Homepage: https://github.com/TamerPlatform/Apktool
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/a/apktool/apktool_2.2.2-SNAPSHOT-6cc2512-2_all.deb
 Size: 8200750
 SHA256: 69b1582a19e8e137939eddbc247156fa1775ee789b0a7022b26b2277cf83953b
@@ -176,7 +176,7 @@ Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: python-argparse, python-frida, python-flask, python-termcolor, python-dataset
 Homepage: https://github.com/dpnishant/appmon
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/a/appmon/appmon_0.1-SNAPSHOT-37318a4_all.deb
 Size: 25597680
 SHA256: 75a59a0e60aa77038faf78e4a842934eb40cfcbc291b22af09decfb7ed2abf1d
@@ -189,9 +189,9 @@ Version: 0.1.7-SNAPSHOT-4dc55fb
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: default-jre
-Homepage: https://github.com/AndroidTamer/axmlprinter
+Homepage: https://github.com/TamerPlatform/axmlprinter
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/a/axmlprinter/axmlprinter_0.1.7-SNAPSHOT-4dc55fb_all.deb
 Size: 36718
 SHA256: 13e8d2ed4e618a28cb67aa9c77e18008b7095be2eb96fe3370f5062d729462d1
@@ -206,7 +206,7 @@ Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: default-jre
 Homepage: http://portswigger.net/index.html
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/b/burpsuite-free/burpsuite-free_1.7.21_all.deb
 Size: 12959328
 SHA256: 167f047456c57d02e9931436bd6e33993711f9a177f21055c63b3707422be660
@@ -226,9 +226,9 @@ Version: 2.9.8
 Architecture: amd64
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: default-jre
-Homepage: https://github.com/AndroidTamer/bytecode-viewer/
+Homepage: https://github.com/TamerPlatform/bytecode-viewer/
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/b/bytecode-viewer/bytecode-viewer_2.9.8_amd64.deb
 Size: 1151730
 SHA256: 431ee5bb2da43cb240a600fe21ea7cdf5c84ece18a0b83d9cf6f38d6a0fc0803
@@ -245,7 +245,7 @@ Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: default-jre
 Homepage: http://www.benf.org/other/cfr/
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/c/cfr/cfr_0-119-nov-2016_all.deb
 Size: 1360970
 SHA256: 429645597910f741d278f4e2509453c8162dbaea65fc86e325a5c6367b4620d2
@@ -262,9 +262,9 @@ Version: 8.1-1
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: default-jre
-Homepage: https://github.com/AndroidTamer/android-classyshark
+Homepage: https://github.com/TamerPlatform/android-classyshark
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/c/classyshark/classyshark_8.1-1_all.deb
 Size: 5526426
 SHA256: 20ce65e04fb0c7776ee35d8c95606451f9b63ff4e7db829b5ba9fa669dcdfcd1
@@ -281,9 +281,9 @@ Version: 2.1-SNAPSHOT-d6383b7
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: default-jre
-Homepage: https://github.com/AndroidTamer/dex2jar
+Homepage: https://github.com/TamerPlatform/dex2jar
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/d/dex2jar/dex2jar_2.1-SNAPSHOT-d6383b7_all.deb
 Size: 5531408
 SHA256: a917bc99e10f486cbef5bdb370116f194cf177792273392274f8ea7fa486c1dc
@@ -300,9 +300,9 @@ Package: droid-ff
 Version: 0.1.0-SNAPSHOT-295b0fc
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Homepage: https://github.com/AndroidTamer/droid-ff
+Homepage: https://github.com/TamerPlatform/droid-ff
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/d/droid-ff/droid-ff_0.1.0-SNAPSHOT-295b0fc_all.deb
 Size: 42030906
 SHA256: a02f618b15bc6ec92107efe5062ddb0ea7cfd875db0adc7ec7fe418a9cc9f427
@@ -315,9 +315,9 @@ Version: 1.0.3-SNAPSHOT-f2db056
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: python3
-Homepage: https://github.com/AndroidTamer/enjarify
+Homepage: https://github.com/TamerPlatform/enjarify
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/e/enjarify/enjarify_1.0.3-SNAPSHOT-f2db056_all.deb
 Size: 354838
 SHA256: 0bde43b20e1f3dabc8f375806ec0c734804d1b32a99eb5271915bc8b5705eed7
@@ -334,7 +334,7 @@ Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Homepage: http://newandroidbook.com/tools/imgtool.html
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/i/imgtool/imgtool_0.3_all.deb
 Size: 60398
 SHA256: 749bfb716bf20f6add449ebb7c108af07ed4eda1551c3fd13227692a1ed2be24
@@ -359,7 +359,7 @@ Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: heimdall-flash
 Homepage: http://Jodin3.casual-dev.com
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/j/j0din3/j0din3_20160521_amd64.deb
 Size: 65527478
 SHA256: 79f11e3df62e63829a056b73033555d220556160d0f7265fde75adddcd46be5c
@@ -376,7 +376,7 @@ Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: default-jre
 Homepage: https://github.com/Androidtamer/JAADAS
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/j/jaadas/jaadas_0.1.1-SNAPSHOT-8de73b9_all.deb
 Size: 30790798
 SHA256: 1e8ba63f12002eb9da0248aa46a644c341a899a7856ffa892ec9788ffaff92ae
@@ -397,7 +397,7 @@ Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: default-jre
 Homepage: http://varaneckas.com/jad/
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/j/jad/jad_1.5.8e-SNAPSHOT-2_all.deb
 Size: 392932
 SHA256: 1889a758030dac232e5ed46298d9520582e150e0cd4f8d1b8196f2ff0cbc8e0c
@@ -413,9 +413,9 @@ Version: 0.6.1.2-SNAPSHOT-a9ae971
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: default-jre
-Homepage: https://github.com/AndroidTamer/jadx
+Homepage: https://github.com/TamerPlatform/jadx
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/j/jadx/jadx_0.6.1.2-SNAPSHOT-a9ae971_all.deb
 Size: 4099130
 SHA256: a1e775d0ff775c7c61d56c9dd0abdcbc3bba7e7a271945856ce9976602888543
@@ -430,9 +430,9 @@ Version: 1.2-SNAPSHOT-91f7a2e-1
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: default-jre
-Homepage: https://github.com/AndroidTamer/jd-core-java
+Homepage: https://github.com/TamerPlatform/jd-core-java
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/j/jd-core/jd-core_1.2-SNAPSHOT-91f7a2e-1_all.deb
 Size: 4721762
 SHA256: 9de56c47677367da4b5610ac7ae52d9f287e6ee4351b38dfaa6f7d60b9ff9c37
@@ -446,9 +446,9 @@ Version: 1.4.0-SNAPSHOT-acd511f
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: default-jre
-Homepage: https://github.com/AndroidTamer/jd-gui
+Homepage: https://github.com/TamerPlatform/jd-gui
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/j/jd-gui/jd-gui_1.4.0-SNAPSHOT-acd511f_all.deb
 Size: 7877424
 SHA256: 798977fecceecb6fa039b682466fc833fe05905b008a55632abbb64e0fac2e3f
@@ -462,9 +462,9 @@ Version: 0.9.4.1-SNAPSHOT-eb099ff-3
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: python-django, python-openssl, python-tornado,  python-configparser, python-rsa, python-pdfkit, python-lxml, dex2jar, enjarify, jd-core, cfr
-Homepage: https://github.com/AndroidTamer/Mobile-Security-Framework-MobSF
+Homepage: https://github.com/TamerPlatform/Mobile-Security-Framework-MobSF
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/m/mobsf/mobsf_0.9.4.1-SNAPSHOT-eb099ff-3_all.deb
 Size: 79286786
 SHA256: 031fd55b5521beeab7816a9661220bbf38331024dd8e79beb64861d057fdf324
@@ -486,7 +486,7 @@ Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: default-jre
 Homepage: https://bitbucket.org/mstrobel/procyon
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/p/procyon/procyon_0.5.30_all.deb
 Size: 1621030
 SHA256: 3d60f7d4e691637818b2880434b807c7c6004b27a1e918c61028461935d558a2
@@ -498,14 +498,14 @@ Description: Procyon Decompiler
 Package: python-alembic
 Version: 0.9.1
 License: MIT
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 1088
 Depends: python-sqlalchemy (>= 0.7.6), python-mako, python-editor (>= 0.3)
 Homepage: http://bitbucket.org/zzzeek/alembic
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/p/python-alembic/python-alembic_0.9.1_all.deb
 Size: 291330
 SHA256: 43c3274ea39f36a93f4b3a5202fde8b6a8063ae71d16b3863136a22e1d86aef2
@@ -518,9 +518,9 @@ Version: 2.0-SNAPSHOT-d720ebf
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: python-pyasn1, python-cryptography (>= 1.0), python-future, python-ipython (>= 5.0.0), python-networkx, python-pygments, python-pyperclip, python-pyqt5
-Homepage: https://github.com/AndroidTamer/androguard
+Homepage: https://github.com/TamerPlatform/androguard
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/p/python-androguard/python-androguard_2.0-SNAPSHOT-d720ebf_all.deb
 Size: 7330822
 SHA256: f2923e7d4eae0d81ea6b6d3db3d3d3d9df4a9270b397c55a892153b174b3ef8d
@@ -531,14 +531,14 @@ Description: Androguard is a full python tool to play with Android files.
 Package: python-dataset
 Version: 0.8.0
 License: MIT
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 109
 Depends: python-sqlalchemy (>= 0.9.1), python-alembic (>= 0.6.2), python-normality (>= 0.3.9), python-pyyaml (>= 3.10), python-six (>= 1.7.3)
 Homepage: http://github.com/pudo/dataset
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/p/python-dataset/python-dataset_0.8.0_all.deb
 Size: 39604
 SHA256: 6f3aa041fa774a6499639db0a4225265551378a7e05c2fd671ebdb3118e7f712
@@ -549,13 +549,13 @@ Description: Toolkit for Python-based data processing.
 Package: python-django
 Version: 1.10.5
 License: BSD
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 22340
 Homepage: http://www.djangoproject.com/
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/p/python-django/python-django_1.10.5_all.deb
 Size: 5783762
 SHA256: 60a3c120cb07c5ec7b0af9a55a45ecf8ab00c10944598a3c83ed7322a28826fa
@@ -566,13 +566,13 @@ Description: A high-level Python Web framework that encourages rapid development
 Package: python-editor
 Version: 1.0.3
 License: Apache
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 7
 Homepage: https://github.com/fmoo/python-editor
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/p/python-editor/python-editor_1.0.3_all.deb
 Size: 5678
 SHA256: d5bfe30f1e18cb451626ca62bf8ae74d5dff7cf409c195fe89219a666dc7e230
@@ -583,14 +583,14 @@ Description: Programmatically open an editor, capture the result.
 Package: python-frida
 Version: 9.1.20
 License: wxWindows Library Licence, Version 3.1
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: amd64
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 50406
 Depends: python-colorama (>= 0.2.7), python-prompt-toolkit (>= 0.57), python-pygments (>= 2.0.2)
 Homepage: http://www.frida.re
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/p/python-frida/python-frida_9.1.20_amd64.deb
 Size: 18414836
 SHA256: 80dc09ce00130cd81b83cad0f3d0802c0243a1dcc6af803755c7e6bd9e53deaf
@@ -601,13 +601,13 @@ Description: Inject JavaScript to explore native apps on Windows, macOS, Linux, 
 Package: python-ipython
 Version: 5.3.0
 License: BSD
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 4296
 Homepage: http://ipython.org
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/p/python-ipython/python-ipython_5.3.0_all.deb
 Size: 1378948
 SHA256: 2deeedb03e98bc201b4f84ff05a4567f2e69af4ac6e3552fc8fc494ed295d1e9
@@ -618,14 +618,14 @@ Description: IPython: Productive Interactive Computing
 Package: python-normality
 Version: 0.4.0
 License: MIT
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 21
 Depends: python-six, python-chardet
 Homepage: http://github.com/pudo/normality
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/p/python-normality/python-normality_0.4.0_all.deb
 Size: 10976
 SHA256: 3034c8db9cd6ed97ab5b0bb7f8b63fb01c84f569566a6781311da732e49d1f51
@@ -636,13 +636,13 @@ Description: Micro-library to normalize text strings
 Package: python-pdfkit
 Version: 0.6.1
 License: MIT
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 40
 Homepage: UNKNOWN
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/p/python-pdfkit/python-pdfkit_0.6.1_all.deb
 Size: 13550
 SHA256: d4ff9ee1daf1ccd7be88193f2734dd5ce3ef31559bcec84696c3fda8e902a3bb
@@ -654,7 +654,7 @@ Package: python-psutil
 Source: python-psutil
 Version: 4.0.0
 License: BSD
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: amd64
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 986
@@ -671,13 +671,13 @@ Description: psutil is a cross-platform library for retrieving information onrun
 Package: python-pygments
 Version: 2.2.0
 License: BSD License
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 6053
 Homepage: http://pygments.org/
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/p/python-pygments/python-pygments_2.2.0_all.deb
 Size: 1866956
 SHA256: 8a3d8501ecf1dde812b8b54c0c4b50bd42264fd5a55a62a7d1a6a35a9db05c1f
@@ -688,13 +688,13 @@ Description: Pygments is a syntax highlighting package written in Python.
 Package: python-pyperclip
 Version: 1.5.27
 License: BSD
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 29
 Homepage: https://github.com/asweigart/pyperclip
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/p/python-pyperclip/python-pyperclip_1.5.27_all.deb
 Size: 11780
 SHA256: 6104d00ffedeb6feb9ac534e87829c5c044bf5196c6025cf4e5e05365948fb85
@@ -705,13 +705,13 @@ Description: A cross-platform clipboard module for Python. (only handles plain t
 Package: python-pyyaml
 Version: 3.12
 License: MIT
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: amd64
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 382
 Homepage: http://pyyaml.org/wiki/PyYAML
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/p/python-pyyaml/python-pyyaml_3.12_amd64.deb
 Size: 92460
 SHA256: 783ded3ddaa0a98086e21b8dc5b3a73769466ae9b82a9d09923a2ae0167bca28
@@ -722,14 +722,14 @@ Description: YAML parser and emitter for Python
 Package: python-robogif
 Version: 1.3.0
 License: Apache
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 22
 Depends: ffmpeg
 Homepage: https://github.com/izacus/RoboGif
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/p/python-robogif/python-robogif_1.3.0_all.deb
 Size: 10832
 SHA256: e33faeb4555959e37c8ae6268b7258d155496f8f571f26866ad04263514f2e0d
@@ -740,13 +740,13 @@ Description: Simple Android screen recorder
 Package: python-volatility
 Version: 2.6-SNAPSHOT-d5ec837
 License: GPL
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 33565
 Homepage: http://www.volatilityfoundation.org
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/p/python-volatility/python-volatility_2.6-SNAPSHOT-d5ec837_all.deb
 Size: 8162270
 SHA256: 006ae6510f3260153e4c68475bbdef63d1dfc980d4d6e1dfb5df53b3db43041e
@@ -757,13 +757,13 @@ Description: Volatility -- Volatile memory framework
 Package: python-wcwidth
 Version: 0.1.7
 License: MIT
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 72
 Homepage: https://github.com/jquast/wcwidth
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/p/python-wcwidth/python-wcwidth_0.1.7_all.deb
 Size: 24390
 SHA256: 853f413fb10e5361fe5df7b5bde52a3ec7718d2c99f1506f2cbe8b0e6d569e53
@@ -789,14 +789,14 @@ Description: unix like reverse engineering toolkit
 Package: rubygem-colored
 Version: 1.2.0
 License: no license listed in colored-1.2.gem
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 11
 Provides: rubygem-colored
 Homepage: http://github.com/defunkt/colored
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/r/rubygem-colored/rubygem-colored_1.2.0_all.deb
 Size: 7764
 SHA256: 4e5a76d2bafe94847bf96a6dad7987ec27dc148e44cdfe54ef404e874ba15087
@@ -817,7 +817,7 @@ Description:   >> puts "this is red".red
 Package: rubygem-dex-oracle
 Version: 1.0.4
 License: MIT
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 2289
@@ -825,7 +825,7 @@ Depends: rubygem-rubyzip (>= 1.1.0), rubygem-rubyzip (>= 1.1), rubygem-rubyzip (
 Provides: rubygem-dex-oracle
 Homepage: https://github.com/CalebFenton/dex-oracle
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/r/rubygem-dex-oracle/rubygem-dex-oracle_1.0.4_all.deb
 Size: 2096604
 SHA256: a65e2af843e1613d14c22aa39e591861e8f7dc533edf1e0229a859afc11bbddd
@@ -836,14 +836,14 @@ Description: A pattern based Dalvik deobfuscator which uses limited execution to
 Package: rubygem-rubyzip
 Version: 1.2.0
 License: BSD 2-Clause
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 656
 Provides: rubygem-rubyzip
 Homepage: http://github.com/rubyzip/rubyzip
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/r/rubygem-rubyzip/rubygem-rubyzip_1.2.0_all.deb
 Size: 295050
 SHA256: 8bf3bd0cf2ab02084a970dc71bf31be6ad1bc13ead0cab74e69e3aa4764b8dfb
@@ -854,14 +854,14 @@ Description: rubyzip is a ruby module for reading and writing zip files
 Package: rubygem-trollop
 Version: 2.1.2
 License: MIT
-Vendor: AndroidTamer
+Vendor: TamerPlatform
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Installed-Size: 109
 Provides: rubygem-trollop
 Homepage: http://manageiq.github.io/trollop/
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/r/rubygem-trollop/rubygem-trollop_2.1.2_all.deb
 Size: 48864
 SHA256: 2b16570a6d13cef0f0e1c1bec02bf263b81ef39b655c4621a1f63e9ff31dc937
@@ -878,9 +878,9 @@ Version: 1.0.0-SNAPSHOT-ec9b44d
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: default-jre
-Homepage: https://github.com/AndroidTamer/simplify
+Homepage: https://github.com/TamerPlatform/simplify
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/s/simplify/simplify_1.0.0-SNAPSHOT-ec9b44d_all.deb
 Size: 60520280
 SHA256: 2ec0f4a4650bb4d5970719fd57a866338b4289ea245a56b02ec3c4849ce1a2da
@@ -898,9 +898,9 @@ Version: 2.2.1-SNAPSHOT-bda4477
 Architecture: all
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: default-jre
-Homepage: https://github.com/AndroidTamer/smali
+Homepage: https://github.com/TamerPlatform/smali
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/s/smali/smali_2.2.1-SNAPSHOT-bda4477_all.deb
 Size: 6942794
 SHA256: f868369d82bfc5b5a73802ef01809b53613a5996a1650dfac60c33f40b63a3f0
@@ -914,7 +914,7 @@ Architecture: amd64
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Homepage: http://spflashtool.com/
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/s/spflashtool/spflashtool_5.1520.00.100_amd64.deb
 Size: 49952714
 SHA256: ded4f9f7805174e4696e2e23469b0e9b3a33a013e38dcc07aa137636aa650a20
@@ -930,9 +930,9 @@ Package: sslscan
 Version: 1.11.8-SNAPSHOT-66deddb-1
 Architecture: amd64
 Maintainer: Anant Shrivastava <anant@anantshri.info>
-Homepage: https://github.com/AndroidTamer/sslscan
+Homepage: https://github.com/TamerPlatform/sslscan
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/s/sslscan/sslscan_1.11.8-SNAPSHOT-66deddb-1_amd64.deb
 Size: 1167574
 SHA256: 9ce8179dafece11d9e7b18f531435fb5546348fda12ad7e9f52b109b2f6b4c99
@@ -965,9 +965,9 @@ Version: 0.0.1-SNAPSHOT-b1a8f79-1
 Architecture: amd64
 Maintainer: Anant Shrivastava <anant@anantshri.info>
 Depends: python, libc6
-Homepage: https://github.com/AndroidTamer/YADD
+Homepage: https://github.com/TamerPlatform/YADD
 Priority: extra
-Section: AndroidTamer
+Section: TamerPlatform
 Filename: pool/main/y/yadd-dumper/yadd-dumper_0.0.1-SNAPSHOT-b1a8f79-1_amd64.deb
 Size: 60382
 SHA256: 3b6aafb1b29fa1930abb0c385f34a3f9dff8e4752e6a9b6a8d2c171dc302cd52

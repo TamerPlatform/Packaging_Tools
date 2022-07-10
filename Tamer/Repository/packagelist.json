@@ -3,22 +3,22 @@
  AndroBugs Framework is an Android vulnerability analysis system that 
  helps developers or hackers find potential security vulnerabilities 
  in Android applications. No splendid GUI interface, but the most 
- efficient (less than 2 minutes per scan in average) and more accurate.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/AndroBugs_Framework"}],
-[{"Name":"androidaudittools","Version":"2011-SNAPSHOT-699e98f","Description":"androidaudittools are collection of foreensic evaluation scripts useful for android devices.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/androidAuditTools"}],
-[{"Name":"androidtamer-adb","Version":"0.6-SNAPSHOT-a3f512f","Description":"AndroidTamer Customized ADB
+ efficient (less than 2 minutes per scan in average) and more accurate.","Architecture":"all","HomePage":"https://github.com/TamerPlatform/AndroBugs_Framework"}],
+[{"Name":"androidaudittools","Version":"2011-SNAPSHOT-699e98f","Description":"androidaudittools are collection of foreensic evaluation scripts useful for android devices.","Architecture":"all","HomePage":"https://github.com/TamerPlatform/androidAuditTools"}],
+[{"Name":"tamerplatform-adb","Version":"0.6-SNAPSHOT-a3f512f","Description":"TamerPlatform Customized ADB
  Source compiled ADB and fastboot
  additional wrapper added with features like adb list
- and device naming","Architecture":"all","HomePage":"https://github.com/AndroidTamer/adb_wrapper"}],
-[{"Name":"androidtamer-dynamicanalysis","Version":"0.3","Description":"Meta Pacakage to track all Dynamic analysis pacakages Package","Architecture":"all","HomePage":""}],
-[{"Name":"androidtamer-menu","Version":"0.9.1-SNAPSHOT-1e79836","Description":"AndroidTamer Menu","Architecture":"all","HomePage":"https://github.com/AndroidTamer/androidtamer-menu"}],
-[{"Name":"androidtamer-menuitems","Version":"0.9.5-SNAPSHOT-b46b53e","Description":"AndroidTamer MenuItems","Architecture":"all","HomePage":"https://github.com/AndroidTamer/androidtamer-menuitems"}],
-[{"Name":"androidtamer-wallpaper","Version":"4.0","Description":"Collection of Wallpapers for Android Tamer
- set of dark and light wallpapers that you can use with your AndroidTamer
- ","Architecture":"all","HomePage":"http://www.androidtamer.com/"}],
+ and device naming","Architecture":"all","HomePage":"https://github.com/TamerPlatform/adb_wrapper"}],
+[{"Name":"tamerplatform-dynamicanalysis","Version":"0.3","Description":"Meta Pacakage to track all Dynamic analysis pacakages Package","Architecture":"all","HomePage":""}],
+[{"Name":"tamerplatform-menu","Version":"0.9.1-SNAPSHOT-1e79836","Description":"TamerPlatform Menu","Architecture":"all","HomePage":"https://github.com/TamerPlatform/tamerplatform-menu"}],
+[{"Name":"tamerplatform-menuitems","Version":"0.9.5-SNAPSHOT-b46b53e","Description":"TamerPlatform MenuItems","Architecture":"all","HomePage":"https://github.com/TamerPlatform/tamerplatform-menuitems"}],
+[{"Name":"tamerplatform-wallpaper","Version":"4.0","Description":"Collection of Wallpapers for Tamer Platform
+ set of dark and light wallpapers that you can use with your TamerPlatform
+ ","Architecture":"all","HomePage":"http://www.tamerplatform.com/"}],
 [{"Name":"apk2java","Version":"0.1-SNAPSHOT-c821afe","Description":"Get JAVA Source from APK
  A Shell script wrapper to ease out the process
  of decompiling an android application and help in analysis.
- Depends on apktool, enjarify, jad, jadx","Architecture":"all","HomePage":"https://github.com/AndroidTamer/apk2java"}],
+ Depends on apktool, enjarify, jad, jadx","Architecture":"all","HomePage":"https://github.com/TamerPlatform/apk2java"}],
 [{"Name":"apktool","Version":"2.2.2-SNAPSHOT-6cc2512-2","Description":"A tool for reverse engineering Android apk files
  It is a tool for reverse engineering 3rd party, closed, binary Android apps. 
  It can decode resources to nearly original form and rebuild them after making
@@ -28,9 +28,9 @@
  It is NOT intended for piracy and other non-legal uses. 
  It could be used for localizing, adding some features or support for custom 
  platforms and other GOOD purposes. Just try to be fair with authors of an 
- app, that you use and probably like.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/Apktool"}],
+ app, that you use and probably like.","Architecture":"all","HomePage":"https://github.com/TamerPlatform/Apktool"}],
 [{"Name":"appmon","Version":"0.1-SNAPSHOT-37318a4","Description":"AppMon is an automated framework for monitoring and tampering system API calls","Architecture":"all","HomePage":"https://github.com/dpnishant/appmon"}],
-[{"Name":"axmlprinter","Version":"0.1.7-SNAPSHOT-4dc55fb","Description":"Unpacker for Android binary XML","Architecture":"all","HomePage":"https://github.com/AndroidTamer/axmlprinter"}],
+[{"Name":"axmlprinter","Version":"0.1.7-SNAPSHOT-4dc55fb","Description":"Unpacker for Android binary XML","Architecture":"all","HomePage":"https://github.com/TamerPlatform/axmlprinter"}],
 [{"Name":"burpsuite-free","Version":"1.7.21","Description":"Burp Suite Free
  is a platform for performing security testing of web applications.
  Its various tools work seamlessly together to support the entire testing process,
@@ -48,18 +48,18 @@
  ClassyShark is a standalone tool for Android developers.
  It can reliably browse any Android executable
  and show important info such as
- class interfaces and members, dex counts and dependencies","Architecture":"all","HomePage":"https://github.com/AndroidTamer/android-classyshark"}],
+ class interfaces and members, dex counts and dependencies","Architecture":"all","HomePage":"https://github.com/TamerPlatform/android-classyshark"}],
 [{"Name":"dex2jar","Version":"2.1-SNAPSHOT-d6383b7","Description":"Tools to work with android .dex and java .class files
  dex2jar is a suite consisting of commands
  dex-reader/writer: Read/write the Dalvik Executable (.dex) file. It has a light weight API similar with ASM.
  d2j-dex2jar: Convert .dex file to .class files (zipped as jar)
  smali/baksmali: disassemble dex to smali files and assemble dex from smali files. different implementation to smali/baksmali, same syntax, but we support escape in type desc Lcom/dex2jar	\u1234;
- other tools: d2j-decrypt-string","Architecture":"all","HomePage":"https://github.com/AndroidTamer/dex2jar"}],
-[{"Name":"droid-ff","Version":"0.1.0-SNAPSHOT-295b0fc","Description":"A tool for automating Android Fuzzing","Architecture":"all","HomePage":"https://github.com/AndroidTamer/droid-ff"}],
+ other tools: d2j-decrypt-string","Architecture":"all","HomePage":"https://github.com/TamerPlatform/dex2jar"}],
+[{"Name":"droid-ff","Version":"0.1.0-SNAPSHOT-295b0fc","Description":"A tool for automating Android Fuzzing","Architecture":"all","HomePage":"https://github.com/TamerPlatform/droid-ff"}],
 [{"Name":"enjarify","Version":"1.0.3-SNAPSHOT-f2db056","Description":"Java Decompiler
  Enjarify is a tool for translating Dalvik bytecode
  to equivalent Java bytecode. This allows Java analysis tools
- to analyze Android applications.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/enjarify"}],
+ to analyze Android applications.","Architecture":"all","HomePage":"https://github.com/TamerPlatform/enjarify"}],
 [{"Name":"imgtool","Version":"0.3","Description":"A tool for unpacking/creating Android boot partition images
  The imgtool utility is another one of the tools included in 
  http://newandroidbook.com book related to Boot process. This tool 
@@ -84,11 +84,11 @@
  Homepage is a mirror hosting last versions of decompiler.","Architecture":"all","HomePage":"http://varaneckas.com/jad/"}],
 [{"Name":"jadx","Version":"0.6.1.2-SNAPSHOT-a9ae971","Description":"Dex to Java decompiler
  Command line and GUI tools for produce Java source code
- from Android Dex and Apk files","Architecture":"all","HomePage":"https://github.com/AndroidTamer/jadx"}],
+ from Android Dex and Apk files","Architecture":"all","HomePage":"https://github.com/TamerPlatform/jadx"}],
 [{"Name":"jd-core","Version":"1.2-SNAPSHOT-91f7a2e-1","Description":"JD-Core 
- jd-core java decompiler commandline","Architecture":"all","HomePage":"https://github.com/AndroidTamer/jd-core-java"}],
+ jd-core java decompiler commandline","Architecture":"all","HomePage":"https://github.com/TamerPlatform/jd-core-java"}],
 [{"Name":"jd-gui","Version":"1.4.0-SNAPSHOT-acd511f","Description":"A Java Decompiler
- JD-GUI, a standalone graphical utility that displays Java sources from CLASS files","Architecture":"all","HomePage":"https://github.com/AndroidTamer/jd-gui"}],
+ JD-GUI, a standalone graphical utility that displays Java sources from CLASS files","Architecture":"all","HomePage":"https://github.com/TamerPlatform/jd-gui"}],
 [{"Name":"mobsf","Version":"0.9.4.1-SNAPSHOT-eb099ff-3","Description":"Mobile Security Framework (MobSF)
  MobSF is an intelligent, all-in-one open source mobile application 
  (Android/iOS) automated pen-testing framework capable of performing static
@@ -96,11 +96,11 @@
  reversing, decoding, debugging, code review, and pen-test and this process
  requires a lot of effort and time. Mobile Security Framework can be used for
  effective and fast security analysis of Android and iOS Applications. It 
- supports binaries (APK & IPA) and zipped source code.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/Mobile-Security-Framework-MobSF"}],
+ supports binaries (APK & IPA) and zipped source code.","Architecture":"all","HomePage":"https://github.com/TamerPlatform/Mobile-Security-Framework-MobSF"}],
 [{"Name":"procyon","Version":"0.5.30","Description":"Procyon Decompiler
  Procyon Java Decompiler","Architecture":"all","HomePage":"https://bitbucket.org/mstrobel/procyon"}],
 [{"Name":"python-alembic","Version":"0.9.1","Description":"A database migration tool for SQLAlchemy.","Architecture":"all","HomePage":"http://bitbucket.org/zzzeek/alembic"}],
-[{"Name":"python-androguard","Version":"2.0-SNAPSHOT-d720ebf","Description":"Androguard is a full python tool to play with Android files.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/androguard"}],
+[{"Name":"python-androguard","Version":"2.0-SNAPSHOT-d720ebf","Description":"Androguard is a full python tool to play with Android files.","Architecture":"all","HomePage":"https://github.com/TamerPlatform/androguard"}],
 [{"Name":"python-dataset","Version":"0.8.0","Description":"Toolkit for Python-based data processing.","Architecture":"all","HomePage":"http://github.com/pudo/dataset"}],
 [{"Name":"python-django","Version":"1.10.5","Description":"A high-level Python Web framework that encourages rapid development and clean, pragmatic design.","Architecture":"all","HomePage":"http://www.djangoproject.com/"}],
 [{"Name":"python-editor","Version":"1.0.3","Description":"Programmatically open an editor, capture the result.","Architecture":"all","HomePage":"https://github.com/fmoo/python-editor"}],
@@ -135,32 +135,32 @@
  it does. Then, it applies optimizations to create code that behaves 
  identically but is easier for a human to understand. It is a generic 
  deobfuscator because it doesn't need any special configuration or code 
- for different types of obfuscation.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/simplify"}],
-[{"Name":"smali","Version":"2.2.1-SNAPSHOT-bda4477","Description":"assembler/disassembler for the dex format","Architecture":"all","HomePage":"https://github.com/AndroidTamer/smali"}],
+ for different types of obfuscation.","Architecture":"all","HomePage":"https://github.com/TamerPlatform/simplify"}],
+[{"Name":"smali","Version":"2.2.1-SNAPSHOT-bda4477","Description":"assembler/disassembler for the dex format","Architecture":"all","HomePage":"https://github.com/TamerPlatform/smali"}],
 [{"Name":"zaproxy","Version":"2.7.0","Description":"OWASP Zed Attack Proxy -an easy to use tool for finding vulnerabilities in web applications.","Architecture":"all","HomePage":"https://github.com/zaproxy/zaproxy"}],
 [{"Name":"andbug","Version":"0.1-SNAPSHOT-de41b96","Description":"Scriptable Android Debugger
  AndBug is a debugger targeting the Android platform's
- Dalvik virtual machine intended for reverse engineers and developers.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/AndBug"}],
+ Dalvik virtual machine intended for reverse engineers and developers.","Architecture":"all","HomePage":"https://github.com/TamerPlatform/AndBug"}],
 [{"Name":"androbugs-framework","Version":"1.0.0-SNAPSHOT-7fd3a2c","Description":"Android Vulnerability scanner
  AndroBugs Framework is an Android vulnerability analysis system that 
  helps developers or hackers find potential security vulnerabilities 
  in Android applications. No splendid GUI interface, but the most 
- efficient (less than 2 minutes per scan in average) and more accurate.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/AndroBugs_Framework"}],
-[{"Name":"androidaudittools","Version":"2011-SNAPSHOT-699e98f","Description":"androidaudittools are collection of foreensic evaluation scripts useful for android devices.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/androidAuditTools"}],
-[{"Name":"androidtamer-adb","Version":"0.6-SNAPSHOT-a3f512f","Description":"AndroidTamer Customized ADB
+ efficient (less than 2 minutes per scan in average) and more accurate.","Architecture":"all","HomePage":"https://github.com/TamerPlatform/AndroBugs_Framework"}],
+[{"Name":"androidaudittools","Version":"2011-SNAPSHOT-699e98f","Description":"androidaudittools are collection of foreensic evaluation scripts useful for android devices.","Architecture":"all","HomePage":"https://github.com/TamerPlatform/androidAuditTools"}],
+[{"Name":"tamerplatform-adb","Version":"0.6-SNAPSHOT-a3f512f","Description":"TamerPlatform Customized ADB
  Source compiled ADB and fastboot
  additional wrapper added with features like adb list
- and device naming","Architecture":"all","HomePage":"https://github.com/AndroidTamer/adb_wrapper"}],
-[{"Name":"androidtamer-dynamicanalysis","Version":"0.3","Description":"Meta Pacakage to track all Dynamic analysis pacakages Package","Architecture":"all","HomePage":""}],
-[{"Name":"androidtamer-menu","Version":"0.9.1-SNAPSHOT-1e79836","Description":"AndroidTamer Menu","Architecture":"all","HomePage":"https://github.com/AndroidTamer/androidtamer-menu"}],
-[{"Name":"androidtamer-menuitems","Version":"0.9.5-SNAPSHOT-b46b53e","Description":"AndroidTamer MenuItems","Architecture":"all","HomePage":"https://github.com/AndroidTamer/androidtamer-menuitems"}],
-[{"Name":"androidtamer-wallpaper","Version":"4.0","Description":"Collection of Wallpapers for Android Tamer
- set of dark and light wallpapers that you can use with your AndroidTamer
- ","Architecture":"all","HomePage":"http://www.androidtamer.com/"}],
+ and device naming","Architecture":"all","HomePage":"https://github.com/TamerPlatform/adb_wrapper"}],
+[{"Name":"tamerplatform-dynamicanalysis","Version":"0.3","Description":"Meta Pacakage to track all Dynamic analysis pacakages Package","Architecture":"all","HomePage":""}],
+[{"Name":"tamerplatform-menu","Version":"0.9.1-SNAPSHOT-1e79836","Description":"TamerPlatform Menu","Architecture":"all","HomePage":"https://github.com/TamerPlatform/tamerplatform-menu"}],
+[{"Name":"tamerplatform-menuitems","Version":"0.9.5-SNAPSHOT-b46b53e","Description":"TamerPlatform MenuItems","Architecture":"all","HomePage":"https://github.com/TamerPlatform/tamerplatform-menuitems"}],
+[{"Name":"tamerplatform-wallpaper","Version":"4.0","Description":"Collection of Wallpapers for Tamer Platform
+ set of dark and light wallpapers that you can use with your TamerPlatform
+ ","Architecture":"all","HomePage":"http://www.tamerplatform.com/"}],
 [{"Name":"apk2java","Version":"0.1-SNAPSHOT-c821afe","Description":"Get JAVA Source from APK
  A Shell script wrapper to ease out the process
  of decompiling an android application and help in analysis.
- Depends on apktool, enjarify, jad, jadx","Architecture":"all","HomePage":"https://github.com/AndroidTamer/apk2java"}],
+ Depends on apktool, enjarify, jad, jadx","Architecture":"all","HomePage":"https://github.com/TamerPlatform/apk2java"}],
 [{"Name":"apktool","Version":"2.2.2-SNAPSHOT-6cc2512-2","Description":"A tool for reverse engineering Android apk files
  It is a tool for reverse engineering 3rd party, closed, binary Android apps. 
  It can decode resources to nearly original form and rebuild them after making
@@ -170,9 +170,9 @@
  It is NOT intended for piracy and other non-legal uses. 
  It could be used for localizing, adding some features or support for custom 
  platforms and other GOOD purposes. Just try to be fair with authors of an 
- app, that you use and probably like.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/Apktool"}],
+ app, that you use and probably like.","Architecture":"all","HomePage":"https://github.com/TamerPlatform/Apktool"}],
 [{"Name":"appmon","Version":"0.1-SNAPSHOT-37318a4","Description":"AppMon is an automated framework for monitoring and tampering system API calls","Architecture":"all","HomePage":"https://github.com/dpnishant/appmon"}],
-[{"Name":"axmlprinter","Version":"0.1.7-SNAPSHOT-4dc55fb","Description":"Unpacker for Android binary XML","Architecture":"all","HomePage":"https://github.com/AndroidTamer/axmlprinter"}],
+[{"Name":"axmlprinter","Version":"0.1.7-SNAPSHOT-4dc55fb","Description":"Unpacker for Android binary XML","Architecture":"all","HomePage":"https://github.com/TamerPlatform/axmlprinter"}],
 [{"Name":"burpsuite-free","Version":"1.7.21","Description":"Burp Suite Free
  is a platform for performing security testing of web applications.
  Its various tools work seamlessly together to support the entire testing process,
@@ -183,7 +183,7 @@
  more effective, and more fun.","Architecture":"all","HomePage":"http://portswigger.net/index.html"}],
 [{"Name":"bytecode-viewer","Version":"2.9.8","Description":"Lightweight Java Bytecode Viewer
  A Java 8 Jar & Android APK Reverse Engineering Suite
- (Decompiler, Editor, Debugger & More)","Architecture":"all","HomePage":"https://github.com/AndroidTamer/bytecode-viewer/"}],
+ (Decompiler, Editor, Debugger & More)","Architecture":"all","HomePage":"https://github.com/TamerPlatform/bytecode-viewer/"}],
 [{"Name":"cfr","Version":"0-119-nov-2016","Description":"CFR  another java decompiler
  CFR will decompile modern Java feature like  
  Java 8 lambdas 
@@ -193,18 +193,18 @@
  ClassyShark is a standalone tool for Android developers.
  It can reliably browse any Android executable
  and show important info such as
- class interfaces and members, dex counts and dependencies","Architecture":"all","HomePage":"https://github.com/AndroidTamer/android-classyshark"}],
+ class interfaces and members, dex counts and dependencies","Architecture":"all","HomePage":"https://github.com/TamerPlatform/android-classyshark"}],
 [{"Name":"dex2jar","Version":"2.1-SNAPSHOT-d6383b7","Description":"Tools to work with android .dex and java .class files
  dex2jar is a suite consisting of commands
  dex-reader/writer: Read/write the Dalvik Executable (.dex) file. It has a light weight API similar with ASM.
  d2j-dex2jar: Convert .dex file to .class files (zipped as jar)
  smali/baksmali: disassemble dex to smali files and assemble dex from smali files. different implementation to smali/baksmali, same syntax, but we support escape in type desc Lcom/dex2jar	\u1234;
- other tools: d2j-decrypt-string","Architecture":"all","HomePage":"https://github.com/AndroidTamer/dex2jar"}],
-[{"Name":"droid-ff","Version":"0.1.0-SNAPSHOT-295b0fc","Description":"A tool for automating Android Fuzzing","Architecture":"all","HomePage":"https://github.com/AndroidTamer/droid-ff"}],
+ other tools: d2j-decrypt-string","Architecture":"all","HomePage":"https://github.com/TamerPlatform/dex2jar"}],
+[{"Name":"droid-ff","Version":"0.1.0-SNAPSHOT-295b0fc","Description":"A tool for automating Android Fuzzing","Architecture":"all","HomePage":"https://github.com/TamerPlatform/droid-ff"}],
 [{"Name":"enjarify","Version":"1.0.3-SNAPSHOT-f2db056","Description":"Java Decompiler
  Enjarify is a tool for translating Dalvik bytecode
  to equivalent Java bytecode. This allows Java analysis tools
- to analyze Android applications.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/enjarify"}],
+ to analyze Android applications.","Architecture":"all","HomePage":"https://github.com/TamerPlatform/enjarify"}],
 [{"Name":"imgtool","Version":"0.3","Description":"A tool for unpacking/creating Android boot partition images
  The imgtool utility is another one of the tools included in 
  http://newandroidbook.com book related to Boot process. This tool 
@@ -232,11 +232,11 @@
  Homepage is a mirror hosting last versions of decompiler.","Architecture":"all","HomePage":"http://varaneckas.com/jad/"}],
 [{"Name":"jadx","Version":"0.6.1.2-SNAPSHOT-a9ae971","Description":"Dex to Java decompiler
  Command line and GUI tools for produce Java source code
- from Android Dex and Apk files","Architecture":"all","HomePage":"https://github.com/AndroidTamer/jadx"}],
+ from Android Dex and Apk files","Architecture":"all","HomePage":"https://github.com/TamerPlatform/jadx"}],
 [{"Name":"jd-core","Version":"1.2-SNAPSHOT-91f7a2e-1","Description":"JD-Core 
- jd-core java decompiler commandline","Architecture":"all","HomePage":"https://github.com/AndroidTamer/jd-core-java"}],
+ jd-core java decompiler commandline","Architecture":"all","HomePage":"https://github.com/TamerPlatform/jd-core-java"}],
 [{"Name":"jd-gui","Version":"1.4.0-SNAPSHOT-acd511f","Description":"A Java Decompiler
- JD-GUI, a standalone graphical utility that displays Java sources from CLASS files","Architecture":"all","HomePage":"https://github.com/AndroidTamer/jd-gui"}],
+ JD-GUI, a standalone graphical utility that displays Java sources from CLASS files","Architecture":"all","HomePage":"https://github.com/TamerPlatform/jd-gui"}],
 [{"Name":"mobsf","Version":"0.9.4.1-SNAPSHOT-eb099ff-3","Description":"Mobile Security Framework (MobSF)
  MobSF is an intelligent, all-in-one open source mobile application 
  (Android/iOS) automated pen-testing framework capable of performing static
@@ -244,11 +244,11 @@
  reversing, decoding, debugging, code review, and pen-test and this process
  requires a lot of effort and time. Mobile Security Framework can be used for
  effective and fast security analysis of Android and iOS Applications. It 
- supports binaries (APK & IPA) and zipped source code.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/Mobile-Security-Framework-MobSF"}],
+ supports binaries (APK & IPA) and zipped source code.","Architecture":"all","HomePage":"https://github.com/TamerPlatform/Mobile-Security-Framework-MobSF"}],
 [{"Name":"procyon","Version":"0.5.30","Description":"Procyon Decompiler
  Procyon Java Decompiler","Architecture":"all","HomePage":"https://bitbucket.org/mstrobel/procyon"}],
 [{"Name":"python-alembic","Version":"0.9.1","Description":"A database migration tool for SQLAlchemy.","Architecture":"all","HomePage":"http://bitbucket.org/zzzeek/alembic"}],
-[{"Name":"python-androguard","Version":"2.0-SNAPSHOT-d720ebf","Description":"Androguard is a full python tool to play with Android files.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/androguard"}],
+[{"Name":"python-androguard","Version":"2.0-SNAPSHOT-d720ebf","Description":"Androguard is a full python tool to play with Android files.","Architecture":"all","HomePage":"https://github.com/TamerPlatform/androguard"}],
 [{"Name":"python-dataset","Version":"0.8.0","Description":"Toolkit for Python-based data processing.","Architecture":"all","HomePage":"http://github.com/pudo/dataset"}],
 [{"Name":"python-django","Version":"1.10.5","Description":"A high-level Python Web framework that encourages rapid development and clean, pragmatic design.","Architecture":"all","HomePage":"http://www.djangoproject.com/"}],
 [{"Name":"python-editor","Version":"1.0.3","Description":"Programmatically open an editor, capture the result.","Architecture":"all","HomePage":"https://github.com/fmoo/python-editor"}],
@@ -288,21 +288,21 @@
  it does. Then, it applies optimizations to create code that behaves 
  identically but is easier for a human to understand. It is a generic 
  deobfuscator because it doesn't need any special configuration or code 
- for different types of obfuscation.","Architecture":"all","HomePage":"https://github.com/AndroidTamer/simplify"}],
-[{"Name":"smali","Version":"2.2.1-SNAPSHOT-bda4477","Description":"assembler/disassembler for the dex format","Architecture":"all","HomePage":"https://github.com/AndroidTamer/smali"}],
+ for different types of obfuscation.","Architecture":"all","HomePage":"https://github.com/TamerPlatform/simplify"}],
+[{"Name":"smali","Version":"2.2.1-SNAPSHOT-bda4477","Description":"assembler/disassembler for the dex format","Architecture":"all","HomePage":"https://github.com/TamerPlatform/smali"}],
 [{"Name":"spflashtool","Version":"5.1520.00.100","Description":"SP Flash Tool 
  is an application which is mainly help you to flash Stock ROM,
  Custom recovery and fixing in some extreme cases 
  ( firmware update, Flash recovery, unbrick bricked android device etc.) 
  SmartPhone FlashTool is working with MediaTek Android smartphones (MTK based)","Architecture":"all","HomePage":"http://spflashtool.com/"}],
 [{"Name":"sslscan","Version":"1.11.8-SNAPSHOT-66deddb-1","Description":"Fast SSL Scanner
- SSL scanning software","Architecture":"all","HomePage":"https://github.com/AndroidTamer/sslscan"}],
+ SSL scanning software","Architecture":"all","HomePage":"https://github.com/TamerPlatform/sslscan"}],
 [{"Name":"super-analyzer","Version":"0.4.1","Description":"Secure, Unified, Powerful and Extensible Rust Android Analyzer. Core softwarewith CLI.
  Secure, Unified, Powerful and Extensible Rust Android Analyzer. Core
  softwarewith CLI.","Architecture":"all","HomePage":"http://superanalyzer.rocks"}],
 [{"Name":"yadd-dumper","Version":"0.0.1-SNAPSHOT-b1a8f79-1","Description":"Yet another Android Dex bytecode Disassembler
  YADD is planed to be a complex disassembler for the Android Dex bytecode
  That is, a hybrid tool to support pure binary/signature dumping and to 
- provide an interface for reversing analysis","Architecture":"all","HomePage":"https://github.com/AndroidTamer/YADD"}],
+ provide an interface for reversing analysis","Architecture":"all","HomePage":"https://github.com/TamerPlatform/YADD"}],
 [{"Name":"zaproxy","Version":"2.7.0","Description":"OWASP Zed Attack Proxy -an easy to use tool for finding vulnerabilities in web applications.","Architecture":"all","HomePage":"https://github.com/zaproxy/zaproxy"}]
 ]}

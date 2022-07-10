@@ -1,5 +1,5 @@
-Origin: AndroidTamer
-Label: AndroidTamer
+Origin: TamerPlatform
+Label: TamerPlatform
 Codename: Tamer4
 Components: main
 Architectures: i386 amd64
