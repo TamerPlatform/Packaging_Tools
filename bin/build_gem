@@ -14,7 +14,7 @@ else
 	sudo gem install "$1"
 fi
 
-fpm -s gem -t deb --category AndroidTamer -m "Anant Shrivastava <anant@anantshri.info>" --vendor AndroidTamer "$@"
+fpm -s gem -t deb --category TamerPlatform -m "Anant Shrivastava <anant@anantshri.info>" --vendor TamerPlatform "$@"
 echo "Please sign using dpkg-sig --sign builder -k 7EE83BCF name.deb"
 echo "You might also want to build dependency specially"
 dpkg -I rubygem-$1* | egrep "Depends|Require|Conflicts"

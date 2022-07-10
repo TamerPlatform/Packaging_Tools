@@ -13,5 +13,5 @@ else
 	read -p "If you see the package above that means its in deb package repo don't compile"
 	sudo pip install "$1" --upgrade
 fi
-fpm -s python -t deb --category AndroidTamer -m "Anant Shrivastava <anant@anantshri.info>" --vendor AndroidTamer "$@"
+fpm -s python -t deb --category TamerPlatform -m "Anant Shrivastava <anant@anantshri.info>" --vendor TamerPlatform "$@"
 echo "Please sign using dpkg-sig --sign builder -k 7EE83BCF <name>.deb"

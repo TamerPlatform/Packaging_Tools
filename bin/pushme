@@ -6,7 +6,7 @@ echo '{"packages": [' > packagelist.json
 reprepro --list-format='[{"Name":"${package}","Version":"${version}","Description":"${Description}","Architecture":"all","HomePage":"${HomePage}"}],\n' list Tamer4 >> packagelist.json
 sed -i '$ s/.$//' packagelist.json
 echo "]}" >> packagelist.json
-echo "<html><head><title>Package List</title></head><body><h1><center>Android Tamer Package List</center></h1><body>" > packagelist.html
+echo "<html><head><title>Package List</title></head><body><h1><center>Tamer Platform Package List</center></h1><body>" > packagelist.html
 reprepro --list-format='<tr><td>${package}</td><td>${version}</td><td>${architecture}</td><td><a href="${HomePage}">${HomePage}</a></td></tr>\n' list Tamer4 | sort | uniq >> packagelist.temp
 echo "<b><h2>Total Packages: `wc -l packagelist.temp | cut -f1 -d" "`" >> packagelist.html 
 echo "<table border=1><tr><th>Name</th><th>Version</th><th>Architecture</th><th>Home Page</th></tr>" >> packagelist.html
@@ -14,7 +14,7 @@ cat packagelist.temp >> packagelist.html
 echo "</table>" >> packagelist.html
 rm -rf packagelist.temp	
 echo "</body></html>" >> packagelist.html
-s3cmd  --no-preserve --exclude-from=/vagrant/bin/s3ignorelist sync ./ s3://repo.androidtamer.com
+s3cmd  --no-preserve --exclude-from=/vagrant/bin/s3ignorelist sync ./ s3://repo.tamerplatform.com
 else
 	echo "run this from a Debain apt-get repository and this will push that too s3 bucket"
 fi
